@@ -3,13 +3,14 @@
 @tailwind utilities;
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255)
   
 }
 
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 /*---PreLoader---*/
@@ -22,6 +23,7 @@ body {
     height: 100vh;
     justify-content: center;
     width: 100vw;
+    margin-top: -10px;
     
   }
 
@@ -42,7 +44,7 @@ body {
 
   
   /*---cookies---*/
-  .wrapper{
+  .wrappercookies{
     
     position: fixed;
     z-index: 50;
@@ -60,14 +62,14 @@ body {
 
   }
   
-  .wrapper.hide{
+  .wrappercookies.hide{
     opacity: 0;
     pointer-events: none;
     transform: scale(0.8);
     transition: all 0.3s ease;
   }
   
-  .wrapper img{
+  .wrappercookies img{
     max-width: 90px;
     object-position: center ;
     margin-left: auto;
@@ -112,7 +114,7 @@ body {
   }
   
   @media only screen and (max-width: 600px) {
-    .wrapper{
+    .wrappercookies{
       width: 250px;
     }
     .content header{
@@ -135,6 +137,69 @@ body {
     }
    
   }
-
   /*--cookies end--*/
 
+  
+ 
+
+  /*--- payment---- */
+  .payment-icon {
+    background-size: 50px 33px;
+    margin: 10px;
+    display: inline-block;
+    height: 33px;
+    width: 50px;
+  }
+  
+  .payment-icon--visa {
+    background-image: url("./assets/payments/visa.svg");
+  }
+  
+  .payment-icon--master {
+    background-image: url("./assets/payments/mastercard.svg");
+  }
+  
+  .payment-icon--american-express {
+    background-image: url("./assets/payments/rupay.svg");
+  }
+
+  .payment-icon--phonepe {
+    background-image: url("./assets/payments/phonepe.svg");
+  }
+    /*--- payment end---- */
+
+
+    .writer {
+      font-family: Courier, monospace;
+      display: block;
+      overflow: hidden;
+      }
+      .writer-text {
+          animation: typing 5s steps(60, end), blink .75s step-end infinite;
+          white-space: nowrap;
+          border-right: 4px solid orange;
+          box-sizing: border-box;
+      }
+        @media only screen and (max-width: 600px) {
+          .writer-text {
+              font-size: 10px;
+              
+            }
+          }
+      @keyframes typing {
+          from { 
+              width: 0% 
+          }
+          to { 
+              width: 100% 
+          }
+      }
+
+      @keyframes blink {
+          from, to { 
+              border-color: transparent 
+          }
+          50% { 
+              border-color: orange; 
+          }
+      }
