@@ -10,7 +10,7 @@ const Clients = () => {
   return (
     <div className='Clients'>
       <Helmet>
-                <title>Cyber Space Digital - Clients</title>
+                <title>Leor Media - Clients</title>
                 <meta name="description" content='Cyberspacedigital, Technologies we deal with to full fill your digital needs. Our research will be posted below.'/>
                 <link rel="canonical" href="/technologies" />
       </Helmet>

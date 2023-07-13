@@ -3,8 +3,8 @@ import {  Routes, Route, useLocation  } from 'react-router-dom';
 
 
 import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,Home,
-        Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
-        Reactblog,Payment,} from './routes/Routesmap';
+        Services,Clients,Reviews,GetQuotation,Aboutus,Contactus,
+        } from './routes/Routesmap';
 
 import Notification from "./components/Tools/Notifications";        
         
@@ -38,8 +38,6 @@ export function App() {
 
           <Route path='/services' element={<Services />} />
 
-          <Route path='/technologies' element={<Technologies />} />
-            <Route path='/technologies/reactblog' element={<Reactblog />} />
         
           <Route path='/clients' element={<Clients />} />
           

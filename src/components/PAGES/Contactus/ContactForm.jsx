@@ -19,7 +19,7 @@ function ContactForm() {
             <div class=" overflow-hidden">
                 <div class="grid grid-cols-1 md:grid-cols-2">
                     <div class="p-6 mr-2   sm:rounded-lg">
-                        <h1 class="text-center sm:text-left text-4xl sm:text-5xl text-black font-extrabold tracking-tight">
+                        <h1 class="text-center sm:text-left text-4xl sm:text-5xl text-white font-extrabold tracking-tight">
                             Get in Touch
                         </h1>
                         <p class="text-center sm:text-left text-normal text-lg sm:text-2xl font-medium text-gray-400 mt-2">
@@ -57,14 +57,14 @@ function ContactForm() {
 
                     <form onSubmit={handleSubmit} className="space-y-8 mx-5 my-5">
           <div>
-            <label htmlFor="Name" className="text-black block mb-2 text-sm font-medium ">
+            <label htmlFor="Name" className="text-white block mb-2 text-sm font-medium ">
               Name
             </label>
             <input id="name" type="text" name="name" 
             className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   "
           placeholder="Ram" />
 
-          <label htmlFor="email" className="text-black block mb-2 text-sm font-medium pt-2">
+          <label htmlFor="email" className="text-white block mb-2 text-sm font-medium pt-2">
           Your email
         </label>
         <input id="email" type="email" name="email"
@@ -77,7 +77,7 @@ function ContactForm() {
       />
 
       <div>
-        <label htmlFor="subject" className="text-black block mb-2 text-sm font-medium ">
+        <label htmlFor="subject" className="text-white block mb-2 text-sm font-medium ">
           Subject
         </label>
         <input id="subject" type="text" name="subject"
@@ -95,7 +95,7 @@ function ContactForm() {
         field="message"
         errors={state.errors}
       />
-        <button type="submit" disabled={state.submitting} className="text-black block w-full rounded-3xl border  border-black px-12 py-3 text-sm font-medium   hover:text-white hover:bg-black  sm:w-auto" >
+        <button type="submit" disabled={state.submitting} className="text-white block w-full rounded-3xl border  border-white px-12 py-3 text-sm font-medium   hover:text-white hover:bg-orange-500  sm:w-auto" >
           Send Message
         </button>
       <div className='hidden'>
