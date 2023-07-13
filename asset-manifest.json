@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.763331d2.css",
-    "main.js": "/static/js/main.3c6f2534.js",
+    "main.css": "/static/css/main.0af0ee79.css",
+    "main.js": "/static/js/main.e1e8030f.js",
     "static/media/video1.mp4": "/static/media/video1.4876b291b468d59eb70a.mp4",
     "static/media/ContactusHeaderimage.png": "/static/media/ContactusHeaderimage.25bfaf86713f9ae3f933.png",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
@@ -20,8 +20,8 @@
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.1dd61ef8c0b2c6b7c166.png",
     "static/media/ReviewsHero.png": "/static/media/ReviewsHero.f3eb97f0e0d7e31a8344.png",
     "static/media/ServicesHeaderImage.png": "/static/media/ServicesHeaderImage.4f00ce74eb6e0eb8b0de.png",
-    "static/media/CSDbothome.png": "/static/media/CSDbothome.5a7c3b45d031c6565c34.png",
     "static/media/TechHeroHeader.png": "/static/media/TechHeroHeader.c3cf1f0dd7a47819452a.png",
+    "static/media/LeormediaLogo.png": "/static/media/LeormediaLogo.69078ffdcd335d85c54b.png",
     "static/media/website-development.jpg": "/static/media/website-development.c85c7fe7ba4519d2ead7.jpg",
     "static/media/labelanuneni.png": "/static/media/labelanuneni.4aa6b52ab418c760a2b6.png",
     "static/media/mobiledev.png": "/static/media/mobiledev.7ab74e755f69935c9bc1.png",
@@ -49,11 +49,11 @@
     "index.html": "/index.html",
     "static/media/visa.svg": "/static/media/visa.10ab7832c0fe501c81a3.svg",
     "static/media/mastercard.svg": "/static/media/mastercard.91fda2b49bbcdfa6157f.svg",
-    "main.763331d2.css.map": "/static/css/main.763331d2.css.map",
-    "main.3c6f2534.js.map": "/static/js/main.3c6f2534.js.map"
+    "main.0af0ee79.css.map": "/static/css/main.0af0ee79.css.map",
+    "main.e1e8030f.js.map": "/static/js/main.e1e8030f.js.map"
   },
   "entrypoints": [
-    "static/css/main.763331d2.css",
-    "static/js/main.3c6f2534.js"
+    "static/css/main.0af0ee79.css",
+    "static/js/main.e1e8030f.js"
   ]
 }
