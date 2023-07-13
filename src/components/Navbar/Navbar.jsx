@@ -8,8 +8,8 @@ function classNames(...classes) {
 
 const Navbar = () => {
   return (
-    <main class ='mt-5 mx-4 sm:mx-20 rounded-2xl sticky top-0 z-50 bg-white drop-shadow-md -mb-5' >
-    <div className=' w-full h-24 flex justify-between items-center pl-10 md:pl-15 text-black '>
+    <main class =' sticky top-0 z-50 ' >
+    <div className=' w-full h-24 flex justify-between items-center pl-10 md:pl-15 text-white '>
       <Link to='/'><img class="h-auto w-20" src={require('../../assets/Common/LEORMEDIA_navbarlogo.png')} alt='leor_logo' /></Link>
       
       <div class=" justify-end ">

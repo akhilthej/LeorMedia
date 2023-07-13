@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Subscribe from '../../assets/Icons/Subscribe.png'
 
 import {googlereview} from '../data/data.jsx';
 import footer_csd from '../../assets/Common/footer_csd.png';
@@ -12,7 +11,7 @@ const Footer = () => {
     
     <main className='bg-black'>
 
-      {/*Subscription section*/}
+      {/*Subscription section
   <section >
 
 <div className=" flex items-center justify-center">
@@ -51,7 +50,7 @@ const Footer = () => {
     </div>
   </div>
 </div>
-</section>
+</section>*/}
 
 
       {/* Download Section
@@ -80,7 +79,7 @@ const Footer = () => {
     
 
     {/* Footer */}
-    <section className='bg-black pb-5'>
+    <section className='bg-black pb-5 pt-20'>
     <footer className="glass">
   <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-9 lg:px-8">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
@@ -91,17 +90,10 @@ const Footer = () => {
         We accomplish this by continuously developing technology, giving expert assistance, and ensuring a flawless online website 
        experience.<br />
         </p>
-        <section>
-          <div className="paymet-container">
-          <span className="payment-icon payment-icon--visa " />
-          <span className="payment-icon payment-icon--master" />
-          <span className="payment-icon payment-icon--american-express" />
-          <span className="payment-icon payment-icon--phonepe" />
-          </div>
-        </section>
+        
         
 
-        <div className="flex space-x-6 text-gray-600">
+        <div className="flex space-x-6 text-gray-600 pt-5">
           <a
             className="hover:opacity-75"
             href="https://www.facebook.com/profile.php?id=100087441512479"
@@ -292,6 +284,9 @@ const Footer = () => {
     {/* Whatapp us */}
   <div className=" fade-in-left flex items-end justify-start fixed bottom-0 left-0 ml-4 z-10">
     <div>
+      
+    </div>
+    <div>
      
      <a title="Whatsapp"
         href="https://wa.me/+918143407758"
@@ -301,7 +296,6 @@ const Footer = () => {
           src={WhatsApp} alt="whatappicon" />
       </a>
 
-      <h1 class='fade-in-left delay-100 cursor-default text-gray-500 text-xs pb-2'>Desgined & Developed by Leor Media</h1>
     </div>
   </div>
      

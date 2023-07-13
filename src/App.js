@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {  Routes, Route, useLocation  } from 'react-router-dom';
-import OneSignal from 'react-onesignal';
 
 
 import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,Home,
@@ -10,14 +9,12 @@ import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Shipping
 import Notification from "./components/Tools/Notifications";        
         
 export function App() {
-  useEffect(() => {
-    OneSignal.init({ appId: "0360b886-1a9d-4204-bd34-af4aba2203f9" });
-  }, []); /*---Onesignal---*/
+ 
 
   const location= useLocation();
   window.scrollTo(0, 0); /*---ResetPagelocation---*/
 
-  /*---LogoPreLoager
+  /*---LogoPreLoager---*/
   const [setLoading] = useState(true);
   const preloader = document.getElementById("preloader");
   if (preloader) {
@@ -25,7 +22,7 @@ export function App() {
       preloader.style.display = "none";
       setLoading(false);
     }, 5000);
-  };---*/
+  };
 
   
   return (
