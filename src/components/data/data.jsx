@@ -1,3 +1,6 @@
+import LeormediaLogo from '../../assets/Common/LeormediaLogo.png';
+
+
 import Archivitus from '../../assets/Clients/Archivitus.png';
 import serpsit from '../../assets/Clients/serpsit.png'
 import labelanuneni from '../../assets/Clients/labelanuneni.png'
@@ -5,7 +8,6 @@ import ilahe from '../../assets/Clients/iliha.png';
 import laytonskincare from '../../assets/Clients/latonskincare.png';
 import AlohaTechLogo from '../../assets/Clients/AlohaTechLogo.png';
 
-import CSDbothome from '../../assets/Common/CSD_Bot/CSDbothome.png'
 import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.png'
 import GetQoutation from '../../assets/ImagesPage/GetQoutationHeader.png';
 
@@ -44,6 +46,7 @@ import LaytonSkinpc from '../../assets/Common/portfolio_images/LAC-002.png';
 export {
 
     /* ClientsLogo */
+    LeormediaLogo,
     Archivitus,
     serpsit,
     labelanuneni,
@@ -53,7 +56,7 @@ export {
 
 
     /* Home */
-    CSDbothome,HeroCoverBG,
+    HeroCoverBG,
     codeing,graphicsdesign,digitalmarketing,mobiledev,recruitment,brand,softwaredev,googlereview,
     documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,morefeatures,
 

@@ -9,7 +9,7 @@ const Home = () => {
         <div className='home' >
             <Helmet>
                 <title>Leor Media</title>
-                <meta name="Description" content='Web Development and Digital Marketing Company. We are here to build you business online. One stop for all your digital needs.'/>
+                <meta name="Description" content='Events Management and Digital Marketing Company'/>
                 <link rel="canonical" href="/" />
             </Helmet>
             <HomeCode />

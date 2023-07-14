@@ -1,6 +1,7 @@
 import React from 'react';
 import coverimage from '../../../assets/About/aboutheader.webp';
-import '../../Tools/Animations.scss';
+
+import {LeormediaLogo} from '../../data/data.jsx';
 
 import akilthejreddy from '../../../assets/About/Founder.webp';
 import pavanchappa from '../../../assets/About/pavan.webp';
@@ -49,18 +50,42 @@ const About = () => {
                 </div>
             </div>
         </div>
-        <h1 className="text-3xl text-center lg:text-4xl font-bold leading-9 text-gray-800  pb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-yellow-400 to-yellow-400">More About us</h1>
-        <p className="font-normal text-base leading-6 text-black px-10 pb-4">As a group of web developers and digital service providers, we specialize in creating custom websites and 
-        web applications that are tailored to the specific needs of each of our clients. Our team has a wealth of experience in various web development technologies and frameworks, 
-        including HTML, CSS, JavaScript, React, Angular, Vue, and more.<br/> We are also proficient in back-end development, using technologies such as NodeJS, PHP, and Python to create 
-        robust and scalable systems that can handle high traffic and complex business logic. Our team is also well-versed in database management and optimization, ensuring that our solutions 
-        are performant and efficient.<br/>In addition to web development, we also provide a range of digital services such as digital marketing, search engine optimization (SEO), social media 
-        marketing, and email marketing to help our clients reach a wider audience and generate more leads. We have a team of experts who have worked with a variety of industries and have 
-        developed a deep understanding of what works best for each of them.<br/>We also have a strong focus on user experience and design, creating visually stunning and user-friendly websites 
-        that are easy to navigate and engage with. Our design team works closely with our development team to ensure that each project is aesthetically pleasing and fully functional.<br/>Finally,
-         we pride ourselves on our project management skills, ensuring that each project is delivered on time, within budget, and to the highest standards of quality. We keep our clients 
-         informed throughout the development process, making sure that they are happy with the progress and that any issues are addressed in a timely manner.</p>
-                     
+
+
+        {/*About us */}
+<section className="bg-gray-100 py-10">
+  <div className="container mx-auto">
+    <div className="flex items-center justify-center">
+      <img src={LeormediaLogo} alt="Logo" className="h-auto w-24" />
+    </div>
+    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mt-8">TAKE THE FIRST STEP. WE WILL DO THE REST.</h2>
+    <span className="block text-center mt-4 text-xl font-semibold">About Us</span>
+    <p className="max-w-3xl mx-auto text-gray-700 text-center mt-4 px-5 sm:px-0">
+      Leor Media was founded on the 10th of February, 2016. The word ‘Leor’ comes from Hebrew, which means ‘We have Light’. We take immense pride in living up to our name and spreading this light across every project that we undertake. Be it event management, digital marketing, or branding, Leor Media’s utmost focus on perfection and attention to the minute details has won the hearts through the large number of events that we have organized. The testimonials from our very happy customers speak volumes about our service. In addition to event management, we also provide high-end advertising and digital marketing services. We firmly believe that trust and respect can only be earned, and we continuously strive to be innovative in our work. We are a fast-growing agency, and we take over organizing every event of your life with perfection. In this way, we live up to our motto 
+      <br/>‘Memories in Making’.
+    </p>
+    <div className="flex flex-col md:flex-row justify-center items-center mt-8">
+  <div className="flex items-center md:mr-8">
+    <span className="text-6xl md:text-7xl lg:text-8xl font-bold text-center">1000+</span>
+    <span className="ml-2 text-lg ">customers</span>
+  </div>
+  <div className="hidden md:block border-r border-gray-600 h-8 mx-6 md:mx-8"></div> {/* Vertical division line */}
+  <div className="flex items-center mt-4 md:mt-0">
+    <span className="text-6xl md:text-7xl lg:text-8xl font-bold text-center">&lt;1%</span>
+    <span className="ml-2 text-lg">client attrition</span>
+  </div>
+</div>
+
+    <hr className="border-gray-600 my-8" />
+    <div className="flex justify-center">
+      <div className="flex items-center">
+        <span className="text-4xl md:text-5xl lg:text-6xl font-bold">3500+</span>
+        <span className="ml-2 text-xl">users</span>
+      </div>
+    </div>
+  </div>
+</section>
+
             {/*.....Owners.....*/}
             <div className="glass py-20">
   <div className="container mx-auto px-6 md:px-12 xl:px-32">
