@@ -1,17 +1,18 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, Transition } from '@headlessui/react';
-import classNames from 'classnames';
 
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ');
+}
 
 const Navbar = () => {
-  const [isDarkBackground, setIsDarkBackground] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      const threshold = 100; // Adjust the threshold value as needed
-      setIsDarkBackground(scrollTop > threshold);
+      const isTop = window.scrollY < 0.1 * window.innerHeight;
+      setIsScrolled(!isTop);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -20,45 +21,36 @@ const Navbar = () => {
     };
   }, []);
 
-  const navLinks = [
-    { path: '/services', label: 'Services' },
-    { path: '/clients', label: 'Clients' },
-    { path: '/getquotation', label: 'Get Quotation' },
-    { path: '/aboutus', label: 'About us' },
-    { path: '/contactus', label: 'Contact us' },
-  ];
-
   return (
-    <main className='sticky top-0 z-50'>
-      <div
-        className={`w-full h-24 flex justify-between items-center pl-10 md:pl-15 ${
-          isDarkBackground ? 'text-white' : 'text-black'
-        }`}
-      >
+    <main className={`sticky top-0 z-50 ${isScrolled ? 'bg-white  bg-opacity-0 sm:bg-opacity-100  transition-opacity duration-1000' : 'bg-transparent bg-opacity-0 transition-opacity duration-1000'}`}>
+      <div className='w-full h-24 flex justify-between items-center pl-10 md:pl-15 text-black'>
         <Link to='/'>
-          <img
-            className="h-auto w-20"
-            src={require('../../assets/Common/LEORMEDIA_navbarlogo.png')}
-            alt='leor_logo'
-          />
+          <img class="h-auto w-20" src={require('../../assets/Common/LEORMEDIA_navbarlogo.png')} alt='leor_logo' />
         </Link>
 
         <div className="justify-end">
           <ul className='flex items-center'>
-            {navLinks.map((link) => (
-              <li className='p-4 hidden md:block' key={link.path}>
-                <Link to={link.path}>{link.label}</Link>
-              </li>
-            ))}
+            <li className='p-4 hidden md:block'>
+              <Link to='/services'>Services</Link>
+            </li>
+            <li className='p-4 hidden md:block'>
+              <Link to='/clients'>Clients</Link>
+            </li>
+            <li className='p-4 hidden md:block'>
+              <Link to='/getquotation'>Get Quotation</Link>
+            </li>
+            <li className='p-4 hidden md:block'>
+              <Link to='/aboutus'>About us</Link>
+            </li>
+            <li className='p-4 hidden md:block'>
+              <Link to='/contactus'>Contact us</Link>
+            </li>
             <li className='p-4'>
               <Menu as='div' className='relative inline-block text-left'>
                 <div>
-                  <Menu.Button
-                    className={`md:hidden inline-flex justify-center w-full text-sm font-medium ${
-                      isDarkBackground ? 'text-black hover:bg-black hover:text-white' : 'text-black  hover:text-black'
-                    } focus:outline-none`}>
-                      
-                    <svg xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 mt-0.5 ml-1">
+                  <Menu.Button className='md:hidden inline-flex justify-center w-full rounded-md border border-gray-900 shadow-sm px-4 py-2 bg-white text-sm font-medium text-black hover:bg-black hover:text-white focus:outline-none'>
+                    More
+                    <svg xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 mt-0.5 ml-1">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                     </svg>
                   </Menu.Button>
@@ -73,25 +65,90 @@ const Navbar = () => {
                   leaveFrom='transform opacity-100 scale-100'
                   leaveTo='transform opacity-0 scale-95'
                 >
-                  <Menu.Items className={`origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-900 focus:outline-none z-50 ${isDarkBackground ? 'text-black' : 'text-black'}`}>
-                    <div className='py-1 md:hidden'>
-                      {navLinks.map((link) => (
-                        <Menu.Item key={link.path}>
-                          {({ active }) => (
-                            <Link to={link.path}>
-                              <a
-                                className={classNames(
-                                  active ? 'bg-gray-700 text-black' : 'text-black',
-                                  'block px-4 py-2 text-sm'
-                                )}
-                              >
-                                {link.label}
-                              </a>
-                            </Link>
-                          )}
-                        </Menu.Item>
-                      ))}
+                  <Menu.Items className='origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-900 focus:outline-none z-50'>
+                    <div className='py-1  md:hidden'>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link to='/services'>
+                            <a
+                              className={classNames(
+                                active
+                                  ? 'bg-gray-700 text-black'
+                                  : 'text-black',
+                                'block px-4 py-2 text-sm'
+                              )}
+                            >
+                              Services
+                            </a>
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link to='/getquotation'>
+                            <a
+                              className={classNames(
+                                active
+                                  ? 'bg-gray-700 text-black'
+                                  : 'text-black',
+                                'block px-4 py-2 text-sm'
+                              )}
+                            >
+                              Get Quotation
+                            </a>
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link to='/clients'>
+                            <a
+                              className={classNames(
+                                active
+                                  ? 'bg-gray-700 text-black'
+                                  : 'text-black',
+                                'block px-4 py-2 text-sm'
+                              )}
+                            >
+                              Clients
+                            </a>
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link to='/aboutus'>
+                            <a
+                              className={classNames(
+                                active
+                                  ? 'bg-gray-700 text-black'
+                                  : 'text-black',
+                                'block px-4 py-2 text-sm'
+                              )}
+                            >
+                              About us
+                            </a>
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link to='/contactus'>
+                            <a
+                              className={classNames(
+                                active
+                                  ? 'bg-gray-700 text-black'
+                                  : 'text-black',
+                                'block px-4 py-2 text-sm'
+                              )}
+                            >
+                              Contact us
+                            </a>
+                          </Link>
+                        )}
+                      </Menu.Item>
                     </div>
+                    {/* Other menu items */}
                   </Menu.Items>
                 </Transition>
               </Menu>

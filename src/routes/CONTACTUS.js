@@ -9,7 +9,7 @@ const CONTACTUS = () => {
   return (
     <div className='Contactus'>
           <Helmet>
-                <title>Contact us</title>
+                <title>Leor Media - Contact us</title>
                 <meta name="description" content='Web Development and Digital Marketing Company. We are here to build you business online. One stop for all your digital needs.'/>
                 <link rel="canonical" href="#/contactus" />
             </Helmet>

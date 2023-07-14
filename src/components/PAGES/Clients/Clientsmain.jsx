@@ -6,7 +6,7 @@ import {Archivitus ,serpsit , labelanuneni ,ilahe ,laytonskincare,AlohaTechLogo 
 const clinetmain = () => {
   
     return(
-      <main>
+<main>
       {/* Brands Section Start */}
 <section class="glass">
   <div class="container mx-auto">
