@@ -1,7 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
-import '../../Tools/Animations.scss';
 
 
 function ContactForm() {

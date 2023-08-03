@@ -18,7 +18,6 @@ import Services from './SERVICES';
 import Clients from './Clients';
 import Reviews from './Reviews';
 
-import GetQuotation from './GetQuotation';
 
 import Aboutus from './Aboutus';
 import Contactus from './CONTACTUS';
@@ -26,6 +25,6 @@ import Contactus from './CONTACTUS';
 
 export {
 Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
-Services,Clients,Reviews,GetQuotation,Aboutus,Contactus,ReturnPolicy,ShippingandDelivery,
+Services,Clients,Reviews,Aboutus,Contactus,ReturnPolicy,ShippingandDelivery,
 
 };
