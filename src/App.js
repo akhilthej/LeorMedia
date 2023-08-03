@@ -43,6 +43,7 @@ export function App() {
           
           <Route path='/reviews' element={<Reviews />} />
 
+          <Route path='/getquotation' element={<GetQuotation />} />
 
           <Route path='/aboutus' element={<Aboutus />} />
           <Route path='/contactus' element={<Contactus />} /> 

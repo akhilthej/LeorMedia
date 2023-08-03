@@ -1,5 +1,8 @@
 import React from "react";
 
+
+import '../../Tools/Animations.scss'
+
 import {LabelAnuneniwhite,LabelAnunenipc,LaytonSkinpc,LaytonSkinWhite,Ilahewhite,Ilahepc,Arkwhite,Arkwhitepc} from '../../data/data'
 
 

@@ -6,7 +6,7 @@ import Video1 from "./video1.mp4";
 const HomeHero = () => {
   return (
     <div className="relative">
-      <video className="background-video h-screen w-screen top-0 absolute z-0 object-cover" autoPlay muted loop playsInline>
+      <video className="background-video h-screen w-screen top-0 absolute z-0 object-cover" autoPlay muted loop>
         <source src={Video1} type="video/mp4" />
         {/* Add additional source tags for different video formats if needed */}
         Your browser does not support the video tag.
