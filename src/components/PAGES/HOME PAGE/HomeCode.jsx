@@ -409,15 +409,15 @@ const HeroCode = () => {
       <div className="flex flex-col md:flex-row md:items-center">
         <div className="mx-2 uppercase font-bold h-32 w-48 md:w-full bg-orange-500 hover:bg-yellow-500 text-white rounded-lg flex flex-col items-center justify-center my-2">
           <VscHistory size={32} />
-          <span className="mt-2 ">Accountability</span>
+          <span className="mt-2 px-2">Accountability</span>
         </div>
         <div className="mx-2 uppercase font-bold h-32 w-48 md:w-full bg-orange-500 hover:bg-yellow-500 text-white rounded-lg flex flex-col items-center justify-center my-2">
           <VscFeedback size={32} />
-          <span className="mt-2">Customer Centricity</span>
+          <span className="mt-2 px-2">Customer Centricity</span>
         </div>
         <div className="mx-2 uppercase font-bold h-32 w-48 md:w-full bg-orange-500 hover:bg-yellow-500 text-white rounded-lg flex flex-col items-center justify-center my-2">
           <VscLightbulbAutofix size={32} />
-          <span className="mt-2">Innovative Ideas</span>
+          <span className="mt-2 px-2">Innovative<br/>Ideas</span>
         </div>
       </div>
     </div>
@@ -428,7 +428,7 @@ const HeroCode = () => {
 <section className="boxed-about-home">
   <div className="about-homeimages">
     <div className="column left-column">
-      <img src={require('../../../assets/home/about-home-image.png')} alt='about-home'/>      
+      <img src={require('../../../assets/home/about-home-image2.png')} alt='about-home'/>      
     </div>
     <div className="column right-column flex flex-col justify-center items-center">
       <h3>Our achievement & success</h3>

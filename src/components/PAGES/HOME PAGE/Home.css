@@ -23,6 +23,7 @@
 
 .hero-content h1 {
   font-size: 30px; /* Adjust font size for responsiveness */
+  font-weight: 900;
   margin-bottom: 10px;
   text-align: center; /* Center the heading */
 }
