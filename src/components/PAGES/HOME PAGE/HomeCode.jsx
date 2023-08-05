@@ -1,65 +1,39 @@
 import React from 'react';
-import './Home.scss';
+import "../HOME PAGE/Home.scss";
 
-import Video1 from "./video1.mp4";
-
-const HomeHero = () => {
+const HomeCode = () => {
   return (
-    <div className="relative">
-      <video className="background-video h-screen w-screen top-0 absolute z-0 object-cover" autoPlay muted loop>
-        <source src={Video1} type="video/mp4" />
-        {/* Add additional source tags for different video formats if needed */}
-        Your browser does not support the video tag.
-      </video>
-      <div className='h-screen -mt-24 relative z-10 flex flex-col items-center justify-center'>
-        <div className="mx-auto my-auto max-w-[55rem] text-center">
-          <h1 className="fade-in-down font-extrabold text-transparent text-2xl md:text-8xl bg-clip-text bg-gradient-to-r from-red-600 via-orange-500 to-yellow-400 mt-3 text-[3.5rem] leading-[4rem] tracking-tight text-black">
-            LEOR MEDIA
+    <section >
+      <div className="relative flex mx-60 ">
+        <img
+          src={require('../../../assets/home/bg01.png')}
+          alt="Cover Image"
+          className="w-full h-full "
+        />
+        <div className="absolute top-1/2 left-5 transform -translate-y-1/2 text-left">
+          <h3 className="text-3xl font-semibold text-white">LARGEST DIGITAL MARKETPLACE</h3>
+          <h1 className="text-6xl font-bold text-white mt-2">
+            Explore The World of Options And Collectibles.
           </h1>
-          <h2 className="px-4 text-lg leading-relaxed text-white font-bold">
-            EVENTS | BRANDING | ADVERTISING
-          </h2>
-          <span className="px-4 mt-3 text-lg leading-relaxed text-white">
-            Crafting Unforgettable Experiences, Elevating Brands, and Igniting Creativity.
-          </span>
-          <div className="mt-6 flex flex-wrap justify-center gap-4">
-            <a
-              href="/contactus"
-              className="transform rounded-md  bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-orange-500 hover:text-white"
-            >
-              Contact us
-            </a>
-            <a
-              href="/getquotation"
-              className="transform rounded-md   px-5 py-3 font-medium text-black transition-colors hover:bg-orange-500 hover:text-white"
-            >
-              Know More
-            </a>
-          </div>
-        </div>
-        <div className="absolute bottom-0 left-0 w-full flex justify-between px-6 pb-6 ">
-          <div className="overlay-title hidden md:block">
-            <a href="/events1" className="text-white font-bold hover:text-orange-500">WEDDING PLANNERS</a>
-          </div>
-          <div className="overlay-title hidden md:block">
-            <a href="/events2" className="text-white font-bold hover:text-orange-500">EVENT PLANNERS</a>
-          </div>
-          <div className="overlay-title hidden md:block">
-            <a href="/events3" className="text-white font-bold hover:text-orange-500">OUTDOOR ADVERTISEMENT</a>
-          </div>
-          <div className="overlay-title hidden md:block">
-            <a href="/events4" className="text-white font-bold hover:text-orange-500">BRANDING & BRAND DESIGNING</a>
-          </div>
-          <div className="overlay-title hidden md:block">
-            <a href="/events6" className="text-white font-bold hover:text-orange-500">DIGITAL MEDIA MARKETING</a>
-          </div>
-          <div className="overlay-title hidden md:block">
-            <a href="/events6" className="text-white font-bold hover:text-orange-500">DIGITAL CREATIVE MEDIA</a>
+          <p className="text-lg text-white mt-2">
+            A One-Stop Creative Media For Events, Branding & Advertising
+            <br />
+            Consult & Find Solutions
+          </p>
+          <div className="mt-4">
+            <button className="px-4 py-2 bg-yellow-500 text-white rounded-md mr-2  uppercase">Let's plan a Event</button>
+            <button className="px-4 py-2 bg-black text-white rounded-md mr-2 uppercase">Our Intro</button>
+            <button className="px-4 py-2 bg-red-500 text-white rounded-md uppercase">Want to promote my Brand</button>
           </div>
         </div>
       </div>
-    </div>
+      
+    </section>
+
+       
+  
+    
   );
 }
 
-export default HomeHero;
+export default HomeCode;
