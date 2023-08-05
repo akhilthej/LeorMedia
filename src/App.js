@@ -36,17 +36,9 @@ export function App() {
           <Route path='/sitemap' element={<Sitemap />} />
 
 
-          <Route path='/services' element={<Services />} />
 
-        
-          <Route path='/clients' element={<Clients />} />
-          
-          <Route path='/reviews' element={<Reviews />} />
-
-          <Route path='/getquotation' element={<GetQuotation />} />
 
           <Route path='/aboutus' element={<Aboutus />} />
-          <Route path='/contactus' element={<Contactus />} /> 
 
           <Route path='/privacypolicy' element={<PrivacyPolicy />} /> 
           <Route path='/terms&conditions' element={<TermsnConditions />} />

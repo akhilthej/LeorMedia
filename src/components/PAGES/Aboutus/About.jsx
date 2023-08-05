@@ -1,7 +1,7 @@
 import React from 'react';
 import coverimage from '../../../assets/About/aboutheader.webp';
 
-import {LeormediaLogo} from '../../data/data.jsx';
+import {LeormediaLogo} from '../../data/leordata.jsx';
 
 import akilthejreddy from '../../../assets/About/Founder.webp';
 import pavanchappa from '../../../assets/About/pavan.webp';

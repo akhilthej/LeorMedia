@@ -13,19 +13,12 @@ import Error404 from '../components/Tools/Error404';
 import Home from './HOME';
 
 
-import Services from './SERVICES';
 
-import Clients from './Clients';
-import Reviews from './Reviews';
-
-import GetQuotation from './GetQuotation';
 
 import Aboutus from './Aboutus';
-import Contactus from './CONTACTUS';
 
 
 export {
-Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
-Services,Clients,Reviews,GetQuotation,Aboutus,Contactus,ReturnPolicy,ShippingandDelivery,
+Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,Aboutus,ReturnPolicy,ShippingandDelivery,
 
 };

@@ -1,10 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import {googlereview} from '../data/data.jsx';
+import {googlereview,WhatsApp} from '../data/leordata.jsx';
 import footer_csd from '../../assets/Common/footer_csd.png';
-import WhatsApp from '../../assets/Icons/WhatsApp.png';
-
 const Footer = () => {
   
   return (
