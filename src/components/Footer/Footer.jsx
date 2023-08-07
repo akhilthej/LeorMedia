@@ -1,12 +1,11 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import {googlereview,WhatsApp} from '../data/leordata.jsx';
 import footer_csd from '../../assets/Common/footer_csd.png';
 const Footer = () => {
   
   return (
-    
     <main className='bg-black'>
 
       {/*Subscription section
@@ -77,16 +76,17 @@ const Footer = () => {
     
 
     {/* Footer */}
-    <section className='bg-black pb-5 pt-20'>
+    <section className='bg-black pb-5 pt-10'>
     <footer className="glass">
   <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-9 lg:px-8">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
     <div>
-    <Link to ='/'><img src= {footer_csd} className="mr-5 h-14 sm:h-20 animate-bounce" alt="footer_csd" /></Link>
+    <Link to ='/'><img src= {footer_csd} className="mr-5 h-14 sm:h-20" alt="footer_csd" /></Link>
         <p className="max-w-xs mt-4 text-sm text-gray-600">
-        We are a web Developing & Designing company with a mission to help build there business online.
-        We accomplish this by continuously developing technology, giving expert assistance, and ensuring a flawless online website 
-       experience.<br />
+        Leor Media is a successful on-going Event Management Company in Visakhapatnam founded and 
+        established in the year 2017. The word ‘Leor’ is derived from the Hebrew language which 
+        means “We Have Light” and we feel proud to spread the light for thousands of happy customers 
+        in creating <Link to='/aboutus' className='text-gray-300 hover:text-gray-600'>read more..</Link><br />
         </p>
         
         
@@ -271,7 +271,7 @@ const Footer = () => {
     <a href="https://goo.gl/maps/NjrwCAaTP95NdmDE9"> <img  class="h-10 hover:animate-pulse  max-w-full ml-auto mr-auto mt-2" src= {googlereview} alt="googlereview_icon" /></a>
  
     <div class="h-px my-8 border-0 bg-gray-700"/>
-    <p className="text-center text-xs text-white">© 2010-2023 leormedia.com - Web Development & Designer Community ( #LeorMedia )</p>
+    <p className="text-center text-xs text-white">© 2010-2023 leormedia.com - Events | Advertising | Branding ( #LeorMedia )</p>
   </div>
 </footer>
 <section/>

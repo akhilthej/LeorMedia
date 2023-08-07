@@ -433,9 +433,13 @@ const HeroCode = () => {
     <div className="column right-column flex flex-col justify-center items-center">
       <h3>Our achievement & success</h3>
       <p>Business is the activity of making one living or making money by producing or buying and selling products. Simply put it is any activity or enterprise entered into for profit.</p>
-      <button className="bg-blue-500 flex hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded mt-4">Contact us
-      <VscArrowSmallRight size={32} />
-      </button>
+      <div className="flex justify-center">
+    <button className="bg-orange-500 flex hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded mt-4 items-center">
+        Contact us
+        <VscArrowSmallRight size={32} className="ml-1" />
+    </button>
+</div>
+
     </div>
   </div>
 </section>
@@ -444,7 +448,7 @@ const HeroCode = () => {
 
 {/*Section -8*/}
 <section>
-<div className="flex flex-col items-center justify-center my-4">
+<div className="flex flex-col items-center justify-center my-10">
       <div className="flex flex-col md:flex-row items-center justify-center md:justify-between gap-4">
         <div className="flex flex-col items-center">
           <div className="font-bold h-32 w-48 md:w-full bg-black hover:bg-yellow-500 text-white rounded-lg flex flex-col items-center justify-center p-4">
