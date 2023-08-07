@@ -1,7 +1,7 @@
 import React from 'react';
 import coverimage from '../../../assets/About/aboutheader.webp';
 
-import {LeormediaLogo} from '../../data/leordata.jsx';
+import {LeormediaLogo, HeroCoverBG} from '../../data/leordata.jsx';
 
 import akilthejreddy from '../../../assets/About/Founder.webp';
 import pavanchappa from '../../../assets/About/pavan.webp';
@@ -21,12 +21,8 @@ const About = () => {
             <div className="flex flex-col lg:flex-row justify-between gap-8">
                 <div className="w-full lg:w-5/12 flex flex-col justify-center">         
                     <h1 className="text-3xl mt-20 lg:text-4xl lg:mt-10 font-bold leading-9  pb-4  md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-yellow-400 to-yellow-400 ">About Us</h1>
-                    <p className="font-normal text-base leading-6 text-black pb-4">We are a group of 5 experienced individuals working in web development and digital services for a
-                     diverse range of local and international brands. We have been in business for the past 6 years, providing high-quality, innovative solutions to meet the unique needs 
-                     of each of our clients. With a strong focus on user experience and a deep understanding of the latest industry trends and technologies, we have established a 
-                     reputation for delivering exceptional results. Our team has a wide range of skills and expertise, including front-end and back-end development, digital marketing, 
-                     and project management, which allows us to provide comprehensive services that drive real results for our clients. Whether you're a small startup or a large enterprise, 
-                     we have the skills and experience to help you achieve your goals.</p>
+                    <p className="font-normal text-base leading-6 text-black pb-4">Leor Media is a successful on-going Event Management Company in Visakhapatnam founded and established in the year 2017. The word ‘Leor’ is derived from the Hebrew language which means “We Have Light” and we feel proud to spread the light for thousands of happy customers in creating their memorable and making them exceptionally special. We are full serviced Event organizers in Visakhapatnam having presence across India. Leor media is a team made of professional event managers, sharp marketers and savvy wedding planners, working together to create amazing content and make sure the world around us appreciates it.
+                      </p>
                     <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-yellow-400 to-yellow-400">Our Story</h1>
                     <p className="font-normal text-base leading-6 text-balck ">Our story began 6 years ago, when a group of 5 engineers students came together with a shared passion for 
                     web development and digital services. We had all studied computer science and had a keen interest in technology, and we saw an opportunity to use our skills to help local 
@@ -40,16 +36,54 @@ const About = () => {
                 </div>
                 <div className="w-full lg:w-8/12 lg:h-3/5">
                     <img className="w-full h-full rounded-2xl shadow-2xl" src= {coverimage} alt="A group of People" />
-                    <p className="font-normal text-base leading-6 mt-10 text-black/ ">We have had many successes and also faced many challenges, 
-                    but we have learned from our mistakes and have grown as a team. Now, we are a team of experts who have worked with a variety of industries and have developed a deep 
-                    understanding of what works best for each of them.<br/>We are proud of our achievements and are excited about the future. We are committed to continuously learning and 
-                    staying up-to-date with the latest industry trends and technologies, so that we can continue to provide the best possible service to our clients.<br/>Looking back, we can 
-                    say that we are grateful for the opportunity to turn our passion into a successful business and we are looking forward to continue providing our clients with the best 
-                    solutions to help them grow their online presence.</p>
+                    <p className="font-normal text-base leading-6 mt-10 text-black/ ">If you have an event we are here to plan and create the best memories for you that can be cherished forever. We offer all kinds of event management services for any events like Weddings, Birthdays, Corporate events, cultural events, private or social events, etc.., At Leor Media, we believe that trust and respect are the things to be earned and we continuously strive to be as creative and innovative. We tend to take care of each and every concept right from the beginning of the event until the end. We immensely take the pleasure in working with you, visit us and experience the best!</p>
                     
                 </div>
             </div>
         </div>
+
+
+        {/*About us */}
+        <div
+            style={{
+                backgroundImage: `url(${HeroCoverBG})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "contain",
+                backgroundPosition: "center",
+            }} >
+            <section className="flex justify-center items-center my-40 px-4 md:px-40">
+                <div className="flex flex-col md:flex-row justify-center px-20">
+                    <div className="px-5 md:px-10 mb-5 md:mb-0">
+                        <span className="text-xl">WHO WE ARE</span>
+                        <h2 className="font-bold text-5xl md:text-4xl mt-2 md:mt-0">All Services <br />in one place</h2>
+                    </div>
+                    <div className="px-5 md:px-10">
+                        <p className="font-bold text-xl">✦ Events</p>
+                        <p>We have a record of proven strategies for planning and celebrating events. We are the best event management company in Visakhapatnam serving our clients with various Event Management Services and driving solutions so that there would be an everlasting effect on their overall memories.</p>
+
+                        <p className="font-bold text-xl">✦ Branding</p>
+                        <p>Leor media is the team of an experienced branding agency that builds brands and platforms that help businesses succeed in the digital culture. We are the most happening branding agency in Vizag known for building powerful brands with great ideas.</p>
+
+                        <p className="font-bold text-xl">✦ Advertising</p>
+                        <p>Advertising is a part of us, and we individually develop promotional strategies for every project depending on your goals and the targeted budget. We offer it all.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+{/* Section -2 */}
+<section className="boxed-about-home">
+  <div className="about-homeimages">
+    <div className="column left-column">
+      <img src={require('../../../assets/About/about-event-services.jpeg')} alt='about-services'/>      
+    </div>
+    <div className="column right-column">
+      <h3>WHAT WE OFFER</h3>
+      <p>Not every event and client is unique in the same way we believe our services should be as well. Everything starts from understanding your requirements, analyzing and customizing the best concept to make your event special and memorable. We help you to plan the event, connect you with the best vendors and produce any aspect of the event.</p>
+    </div>
+  </div>
+</section>
 
 
         {/*About us */}
