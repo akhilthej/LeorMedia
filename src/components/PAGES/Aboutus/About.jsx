@@ -42,7 +42,7 @@ const About = () => {
             </div>
         </div>
 
-
+        <div className="border-t border-gray-300 my-4 mx-40"></div>
         {/*About us */}
         <div
             style={{
@@ -70,10 +70,11 @@ const About = () => {
                 </div>
             </section>
         </div>
+        <div className="border-t border-gray-300 my-4 mx-40"></div>
 
 
 {/* Section -2 */}
-<section className="boxed-about-home">
+<section className="boxed-about-home my-40">
   <div className="about-homeimages">
     <div className="column left-column">
       <img src={require('../../../assets/About/about-event-services.jpeg')} alt='about-services'/>      
@@ -120,6 +121,7 @@ const About = () => {
   </div>
 </section>
 
+
             {/*.....Owners.....*/}
             <div className="glass py-20">
   <div className="container mx-auto px-6 md:px-12 xl:px-32">
@@ -143,8 +145,8 @@ const About = () => {
           height={805}
         />
         <div>
-          <h4 className="text-2xl text-white">Pavan Kumar</h4>
-          <span className="block text-sm text-gray-300">Partner<br/>Chief Operations Officer<br/>( IT Recruiter )</span>
+          <h4 className="text-2xl text-black font-bold">Pavan Kumar</h4>
+          <span className="block text-sm text-gray-600">Partner<br/>Chief Operations Officer<br/>( IT Recruiter )</span>
         </div>
       </div>
       <div className="space-y-4 text-center">
@@ -156,8 +158,8 @@ const About = () => {
           height={667}
         />
         <div>
-          <h4 className="text-2xl text-white ">Pavan Lohit</h4>
-          <span className="block text-sm text-gray-300">
+          <h4 className="text-2xl text-black font-bold">Pavan Lohit</h4>
+          <span className="block text-sm text-gray-600">
             Founder<br/>Chief Executive Officer<br/>( Full Stack Developer )<br/></span>
         </div>
       </div>
@@ -170,8 +172,8 @@ const About = () => {
           height={667}
         />
         <div>
-          <h4 className="text-2xl text-white">Riya Varma</h4>
-          <span className="block text-sm text-gray-300">
+          <h4 className="text-2xl text-black font-bold">Riya Varma</h4>
+          <span className="block text-sm text-gray-600">
           Patner<br/>Chief Technical Officer<br/>( Data Analyst )
           </span>
         </div>
@@ -183,12 +185,14 @@ const About = () => {
 
 
         {/*...Teams...*/}
+
+        <div className="border-t border-gray-300 my-4 mx-40"></div>
         <section className="glass">
   <div className="container px-6 py-10 mx-auto">
     <h1 className="text-3xl pb-1 font-semibold text-center capitalize lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">
       Our Team, Friends & Family
     </h1>
-    <p className="max-w-2xl mx-auto my-6 text-center text-gray-300">
+    <p className="mx-auto my-6 text-center text-gray-600">
       We have a dedicated team of quick-learners and more than 10 years of experince in each craft.
     </p>
     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
@@ -197,19 +201,19 @@ const About = () => {
           className="object-cover w-32 h-40 rounded-full ring-4 ring-gray-300"
           src={chaitanya}
         />
-        <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
+        <h1 className="mt-4 text-2xl font-semibold  capitalize text-black group-hover:text-white">
           Chaitanya Teja
         </h1>
-        <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  capitalize text-gray-600 group-hover:text-gray-600">
         Front-end Developer
         </p>
-        <p className="mt-2  text-sm capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  text-sm capitalize text-gray-600 group-hover:text-gray-600">
          Web Developer
         </p>
         <div className="flex mt-3 -mx-2">
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:text-gray-600 group-hover:text-white"
             aria-label="Reddit"
           >
             <svg
@@ -223,7 +227,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:text-gray-600 group-hover:text-white"
             aria-label="Facebook"
           >
             <svg
@@ -237,7 +241,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:text-gray-600 group-hover:text-white"
             aria-label="Github"
           >
             <svg
@@ -256,19 +260,19 @@ const About = () => {
           className="object-cover w-32 h-40 rounded-full ring-4 ring-gray-300"
           src={srikar}
         />
-        <h1 className="mt-4 text-2xl font-semibold capitalize text-white group-hover:text-white">
+        <h1 className="mt-4 text-2xl font-semibold capitalize text-black group-hover:text-white">
           Srikar
         </h1>
-        <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  capitalize text-gray-600 group-hover:text-gray-600">
         Senior AWS cloud
         </p>
-        <p className="mt-2  text-sm capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  text-sm capitalize text-gray-600 group-hover:text-gray-600">
          devops engineer
         </p>
         <div className="flex mt-3 -mx-2">
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:text-gray-600 group-hover:text-white"
             aria-label="Reddit"
           >
             <svg
@@ -282,7 +286,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:text-gray-600 group-hover:text-white"
             aria-label="Facebook"
           >
             <svg
@@ -296,7 +300,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:text-gray-600 group-hover:text-white"
             aria-label="Github"
           >
             <svg
@@ -316,19 +320,19 @@ const About = () => {
           className="object-cover w-32 h-40 rounded-full ring-4 ring-gray-300"
           src={varuntej}
         />
-        <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
+        <h1 className="mt-4 text-2xl font-semibold  capitalize text-black group-hover:text-white">
           Tej Varun
         </h1>
-        <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  capitalize text-gray-600 group-hover:text-gray-600">
         Senior Graphic Designer
         </p>
-        <p className="mt-2  text-sm capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  text-sm capitalize text-gray-600 group-hover:text-gray-600">
          Senior Video Editor
         </p>
         <div className="flex mt-3 -mx-2">
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:text-gray-600 group-hover:text-white"
             aria-label="Reddit"
           >
             <svg
@@ -342,7 +346,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:text-gray-600 group-hover:text-white"
             aria-label="Facebook"
           >
             <svg
@@ -356,7 +360,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:text-gray-600 group-hover:text-white"
             aria-label="Github"
           >
             <svg
@@ -375,16 +379,16 @@ const About = () => {
           className="object-cover w-32 h-40 rounded-full ring-4 ring-gray-300"
           src= {saikiran}
         />
-        <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
+        <h1 className="mt-4 text-2xl font-semibold  capitalize text-black group-hover:text-white">
           Sai Kiran
         </h1>
-        <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  capitalize text-gray-600 group-hover:text-gray-600">
           Designer
         </p>
         <div className="flex mt-3 -mx-2">
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:text-gray-600 group-hover:text-white"
             aria-label="Reddit"
           >
             <svg
@@ -398,7 +402,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:text-gray-600 group-hover:text-white"
             aria-label="Facebook"
           >
             <svg
@@ -412,7 +416,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-600 hover:text-gray-600 group-hover:text-white"
             aria-label="Github"
           >
             <svg

@@ -27,15 +27,15 @@ const HeroCode = () => {
 </section>
 
 {/*Section -6*/}
-<section>
-<div className="flex justify-center items-center">
+<section className='py-24'>
+<div className="flex justify-center items-center ">
       <h3 className="text-5xl font-bold mt-4">Our Clients</h3>
     </div>
 <div className="logoMarqueeSection">
   <div className="container" id="logoMarqueeSection">
     <div className="default-content-container flex items-center">
       <div className="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
-        <div className="marquee" style={{ animationDuration: "57s" }}>
+        <div className="marquee" style={{ animationDuration: "30s" }}>
           <a target="_blank">
             <img
               src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg"
