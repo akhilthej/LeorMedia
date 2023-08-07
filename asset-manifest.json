@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.88b41886.css",
-    "main.js": "/static/js/main.55bc7d30.js",
+    "main.css": "/static/css/main.1e006910.css",
+    "main.js": "/static/js/main.6a4beef5.js",
     "static/media/about-home-image.png": "/static/media/about-home-image.d35e96f5fc94a0da7196.png",
     "static/media/WhatsApp.png": "/static/media/WhatsApp.34e879f5812c0c92dc03.png",
     "static/media/bg01.png": "/static/media/bg01.fa6ed1f6f950d0d591e9.png",
-    "static/media/aboutheader.webp": "/static/media/aboutheader.237579978fb7c06a9e56.webp",
     "static/media/LEORMEDIA_navbarlogo.png": "/static/media/LEORMEDIA_navbarlogo.bd8d495ff2f8feb9e931.png",
     "static/media/footer_csd.png": "/static/media/footer_csd.61e2fe53b107cc1bc0ae.png",
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.1dd61ef8c0b2c6b7c166.png",
     "static/media/about-home-image2.png": "/static/media/about-home-image2.69bf0677fdbd7806b08f.png",
     "static/media/LeormediaLogo.png": "/static/media/LeormediaLogo.69078ffdcd335d85c54b.png",
+    "static/media/about-event-services.jpeg": "/static/media/about-event-services.f86639953fd946549b2a.jpeg",
     "static/media/DigitalCreativeMedia.png": "/static/media/DigitalCreativeMedia.7ab74e755f69935c9bc1.png",
+    "static/media/aboutheader.webp": "/static/media/aboutheader.aaf30919569b9f1ae48e.webp",
     "static/media/srikar.webp": "/static/media/srikar.5d1c58d938d0637de451.webp",
     "static/media/chaitanya.webp": "/static/media/chaitanya.b9fa93833d9c670fa1b5.webp",
     "static/media/saikiran.webp": "/static/media/saikiran.2552a4977383b6b41b16.webp",
@@ -21,11 +22,11 @@
     "static/media/pavan.webp": "/static/media/pavan.3d51f56ae9262fc3e18e.webp",
     "static/media/googlereview.png": "/static/media/googlereview.85d0946b65c74505d37a.png",
     "index.html": "/index.html",
-    "main.88b41886.css.map": "/static/css/main.88b41886.css.map",
-    "main.55bc7d30.js.map": "/static/js/main.55bc7d30.js.map"
+    "main.1e006910.css.map": "/static/css/main.1e006910.css.map",
+    "main.6a4beef5.js.map": "/static/js/main.6a4beef5.js.map"
   },
   "entrypoints": [
-    "static/css/main.88b41886.css",
-    "static/js/main.55bc7d30.js"
+    "static/css/main.1e006910.css",
+    "static/js/main.6a4beef5.js"
   ]
 }
