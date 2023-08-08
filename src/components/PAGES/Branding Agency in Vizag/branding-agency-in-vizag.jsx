@@ -7,12 +7,11 @@ const branding_agency_in_vizag = () => {
     {/*Section -1*/}
 <section>
 <div className="flex items-center">
-<div className="w-full bg-cover bg-center py-32" style={{ backgroundImage: `url(${require('../../../assets/home/bg01.png')})` }}>
+<div className="w-full bg-contain bg-orange-400 bg-no-repeat bg-center py-32" style={{ backgroundImage: `url(${require('./branding-cover.png')})` }}>
         <div className="container mx-auto text-center text-white">
-          <h1 className="text-5xl font-medium mb-6">Welcome to My Agency</h1>
-          <p className="text-xl mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
-            gravida pellentesque urna varius vitae.</p>
-          <a href="#" className="bg-blue-500 text-white py-4 px-12 rounded-full hover:bg-blue-600">Demo</a>
+          <h1 className="text-5xl font-medium mb-6">We Create Brands,</h1>
+          <p className="text-xl mb-12">which build a great difference and value</p>
+          <a href="#" className="bg-blue-500 text-white py-4 px-12 rounded-full hover:bg-blue-600">Reach us</a>
         </div>
       </div>
     </div>
@@ -30,6 +29,29 @@ const branding_agency_in_vizag = () => {
                 </p>
             </div>
         </section>
+
+
+        {/* Section -2 */}
+<section className="boxed-about-home">
+  <div className="about-homeimages">
+    <div className="column left-column">
+      <img className="rounded-2xl shadow-xl" src={require('./brand-development.jpeg')} alt='brand-about'/>      
+    </div>
+    <div className="column right-column">
+      <h3>BRAND AUDIT</h3>
+      <p>We get started by determining the strength of your brand. An ideal brand audit creates the best opportunities for improvements and new developments.</p>
+      <h3>BRAND STRATEGY</h3>
+      <p>We are experts in building a long-term plan or a brand strategy for successful brand development in order to achieve your business goals.</p>
+      <h3>BRAND IDENTITY</h3>
+      <p>Give your brand a voice to speak and vision to reflect the value of your business. And that includes components like Brand name, logo design, Business cards, Letterheads, Envelope designs, etc.</p>
+      <h3>BRAND POSITIONING</h3>
+      <p>The main objective of the business is to own a place in the customer’s minds. We analyze and create a unique and successful positioning of your brand.</p>
+       
+ </div>
+  </div>
+</section>
+
+
         </main>
   )
 }
