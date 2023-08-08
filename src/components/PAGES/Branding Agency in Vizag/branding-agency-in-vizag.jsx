@@ -1,5 +1,4 @@
 import React from 'react';
-import './branding-agency-in-vizag.css'
 
 const branding_agency_in_vizag = () => {
   return (
@@ -7,17 +6,16 @@ const branding_agency_in_vizag = () => {
 
     {/*Section -1*/}
 <section>
-  <div className="hero-cover-branding">
-    <div className="hero-content">
-      <h3>LARGEST DIGITAL MARKETPLACE</h3>
-      <h1>Explore The World of Options And Collectibles.</h1>
-      <p>A One-Stop Creative Media For Events, Branding & Advertising Consult & Find Solutions</p>
-      <div>
-        <button>Let's Plan An Event</button>
-        <button>Let's Plan An Event</button>
+<div className="flex items-center">
+<div className="w-full bg-cover bg-center py-32" style={{ backgroundImage: `url(${require('../../../assets/home/bg01.png')})` }}>
+        <div className="container mx-auto text-center text-white">
+          <h1 className="text-5xl font-medium mb-6">Welcome to My Agency</h1>
+          <p className="text-xl mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+            gravida pellentesque urna varius vitae.</p>
+          <a href="#" className="bg-blue-500 text-white py-4 px-12 rounded-full hover:bg-blue-600">Demo</a>
+        </div>
       </div>
     </div>
-  </div>
 </section>
 
     <section className="py-10 bg-gray-200">
