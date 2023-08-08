@@ -16,9 +16,10 @@ import Home from './HOME';
 
 
 import Aboutus from './Aboutus';
+import Contact from './Contact';
 
 
 export {
-Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,Aboutus,ReturnPolicy,ShippingandDelivery,
+Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,Aboutus,ReturnPolicy,ShippingandDelivery,Contact,
 
 };

@@ -5,21 +5,22 @@ const branding_agency_in_vizag = () => {
     <main>
 
     {/*Section -1*/}
-<section>
-<div className="flex items-center">
-<div className="w-full bg-contain bg-orange-400 bg-no-repeat bg-center py-32" style={{ backgroundImage: `url(${require('./branding-cover.png')})` }}>
-        <div className="container mx-auto text-center text-white">
-          <h1 className="text-5xl font-medium mb-6">We Create Brands,</h1>
-          <p className="text-xl mb-12">which build a great difference and value</p>
-          <a href="#" className="bg-blue-500 text-white py-4 px-12 rounded-full hover:bg-blue-600">Reach us</a>
+    <section>
+    <div className="flex items-center">
+        <div className="w-full bg-fill bg-orange-400 bg-no-repeat bg-center py-32" style={{ backgroundImage: `url(${require('./branding-cover.png')})` }}>
+            <div className="container mx-auto text-right text-white">
+                <h1 className="text-3xl mt-20 lg:text-4xl lg:mt-10 font-bold leading-9  pb-4  md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-yellow-400 to-yellow-400 ">WE CREATE BRANDS,</h1>
+                <p className="text-xl mb-12 text-yellow-100">which build a great difference and value</p>
+                <a href="/contact" className="bg-blue-500 text-white py-4 px-12 rounded-full hover:bg-blue-600">Reach us</a>
+            </div>
         </div>
-      </div>
     </div>
 </section>
 
+
     <section className="py-10 bg-gray-200">
             <div className="container mx-auto text-center">
-                <h2 className="text-3xl font-bold mb-4">BRANDING AGENCY IN VISAKHAPATNAM</h2>
+                <h2 className="text-3xl font-bold mb-4 ">BRANDING AGENCY IN VISAKHAPATNAM</h2>
                 <p className="text-lg text-gray-700">
                     Leor media the team of experienced branding agency that builds brands and platforms that helps businesses to succeed in the digital culture. We are the Vizag most happening branding agency known for building powerful brands having great ideas.
                     <br /><br />

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './Home.css';
 import { VscFeedback,VscLocation,VscCallIncoming,VscMail,VscHistory,VscLightbulbAutofix,VscArrowSmallRight, } from "react-icons/vsc";
 
@@ -434,10 +435,11 @@ const HeroCode = () => {
       <h3>Our achievement & success</h3>
       <p>Business is the activity of making one living or making money by producing or buying and selling products. Simply put it is any activity or enterprise entered into for profit.</p>
       <div className="flex justify-center">
-    <button className="bg-orange-500 flex hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded mt-4 items-center">
+        <a href="/contact">
+    <button  className="bg-orange-500 flex hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded mt-4 items-center">
         Contact us
         <VscArrowSmallRight size={32} className="ml-1" />
-    </button>
+    </button></a>
 </div>
 
     </div>
@@ -472,7 +474,7 @@ const HeroCode = () => {
     </div>
 </section>
 
-{/*Section -7*/}
+{/*Section -7 - Maps*/}
 <section>
 <section className="text-gray-600 body-font relative">
   <div className="absolute inset-0 bg-gray-300">
@@ -490,7 +492,7 @@ const HeroCode = () => {
         <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
         <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" />
       </div>
-      <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+      <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
       <p className="text-xs text-gray-500 mt-3">*Terms & Conditions applied.</p>
     </div>
   </div>

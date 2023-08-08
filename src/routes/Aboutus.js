@@ -8,7 +8,7 @@ const Aboutus = () => {
   return (
     <div className='Aboutus'>
       <Helmet>
-            <title>Leor Media - About Us</title>
+            <title>Leor Media - About</title>
             <meta name="description" content='Know more about our Company and our team Cyber Space Digital.'/>
             <link rel="canonical" href="/aboutus" />
       </Helmet>

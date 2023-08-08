@@ -3,7 +3,7 @@ import {  Routes, Route, useLocation  } from 'react-router-dom';
 
 
 import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,
-        Home,Aboutus,
+        Home,Aboutus,Contact,
         } from './routes/Routesmap';
 
 
@@ -47,7 +47,7 @@ export function App() {
           <Route path='/branding-agency-in-vizag' element={<BrandingAgencyInVizag />} />
           <Route path='/best-event-management-company-vizag' element={<Aboutus />} />
           <Route path='/advertising-in-vizag' element={<Aboutus />} />
-          <Route path='/contactus' element={<Aboutus />} />
+          <Route path='/contact' element={<Contact />} />
 
           <Route path='/privacypolicy' element={<PrivacyPolicy />} /> 
           <Route path='/terms&conditions' element={<TermsnConditions />} />
