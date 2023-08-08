@@ -10,6 +10,7 @@ import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Shipping
 import Notification from "./components/Tools/Notifications";        
 
 import DigitalCreativeMedia from "./components/PAGES/Digital Creative Media/digital-creative-media";
+import BrandingAgencyInVizag from "./components/PAGES/Branding Agency in Vizag/branding-agency-in-vizag";
         
 export function App() {
  
@@ -43,7 +44,7 @@ export function App() {
 
           <Route path='/aboutus' element={<Aboutus />} />
           <Route path='/digital-creative-media' element={<DigitalCreativeMedia />} />
-          <Route path='/branding-agency-in-vizag' element={<Aboutus />} />
+          <Route path='/branding-agency-in-vizag' element={<BrandingAgencyInVizag />} />
           <Route path='/best-event-management-company-vizag' element={<Aboutus />} />
           <Route path='/advertising-in-vizag' element={<Aboutus />} />
           <Route path='/contactus' element={<Aboutus />} />

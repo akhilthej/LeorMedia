@@ -1,0 +1,14 @@
+/* Section -1 */
+.hero-cover-branding {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    padding: 100px 0; /* Adding padding for vertical spacing */
+    background-image: url('../../../assets/home/bg01.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+ 
