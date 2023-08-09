@@ -43,6 +43,18 @@ const branding_agency_in_vizag = () => {
       <p>We get started by determining the strength of your brand. An ideal brand audit creates the best opportunities for improvements and new developments.</p>
       <h3>BRAND STRATEGY</h3>
       <p>We are experts in building a long-term plan or a brand strategy for successful brand development in order to achieve your business goals.</p>
+     
+ </div>
+  </div>
+</section>
+
+     {/* Section -2 */}
+     <section className="boxed-about-home">
+  <div className="about-homeimages">
+    <div className="column left-column">
+      <img className="rounded-2xl shadow-xl" src={require('./branding1.jpg')} alt='brand-about'/>      
+    </div>
+    <div className="column right-column">
       <h3>BRAND IDENTITY</h3>
       <p>Give your brand a voice to speak and vision to reflect the value of your business. And that includes components like Brand name, logo design, Business cards, Letterheads, Envelope designs, etc.</p>
       <h3>BRAND POSITIONING</h3>

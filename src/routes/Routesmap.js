@@ -14,12 +14,14 @@ import Home from './HOME';
 
 
 
-
 import Aboutus from './Aboutus';
 import Contact from './Contact';
+import WebDesigning from './WebDesigning';
+import ATL from './ATL';
+import BTL from './BTL';
 
 
 export {
-Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,Aboutus,ReturnPolicy,ShippingandDelivery,Contact,
+Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,Aboutus,ReturnPolicy,ShippingandDelivery,Contact,WebDesigning,ATL,BTL,
 
 };

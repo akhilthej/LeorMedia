@@ -23,21 +23,13 @@ const About = () => {
                     <h1 className="text-3xl mt-20 lg:text-4xl lg:mt-10 font-bold leading-9  pb-4  md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-yellow-400 to-yellow-400 ">About Us</h1>
                     <p className="font-normal text-base leading-6 text-black pb-4">Leor Media is a successful on-going Event Management Company in Visakhapatnam founded and established in the year 2017. The word ‘Leor’ is derived from the Hebrew language which means “We Have Light” and we feel proud to spread the light for thousands of happy customers in creating their memorable and making them exceptionally special. We are full serviced Event organizers in Visakhapatnam having presence across India. Leor media is a team made of professional event managers, sharp marketers and savvy wedding planners, working together to create amazing content and make sure the world around us appreciates it.
                       </p>
-                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-yellow-400 to-yellow-400">Our Story</h1>
-                    <p className="font-normal text-base leading-6 text-balck ">Our story began 6 years ago, when a group of 5 engineers students came together with a shared passion for 
-                    web development and digital services. We had all studied computer science and had a keen interest in technology, and we saw an opportunity to use our skills to help local 
-                    and international brands grow their online presence.<br/>We started small, working on freelance projects and building our portfolio. We quickly realized that there was a high 
-                    demand for our services and that we had a real talent for creating custom websites and web applications that met the unique needs of each of our clients.<br/>As our business 
-                    grew, we decided to form a digital agency, and we were able to attract a diverse range of clients, from small startups to large enterprises. We were driven by our desire to 
-                    provide high-quality, innovative solutions that would help our clients achieve their goals.<br/>Over the past 6 years, we have built a reputation for delivering exceptional 
-                    results, and we have established a loyal customer base. We have a wide range of skills and expertise, including front-end and back-end development, digital marketing, and 
-                    project management, which allows us to provide comprehensive services that drive real results for our clients.</p>
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-yellow-400 to-yellow-400 ">We are here</h1>
+                    <p>If you have an event we are here to plan and create the best memories for you that can be cherished forever. We offer all kinds of event management services for any events like Weddings, Birthdays, Corporate events, cultural events, private or social events, etc.., At Leor Media, we believe that trust and respect are the things to be earned and we continuously strive to be as creative and innovative. We tend to take care of each and every concept right from the beginning of the event until the end. We immensely take the pleasure in working with you, visit us and experience the best!</p>
+                    
                     
                 </div>
                 <div className="w-full lg:w-8/12 lg:h-3/5">
                     <img className="w-full h-full rounded-2xl shadow-2xl" src= {coverimage} alt="A group of People" />
-                    <p className="font-normal text-base leading-6 mt-10 text-black/ ">If you have an event we are here to plan and create the best memories for you that can be cherished forever. We offer all kinds of event management services for any events like Weddings, Birthdays, Corporate events, cultural events, private or social events, etc.., At Leor Media, we believe that trust and respect are the things to be earned and we continuously strive to be as creative and innovative. We tend to take care of each and every concept right from the beginning of the event until the end. We immensely take the pleasure in working with you, visit us and experience the best!</p>
-                    
                 </div>
             </div>
         </div>

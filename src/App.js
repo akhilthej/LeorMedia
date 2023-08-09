@@ -3,7 +3,7 @@ import {  Routes, Route, useLocation  } from 'react-router-dom';
 
 
 import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,
-        Home,Aboutus,Contact,
+        Home,Aboutus,Contact,WebDesigning, ATL, BTL,
         } from './routes/Routesmap';
 
 
@@ -45,8 +45,14 @@ export function App() {
           <Route path='/aboutus' element={<Aboutus />} />
           <Route path='/digital-creative-media' element={<DigitalCreativeMedia />} />
           <Route path='/branding-agency-in-vizag' element={<BrandingAgencyInVizag />} />
-          <Route path='/best-event-management-company-vizag' element={<Aboutus />} />
-          <Route path='/advertising-in-vizag' element={<Aboutus />} />
+          <Route path='/web-design-and-development-company' element={< WebDesigning/>} />
+
+
+
+
+          <Route path='/atl-advertising' element={<ATL />} />
+          <Route path='/btl-activities' element={<BTL />} />
+
           <Route path='/contact' element={<Contact />} />
 
           <Route path='/privacypolicy' element={<PrivacyPolicy />} /> 

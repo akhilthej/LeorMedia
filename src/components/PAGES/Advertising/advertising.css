@@ -1,0 +1,110 @@
+/* Section -1 */
+.btl-cover {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    padding: 100px 0; /* Adding padding for vertical spacing */
+    background-image: url('../../../assets/home/bg01.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .btl-content {
+    position: relative; /* Change to relative to make it responsive */
+    text-align: center;
+    padding: 20px; /* Adding padding for content spacing */
+  }
+  
+  .btl-content h3 {
+    padding-top: 100px ;
+    text-align: center; /* Center the heading */
+  }
+  
+  .btl-content h1 {
+    font-size: 30px; /* Adjust font size for responsiveness */
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-align: center; /* Center the heading */
+  }
+  
+  .btl-content p {
+    font-size: 18px; /* Adjust font size for responsiveness */
+    margin-bottom: 15px;
+    text-align: center; /* Center the paragraph */
+  }
+  
+  .btl-content button {
+    background-color: #007bff;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 20px; /* Adjust padding for responsiveness */
+    font-size: 14px; /* Adjust font size for responsiveness */
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btl-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Section -2 */
+  .boxed-about-home {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .about-homeimages {
+    display: flex;
+    flex-direction: row; /* Default side by side for larger screens */
+    align-items: center; /* Center vertically */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .left-column img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .right-column {
+    background: white;
+    padding: 20px;
+  }
+  
+  .right-column h3 {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .right-column p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .about-homeimages {
+      flex-direction: column; /* Stack elements on top of each other for small screens */
+    }
+    
+    .column {
+      width: 100%;
+    }
+    
+    .right-column {
+      align-items: center; /* Center content vertically for small screens */
+    }
+  }
+  
