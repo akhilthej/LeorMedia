@@ -27,7 +27,7 @@ const HeroCode = () => {
   </div>
 </section>
 
-{/*Section -6*/}
+{/*Our Clients*/}
 <section className='py-24'>
 <div className="flex justify-center items-center ">
       <h3 className="text-5xl font-bold mt-4">Our Clients</h3>

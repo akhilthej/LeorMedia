@@ -19,9 +19,15 @@ import Contact from './Contact';
 import WebDesigning from './WebDesigning';
 import ATL from './ATL';
 import BTL from './BTL';
+import SEO from './seo';
+import SMM from './smm';
+import ContentMarketing from './contentmarketing';
+import EmailMarketing from './emailmarketing';
+
+import AllEvents from './allevents'
 
 
 export {
-Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,Aboutus,ReturnPolicy,ShippingandDelivery,Contact,WebDesigning,ATL,BTL,
+Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,Aboutus,ReturnPolicy,ShippingandDelivery,Contact,WebDesigning,ATL,BTL,SEO,SMM,ContentMarketing,EmailMarketing,AllEvents,
 
 };

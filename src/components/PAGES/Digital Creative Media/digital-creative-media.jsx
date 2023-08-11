@@ -34,6 +34,216 @@ const digital_creative_media = () => {
 
         
         
+{/*Section -6*/}
+<section className='py-24'>
+<div className="flex justify-center items-center ">
+      <h3 className="text-5xl font-bold mt-4">Our Clients</h3>
+    </div>
+<div className="logoMarqueeSection">
+  <div className="container" id="logoMarqueeSection">
+    <div className="default-content-container flex items-center">
+      <div className="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
+        <div className="marquee" style={{ animationDuration: "30s" }}>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/tiktok-logo.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/ngk-3.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/nippon-sanso.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/comdisco.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/aricoin-icon.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/pse-1.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/scien.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/e-online.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/yourhomedirect.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/nextra-3.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+        </div>
+        <div className="marquee" style={{ animationDuration: "57s" }}>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/tiktok-logo.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/ngk-3.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/nippon-sanso.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/comdisco.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/aricoin-icon.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/pse-1.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/scien.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/e-online.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/yourhomedirect.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+          <a target="_blank">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/nextra-3.svg"
+              title=""
+              className="marqueelogo"
+              style={{ width: "auto", maxWidth: "none" }}
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
 
 
         <section className="py-10 bg-gray-200 flex justify-center items-center px-10">
