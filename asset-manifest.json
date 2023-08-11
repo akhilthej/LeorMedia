@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bd77fcf.css",
-    "main.js": "/static/js/main.f54adc91.js",
+    "main.css": "/static/css/main.e60a5d73.css",
+    "main.js": "/static/js/main.fc4441a1.js",
     "static/media/about-home-image.png": "/static/media/about-home-image.d35e96f5fc94a0da7196.png",
+    "static/media/website1.png": "/static/media/website1.e4e868b1d933f0a7fba2.png",
     "static/media/WhatsApp.png": "/static/media/WhatsApp.34e879f5812c0c92dc03.png",
     "static/media/brand-development.jpeg": "/static/media/brand-development.50265a24b58f6a80823c.jpeg",
     "static/media/bg01.png": "/static/media/bg01.fa6ed1f6f950d0d591e9.png",
+    "static/media/website2.jpeg": "/static/media/website2.44723bbc4f12a6e551e9.jpeg",
     "static/media/LEORMEDIA_navbarlogo.png": "/static/media/LEORMEDIA_navbarlogo.bd8d495ff2f8feb9e931.png",
     "static/media/footer_csd.png": "/static/media/footer_csd.61e2fe53b107cc1bc0ae.png",
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.1dd61ef8c0b2c6b7c166.png",
@@ -15,6 +17,7 @@
     "static/media/branding-cover.png": "/static/media/branding-cover.cccc24710e119991e9e8.png",
     "static/media/about-event-services.jpeg": "/static/media/about-event-services.f86639953fd946549b2a.jpeg",
     "static/media/DigitalCreativeMedia.png": "/static/media/DigitalCreativeMedia.7ab74e755f69935c9bc1.png",
+    "static/media/branding1.jpg": "/static/media/branding1.0b7aaede2c2ce0d08b8e.jpg",
     "static/media/aboutheader.webp": "/static/media/aboutheader.aaf30919569b9f1ae48e.webp",
     "static/media/srikar.webp": "/static/media/srikar.5d1c58d938d0637de451.webp",
     "static/media/chaitanya.webp": "/static/media/chaitanya.b9fa93833d9c670fa1b5.webp",
@@ -26,11 +29,11 @@
     "static/media/pavan.webp": "/static/media/pavan.3d51f56ae9262fc3e18e.webp",
     "static/media/googlereview.png": "/static/media/googlereview.85d0946b65c74505d37a.png",
     "index.html": "/index.html",
-    "main.7bd77fcf.css.map": "/static/css/main.7bd77fcf.css.map",
-    "main.f54adc91.js.map": "/static/js/main.f54adc91.js.map"
+    "main.e60a5d73.css.map": "/static/css/main.e60a5d73.css.map",
+    "main.fc4441a1.js.map": "/static/js/main.fc4441a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bd77fcf.css",
-    "static/js/main.f54adc91.js"
+    "static/css/main.e60a5d73.css",
+    "static/js/main.fc4441a1.js"
   ]
 }
