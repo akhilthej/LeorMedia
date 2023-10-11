@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.edba048a.css",
-    "main.js": "/static/js/main.e7084c60.js",
+    "main.css": "/static/css/main.dd54f5b1.css",
+    "main.js": "/static/js/main.b78d6044.js",
     "static/media/about-home-image.png": "/static/media/about-home-image.d35e96f5fc94a0da7196.png",
     "static/media/website1.png": "/static/media/website1.e4e868b1d933f0a7fba2.png",
     "static/media/WhatsApp.png": "/static/media/WhatsApp.34e879f5812c0c92dc03.png",
     "static/media/brand-development.jpeg": "/static/media/brand-development.50265a24b58f6a80823c.jpeg",
-    "static/media/bg01.png": "/static/media/bg01.fa6ed1f6f950d0d591e9.png",
     "static/media/seo2.jpeg": "/static/media/seo2.44723bbc4f12a6e551e9.jpeg",
     "static/media/website2.jpeg": "/static/media/website2.44723bbc4f12a6e551e9.jpeg",
     "static/media/LEORMEDIA_navbarlogo.png": "/static/media/LEORMEDIA_navbarlogo.bd8d495ff2f8feb9e931.png",
@@ -30,12 +29,16 @@
     "static/media/about-hero2.png": "/static/media/about-hero2.6c0e5f75d5910da08b7f.png",
     "static/media/pavan.webp": "/static/media/pavan.3d51f56ae9262fc3e18e.webp",
     "static/media/googlereview.png": "/static/media/googlereview.85d0946b65c74505d37a.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.edba048a.css.map": "/static/css/main.edba048a.css.map",
-    "main.e7084c60.js.map": "/static/js/main.e7084c60.js.map"
+    "main.dd54f5b1.css.map": "/static/css/main.dd54f5b1.css.map",
+    "main.b78d6044.js.map": "/static/js/main.b78d6044.js.map"
   },
   "entrypoints": [
-    "static/css/main.edba048a.css",
-    "static/js/main.e7084c60.js"
+    "static/css/main.dd54f5b1.css",
+    "static/js/main.b78d6044.js"
   ]
 }
