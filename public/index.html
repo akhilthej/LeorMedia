@@ -21,9 +21,11 @@
   </head>
 
   <body style="margin: 0px ">
-    <!-- Logo preloader 
+
+    <!-- Logo preloader -->
+     
     <div id="preloader" class="preloader">  
-      <img src="applogo.gif" /> </div>-->
+      <img src="applogo.gif" /> </div>
 
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
@@ -46,37 +48,6 @@
      <!-- Error 404 -->
     
     
-<!---Cookies-->
-   <div class="wrappercookies">
-    <img src="./cookie.png" alt="cookies">
-    <div class="content">
-      <header>Cookies Consent</header>
-      <p>This website use cookies to ensure you get the best experience on our website.</p>
-      <div class="buttons">
-        <button class="item">I Accept</button>
-        <a href="/privacypolicy" class="item">Learn more</a>
-      </div>
-    </div>
-  </div>
-  <script>
-    const cookieBox = document.querySelector(".wrappercookies"),
-    acceptBtn = cookieBox.querySelector("button");
-    acceptBtn.onclick = ()=>{
-      //setting cookie for 1 month, after one month it'll be expired automatically
-      document.cookie = "CookieBy=CSD; max-age="+60*60*24*30;
-      if(document.cookie){ //if cookie is set
-        cookieBox.classList.add("hide"); //hide cookie box
-      }else{ //if cookie not set then alert an error
-        alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
-      }
-    }
-    let checkCookie = document.cookie.indexOf("CookieBy=CSD"); //checking our cookie
-    //if cookie is set then hide the cookie box else show it
-    checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
-    
-  </script>
-<!---Cookies End-->
-
 
 
 

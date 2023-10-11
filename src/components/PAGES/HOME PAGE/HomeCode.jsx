@@ -1,4 +1,8 @@
 import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 import './Home.css';
 import { VscFeedback,VscLocation,VscCallIncoming,VscMail,VscHistory,VscLightbulbAutofix,VscArrowSmallRight, } from "react-icons/vsc";
@@ -6,237 +10,87 @@ import { VscFeedback,VscLocation,VscCallIncoming,VscMail,VscHistory,VscLightbulb
 import {DigitalCreativeMedia,HeroCoverBG,EventManagement,Branding,Advertising} from '../../data/leordata';
 
 const HeroCode = () => {
+  const settings = {
+    autoplay: true,
+    autoplaySpeed: 2000, // Set the rotation speed (in milliseconds)
+    arrows: false, // Remove arrow navigation
+    dots: false, // Remove dot indicators
+    infinite: true,
+    speed: 500,
+    slidesToShow: 6, // Set the number of logos to show at once
+    slidesToScroll: 1,
+  };
+  const brandImages = [
+    'https://drive.google.com/uc?export=view&id=1PFV708lGPRVqEblKT6xjKhKG3tK43KNs',
+    'https://drive.google.com/uc?export=view&id=13YNsiRGpLOJAHbuaqUkwG8xoOsVsST_E',
+    'https://drive.google.com/uc?export=view&id=15ieVVTnsT0PWrJKN1wZ1TYzIHBWM4kWD',
+    'https://drive.google.com/uc?export=view&id=1h9l3CHFVMHrKHYr3VyxNoCwMWqqu0zwU',
+    'https://drive.google.com/uc?export=view&id=1wTSqKhzxFyeWbnXQpUbvfvMbKwAqkYyH',
+    'https://drive.google.com/uc?export=view&id=1TYXyymdlykBDCkxLM9yobmQm5cJTMOv7',
+    'https://drive.google.com/uc?export=view&id=1qIa086CvI6GMEL0ArObzKrQa9uCEXDpv',
+    'https://drive.google.com/uc?export=view&id=1iKNryfewqXlbQKaS4oDrlx3X8W-P4Mag',
+    'https://drive.google.com/uc?export=view&id=1meuHUOe9Ruok4mSZ22tfEqjOXIVS7Aag',
+    'https://drive.google.com/uc?export=view&id=1NizCmQHKiBhz7iqWxDwzNvOjcZkCnp3t',
+    'https://drive.google.com/uc?export=view&id=1gFgd-h1rv-jQPvL2nLM80_IvjOvh1nS1',
+    'https://drive.google.com/uc?export=view&id=1tR9nYqLj01S5HMh5wBX-cfJNzifLZEjl',
+    'https://drive.google.com/uc?export=view&id=1VCKHdykXCFIo82ZvhkQgsxbXZpUZZQG7',
+    'https://drive.google.com/uc?export=view&id=1JKdL1ahdta38FBiUzeloQzCoEVvE-Lao',
+    'https://drive.google.com/uc?export=view&id=1ifWHgw7PrKD0nJY9wvjroD95Y7smkUOo',
+    
+
+    // Add more image URLs here
+  ];
+
+
 
   return (
-
-
 <main>
 
 {/*Section -1*/}
 <section>
-  <div className="hero-cover">
-    <div className="hero-content">
-      <h3>LARGEST DIGITAL MARKETPLACE</h3>
-      <h1>Explore The World of Options And Collectibles.</h1>
-      <p>A One-Stop Creative Media For Events, Branding & Advertising Consult & Find Solutions</p>
+
+  <div style={{
+    position: 'relative',
+    width: '100%',
+    height: 'auto',
+    zIndex: -1,
+    padding: '100px 0', // Adding padding for vertical spacing
+    backgroundImage: `url('https://drive.google.com/uc?export=view&id=1f1grr3bI8VcFwnFY_l3zxLPpey-1ZHY8')`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  }}>
+    <div className="text-center text-white pt-20">
+      <h3 className="text-xl font-bold ">LARGEST DIGITAL MARKETPLACE</h3>
+      <h1 className="text-2xl font-bold pt-5">Explore The World of Options And Collectibles.</h1>
+      <p className="text-xl font-bold ">A One-Stop Creative Media For Events, Branding & Advertising Consult & Find Solutions</p>
       <div>
-        <button>Let's Plan An Event</button>
-        <button>Let's Plan An Event</button>
+        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-4'>Let's Plan An Event</button>
+        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-4'>Let's Plan An Event</button>
       </div>
     </div>
   </div>
 </section>
 
+
 {/*Our Clients*/}
-<section className='py-24'>
-<div className="flex justify-center items-center ">
-      <h3 className="text-5xl font-bold mt-4">Our Clients</h3>
-    </div>
-<div className="logoMarqueeSection">
-  <div className="container" id="logoMarqueeSection">
-    <div className="default-content-container flex items-center">
-      <div className="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
-        <div className="marquee" style={{ animationDuration: "30s" }}>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/tiktok-logo.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/ngk-3.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/nippon-sanso.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/comdisco.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/aricoin-icon.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/pse-1.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/scien.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/e-online.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/yourhomedirect.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/nextra-3.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-        </div>
-        <div className="marquee" style={{ animationDuration: "57s" }}>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/tiktok-logo.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/ngk-3.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/nippon-sanso.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/comdisco.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/aricoin-icon.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/pse-1.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/scien.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/e-online.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/yourhomedirect.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-          <a target="_blank">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/nextra-3.svg"
-              title=""
-              className="marqueelogo"
-              style={{ width: "auto", maxWidth: "none" }}
-            />
-          </a>
-        </div>
+<div className="py-8 bg-gray-100">
+<h2 className='text-center font-bold text-2xl pb-10'>CLIENTS</h2>
+      <div className="container mx-auto">
+        <Slider {...settings}>
+          {brandImages.map((imageUrl, index) => (
+            <div key={index}>
+              <img
+                src={imageUrl}
+                alt={`Brand Logo ${index + 1}`}
+                className="mx-auto h-16 md:h-20 lg:h-24 xl:h-32"
+              />
+            </div>
+          ))}
+        </Slider>
       </div>
     </div>
-  </div>
-</div>
-</section>
+
+
 
 {/* Section -2 */}
 <section className="boxed-about-home">

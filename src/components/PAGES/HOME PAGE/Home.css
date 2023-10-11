@@ -1,39 +1,4 @@
-/* Section -1 */
-.hero-cover {
-  position: relative;
-  width: 100%;
-  height: auto;
-  z-index: -1;
-  padding: 100px 0; /* Adding padding for vertical spacing */
-  background-image: url('../../../assets/home/bg01.png');
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-}
 
-.hero-content {
-  position: relative; /* Change to relative to make it responsive */
-  text-align: center;
-  padding: 20px; /* Adding padding for content spacing */
-}
-
-.hero-content h3 {
-  padding-top: 100px ;
-  text-align: center; /* Center the heading */
-}
-
-.hero-content h1 {
-  font-size: 30px; /* Adjust font size for responsiveness */
-  font-weight: 900;
-  margin-bottom: 10px;
-  text-align: center; /* Center the heading */
-}
-
-.hero-content p {
-  font-size: 18px; /* Adjust font size for responsiveness */
-  margin-bottom: 15px;
-  text-align: center; /* Center the paragraph */
-}
 
 .hero-content button {
   background-color: #007bff;
