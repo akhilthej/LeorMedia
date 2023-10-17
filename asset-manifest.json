@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d1a5626.css",
-    "main.js": "/static/js/main.84f7304b.js",
+    "main.css": "/static/css/main.2a6af984.css",
+    "main.js": "/static/js/main.410c4bcd.js",
     "static/media/about-home-image.png": "/static/media/about-home-image.d35e96f5fc94a0da7196.png",
     "static/media/website1.png": "/static/media/website1.e4e868b1d933f0a7fba2.png",
     "static/media/brand-development.jpeg": "/static/media/brand-development.50265a24b58f6a80823c.jpeg",
@@ -10,6 +10,7 @@
     "static/media/LEORMEDIA_navbarlogo.png": "/static/media/LEORMEDIA_navbarlogo.bd8d495ff2f8feb9e931.png",
     "static/media/footer_csd.png": "/static/media/footer_csd.61e2fe53b107cc1bc0ae.png",
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.1dd61ef8c0b2c6b7c166.png",
+    "static/media/leorlogos.jpeg": "/static/media/leorlogos.088b0d6911c0ff682df6.jpeg",
     "static/media/about-home-image2.png": "/static/media/about-home-image2.69bf0677fdbd7806b08f.png",
     "static/media/contact-hero.png": "/static/media/contact-hero.5fb787c3a02e96ff0919.png",
     "static/media/pavanlohit.webp": "/static/media/pavanlohit.f9248be5a1cded4ae85a.webp",
@@ -41,11 +42,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.0d1a5626.css.map": "/static/css/main.0d1a5626.css.map",
-    "main.84f7304b.js.map": "/static/js/main.84f7304b.js.map"
+    "main.2a6af984.css.map": "/static/css/main.2a6af984.css.map",
+    "main.410c4bcd.js.map": "/static/js/main.410c4bcd.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d1a5626.css",
-    "static/js/main.84f7304b.js"
+    "static/css/main.2a6af984.css",
+    "static/js/main.410c4bcd.js"
   ]
 }
