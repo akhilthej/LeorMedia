@@ -1,6 +1,6 @@
 import LeormediaLogo from '../../assets/Common/LeormediaLogo.png';
 
-import HeroCoverBG from '../../assets/Common/HeroCoverBG.png';
+import LeorMediaWatermark from '../../assets/Common/LeorMediaWatermark.png';
 import googlereview from '../../assets/Icons/googlereview.png';
 import WhatsApp from '../../assets/Icons/WhatsApp.webp';
 
@@ -30,7 +30,7 @@ export {
   documentationicon,analysisicon,socialicon,financeicon,statergyicon,businessreporticon,FixedPrice,TimeManage,OntimeDelivery,HiringModel,
 
     /* Common */
-    LeormediaLogo,HeroCoverBG,googlereview,WhatsApp,
+    LeormediaLogo,LeorMediaWatermark,googlereview,WhatsApp,
 
     /* icons */
     DigitalCreativeMedia,EventManagement,Branding,Advertising,

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {  Routes, Route, useLocation  } from 'react-router-dom';
 
 
@@ -19,15 +19,7 @@ export function App() {
   const location= useLocation();
   window.scrollTo(0, 0); /*---ResetPagelocation---*/
 
-  /*---LogoPreLoager---*/
-  const [setLoading] = useState(true);
-  const preloader = document.getElementById("preloader");
-  if (preloader) {
-    setTimeout(() => {
-      preloader.style.display = "none";
-      setLoading(false);
-    }, 5000);
-  };
+
 
   
   return (

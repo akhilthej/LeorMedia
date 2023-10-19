@@ -1,20 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
+import leorlogos from '../../../assets/leorlogos.jpeg'
+import ClientSlider from '../../ClientSlider';
 
 import './Home.css';
 import {documentationicon,analysisicon,socialicon,financeicon,statergyicon,businessreporticon,FixedPrice,TimeManage,OntimeDelivery,HiringModel} from '../../data/leordata'
 import { VscFeedback,VscLocation,VscCallIncoming,VscMail,VscHistory,VscLightbulbAutofix,VscArrowSmallRight, } from "react-icons/vsc";
-import {DigitalCreativeMedia,HeroCoverBG,EventManagement,Branding,Advertising} from '../../data/leordata';
+import {DigitalCreativeMedia,LeorMediaWatermark,EventManagement,Branding,Advertising} from '../../data/leordata';
 
 const HeroCode = () => {
+  
   const settings = {
     autoplay: true,
-    autoplaySpeed: 2000, // Set the rotation speed (in milliseconds)
+    autoplaySpeed: 1000, // Set the rotation speed (in milliseconds)
     arrows: false, // Remove arrow navigation
     dots: false, // Remove dot indicators
     infinite: true,
@@ -62,35 +62,20 @@ const HeroCode = () => {
     backgroundPosition: 'center',
   }}>
     <div className="text-center text-white pt-20">
-      <h3 className="text-xl font-bold ">LARGEST DIGITAL MARKETPLACE</h3>
-      <h1 className="text-2xl font-bold pt-5">Explore The World of Options And Collectibles.</h1>
-      <p className="text-xl font-bold ">A One-Stop Creative Media For Events, Branding & Advertising Consult & Find Solutions</p>
+      <h3 className="text-xl font-bold ">Events | Branding | Advertising</h3>
+      <h1 className="cursor-default upanddown pb-8 font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  leading-[3.5rem] tracking-tight">
+                  Leor Media
+                </h1>
+      <p className="text-xl font-bold ">Explore The World of Options And Collectibles.</p>
       <div>
-        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-4'>Let's Plan An Event</button>
-        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-4'>Let's Plan An Event</button>
+      <a href='https://wa.me/9666643456'>
+        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-4'>Let's Plan An Event</button></a>
       </div>
     </div>
   </div>
 </section>
 
-
-{/*Our Clients*/}
-<div className="py-8 bg-gray-100">
-<h2 className='text-center font-bold text-2xl pb-10'>CLIENTS</h2>
-      <div className="container mx-auto">
-        <Slider {...settings}>
-          {brandImages.map((imageUrl, index) => (
-            <div key={index}>
-              <img
-                src={imageUrl}
-                alt={`Brand Logo ${index + 1}`}
-                className="mx-auto h-16 md:h-20 lg:h-24 xl:h-32"
-              />
-            </div>
-          ))}
-        </Slider>
-      </div>
-    </div>
+<ClientSlider/>
 
 
 
@@ -102,8 +87,8 @@ const HeroCode = () => {
     </div>
     <div className="column right-column">
       <h3>About us</h3>
-      <p>Leor Media is a one-stop Event Management Company offering cutting edge solutions in Event Management, Creative Media, Branding, Advertising and Digital Marketing helping clients in making memories, improving their business process, business outcome aiming at customer satisfaction while minimizing their operational expenses.</p>
-    </div>
+      <p>Leor Media is a successful on-going Event Management Company in Visakhapatnam founded and established in the year 2016. We are a team of professional event managers and experienced Wedding planners with 100+ happy customers. We provide the best event management services and manage all types of events like weddings, birthday parties, corporate events, audio launches, cultural nights, product launches and award nights. We are the top-rated wedding planners in Vizag and deliver all types of event management services if you have an event we are here to plan and create the best memories for you that can be cherished forever. On the whole we the team with smart and experienced members working on Events, Branding, and Advertising.</p>
+       </div>
   </div>
 </section>
 
@@ -111,9 +96,10 @@ const HeroCode = () => {
 
 {/*Section -3*/}
     <section>
+    <h2 className='text-center text-3xl font-bold pb-4'>Our Services</h2>
       {/*MainFeatures */}
       <div style={{
-      backgroundImage: `url(${HeroCoverBG})`,
+      backgroundImage: `url(${LeorMediaWatermark})`,
       backgroundRepeat: "no-repeat",
       backgroundSize: "contain",
       backgroundPosition: "center",}}>
@@ -247,8 +233,8 @@ const HeroCode = () => {
     </section>
 
 {/*Section -4*/}
-<section className="flex flex-col items-center justify-center text-center my-10">
-  <h3 className="text-4xl font-bold mb-4 mx-10">Best Wedding Planners in Vizag</h3>
+<section className="flex flex-col items-center justify-center text-center my-10"> 
+  <h3 className="text-4xl font-bold mb-4 mx-10 text-orange-600">Best Wedding Planners in Vizag</h3>
   <p className="text-gray-600 mx-6  lg:mx-96 text-xl">
     Whether it is Event Management, Branding or Advertising we strongly 
     believe that there are no shortcuts and quick fixes; everything requires 
@@ -453,7 +439,7 @@ const HeroCode = () => {
                 <div className="w-full space-y-12 lg:w-1/2 ">
                   <div>
                     <h1 className="text-3xl font-semibold text-black capitalize lg:text-4xl ">
-                      explore our <br /> Resources for our community
+                      Why <br /> Choose us
                     </h1>
                     <div className="mt-2">
                       <span className="inline-block w-40 h-1 rounded-full bg-yellow-500" />
@@ -555,10 +541,10 @@ const HeroCode = () => {
                     </div>
                   </div>
                 </div>
-                <div className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
+                <div className=" lg:flex lg:items-center lg:w-1/2 lg:justify-center">
                   <img
-                    className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full"
-                    src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80"
+                    className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] "
+                    src={leorlogos}
                     alt=""
                   />
                 </div>
@@ -570,7 +556,6 @@ const HeroCode = () => {
 
 
 
-     {/*CountDown */}
      
      {/*Line of Engagement */}
  <section id="services" className="cursor-default section relative pt-10 pb-8 md:pt-16 md:pb-10">

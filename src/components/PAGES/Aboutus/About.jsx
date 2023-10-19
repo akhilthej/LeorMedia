@@ -1,7 +1,7 @@
 import React from 'react';
 import coverimage from '../../../assets/About/aboutheader.webp';
 
-import {LeormediaLogo, HeroCoverBG} from '../../data/leordata.jsx';
+import {LeormediaLogo, LeorMediaWatermark} from '../../data/leordata.jsx';
 
 import pavanlohit from '../../../assets/About/pavanlohit.webp';
 import akilthejreddy from '../../../assets/About/Founder.webp';
@@ -39,7 +39,7 @@ const About = () => {
         {/*About us */}
         <div
             style={{
-                backgroundImage: `url(${HeroCoverBG})`,
+                backgroundImage: `url(${LeorMediaWatermark})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "contain",
                 backgroundPosition: "center",
