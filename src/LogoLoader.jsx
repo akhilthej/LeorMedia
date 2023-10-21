@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import applogo from "./assets/CSDLogo.svg";
+import applogo from "./assets/leor_logo.svg";
 
 const LogoLoader = () => {
   const [isLoading, setIsLoading] = useState(true);
