@@ -3,7 +3,6 @@ import { VscLocation,VscCallIncoming,VscMail,} from "react-icons/vsc";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
-
 const contact = () => {
   return (
     <main>
@@ -11,12 +10,13 @@ const contact = () => {
          {/*Section -1*/}
          <section>
   <div className="flex items-center">
-    <div className="w-full bg-contain z-1 bg-no-repeat bg-right-top py-32" style={{ backgroundImage: `url(${require('./contact-hero.png')})` }}>
-      <div className="w-full bg-contain z-0 bg-no-repeat bg-left-top py-10" style={{ backgroundImage: `url(${require('./about-hero2.png')})` }}>
-        <div className="container mx-auto text-center text-white">
-          <h1 className="text-5xl lg:mt-10 font-bold leading-9 pb-4 md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-yellow-400 to-yellow-400">Get in Touch</h1>
-          <p className="text-xl mb-12 text-black">Need more information?</p>
-        </div>
+    <div
+      className="w-full bg-no-repeat bg-cover bg-center flex items-center justify-center h-96 md:h-72 lg:h-[70vh]"
+      style={{ backgroundImage: `url('https://drive.google.com/uc?export=view&id=1Ujk3hhII7G3zytgGRBLldGk2ZvGUdboh')` }}
+    >
+      <div className="container mx-auto text-center text-white">
+        <h1 className="text-5xl lg:mt-10 font-bold leading-9 pb-4 md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-yellow-400 to-yellow-400">Get in Touch</h1>
+        <p className="text-xl mb-12 text-black">Need more information?</p>
       </div>
     </div>
   </div>
