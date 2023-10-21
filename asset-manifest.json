@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a6af984.css",
-    "main.js": "/static/js/main.410c4bcd.js",
+    "main.css": "/static/css/main.5fb35c6a.css",
+    "main.js": "/static/js/main.09304f28.js",
     "static/media/about-home-image.png": "/static/media/about-home-image.d35e96f5fc94a0da7196.png",
     "static/media/website1.png": "/static/media/website1.e4e868b1d933f0a7fba2.png",
     "static/media/brand-development.jpeg": "/static/media/brand-development.50265a24b58f6a80823c.jpeg",
@@ -9,7 +9,7 @@
     "static/media/website2.jpeg": "/static/media/website2.44723bbc4f12a6e551e9.jpeg",
     "static/media/LEORMEDIA_navbarlogo.png": "/static/media/LEORMEDIA_navbarlogo.bd8d495ff2f8feb9e931.png",
     "static/media/footer_csd.png": "/static/media/footer_csd.61e2fe53b107cc1bc0ae.png",
-    "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.1dd61ef8c0b2c6b7c166.png",
+    "static/media/LeorMediaWatermark.png": "/static/media/LeorMediaWatermark.1dd61ef8c0b2c6b7c166.png",
     "static/media/leorlogos.jpeg": "/static/media/leorlogos.088b0d6911c0ff682df6.jpeg",
     "static/media/about-home-image2.png": "/static/media/about-home-image2.69bf0677fdbd7806b08f.png",
     "static/media/contact-hero.png": "/static/media/contact-hero.5fb787c3a02e96ff0919.png",
@@ -36,17 +36,18 @@
     "static/media/googlereview.png": "/static/media/googlereview.85d0946b65c74505d37a.png",
     "static/media/WhatsApp.webp": "/static/media/WhatsApp.f3b54735f5be9f9103e0.webp",
     "static/media/Advertising.svg": "/static/media/Advertising.42233020f646b0d8b44ca8d7fa92ac57.svg",
+    "static/media/CSDLogo.svg": "/static/media/CSDLogo.041d66dee62439cf6ddd948fb2b3b8b0.svg",
     "static/media/OntimeDelivery.svg": "/static/media/OntimeDelivery.2d9b87e51310b6c48d381d9335011a5a.svg",
     "index.html": "/index.html",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.2a6af984.css.map": "/static/css/main.2a6af984.css.map",
-    "main.410c4bcd.js.map": "/static/js/main.410c4bcd.js.map"
+    "main.5fb35c6a.css.map": "/static/css/main.5fb35c6a.css.map",
+    "main.09304f28.js.map": "/static/js/main.09304f28.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a6af984.css",
-    "static/js/main.410c4bcd.js"
+    "static/css/main.5fb35c6a.css",
+    "static/js/main.09304f28.js"
   ]
 }
