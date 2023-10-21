@@ -8,7 +8,7 @@ function classNames(...classes) {
 
 const Navbar = () => {
   return (
-    <main className=" sticky top-0 z-50 bg-white -mb-20 py-2">
+    <main className=" sticky top-0 z-50 bg-white py-2">
       <div className="w-full h-14 flex justify-between items-center px-4 sm:px-10 md:px-15 text-black">
         <Link to="/">
           <img
