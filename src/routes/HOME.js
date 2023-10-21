@@ -26,31 +26,7 @@ const HeroCode = () => {
 
 <ImageSlider/>
 
-<section>
 
-  <div style={{
-    position: 'relative',
-    width: '100%',
-    height: 'auto',
-    zIndex: -1,
-    padding: '100px 0', // Adding padding for vertical spacing
-    backgroundImage: `url('https://drive.google.com/uc?export=view&id=1f1grr3bI8VcFwnFY_l3zxLPpey-1ZHY8')`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-  }}>
-    <div className="text-center text-white pt-20">
-      <h3 className="text-xl font-bold ">Events | Branding | Advertising</h3>
-      <h1 className="cursor-default upanddown pb-8 font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  leading-[3.5rem] tracking-tight">
-                  Leor Media
-                </h1>
-      <p className="text-xl font-bold ">Explore The World of Options And Collectibles.</p>
-      <div>
-      <a href='https://wa.me/9666643456'>
-        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-4'>Let's Plan An Event</button></a>
-      </div>
-    </div>
-  </div>
-</section>
 
 <ClientSlider/>
 

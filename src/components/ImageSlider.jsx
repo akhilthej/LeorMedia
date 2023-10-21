@@ -1,24 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  const images = [ // Define the images array here
-  'https://drive.google.com/uc?export=view&id=1PFV708lGPRVqEblKT6xjKhKG3tK43KNs',
-  'https://drive.google.com/uc?export=view&id=13YNsiRGpLOJAHbuaqUkwG8xoOsVsST_E',
-  'https://drive.google.com/uc?export=view&id=15ieVVTnsT0PWrJKN1wZ1TYzIHBWM4kWD',
-  'https://drive.google.com/uc?export=view&id=1h9l3CHFVMHrKHYr3VyxNoCwMWqqu0zwU',
-  'https://drive.google.com/uc?export=view&id=1wTSqKhzxFyeWbnXQpUbvfvMbKwAqkYyH',
-  'https://drive.google.com/uc?export=view&id=1TYXyymdlykBDCkxLM9yobmQm5cJTMOv7',
-  'https://drive.google.com/uc?export=view&id=1qIa086CvI6GMEL0ArObzKrQa9uCEXDpv',
-  'https://drive.google.com/uc?export=view&id=1iKNryfewqXlbQKaS4oDrlx3X8W-P4Mag',
-  'https://drive.google.com/uc?export=view&id=1meuHUOe9Ruok4mSZ22tfEqjOXIVS7Aag',
-  'https://drive.google.com/uc?export=view&id=1NizCmQHKiBhz7iqWxDwzNvOjcZkCnp3t',
-  'https://drive.google.com/uc?export=view&id=1gFgd-h1rv-jQPvL2nLM80_IvjOvh1nS1',
-  'https://drive.google.com/uc?export=view&id=1tR9nYqLj01S5HMh5wBX-cfJNzifLZEjl',
-  'https://drive.google.com/uc?export=view&id=1VCKHdykXCFIo82ZvhkQgsxbXZpUZZQG7',
-  'https://drive.google.com/uc?export=view&id=1JKdL1ahdta38FBiUzeloQzCoEVvE-Lao',
-  'https://drive.google.com/uc?export=view&id=1ifWHgw7PrKD0nJY9wvjroD95Y7smkUOo',
+  const images = [
+    {
+      url:
+        'https://drive.google.com/uc?export=view&id=12bHt6P6Qm5csTlzr8S12lldRg-4-m2lg',
+      title: 'Events',
+    },
+    {
+      url:
+        'https://drive.google.com/uc?export=view&id=1B8bVQ2F9Cny7-p_7aEuP4ZESGrsy7uTj',
+      title: 'Advs',
+    },
+    {
+      url:
+        'https://drive.google.com/uc?export=view&id=1qbSwRu5YArcxbCsiWQYX6nnPm6K6LKrU',
+      title: 'Marketing',
+    },
+    {
+      url:
+        'https://drive.google.com/uc?export=view&id=1Bw291U5er6fgvxAmJwMf_y3T1juJ6KEY',
+      title: 'Shop',
+    },
   ];
 
   const nextSlide = () => {
@@ -29,18 +33,37 @@ const ImageSlider = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
   };
 
+  // Autoplay functionality
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 2000); // Change slide every 2 seconds (adjust as needed)
+
+    return () => {
+      clearInterval(interval); // Clear the interval on component unmount
+    };
+  }, [currentIndex]);
+
   return (
     <div className="relative">
-      <div className="flex items-center justify-center h-96 md:h-72 lg:h-96">
+      <div className="flex items-center justify-center h-96 md:h-72 lg:h-[70vh]">
         {images.map((image, index) => (
-          <img
+          <div
             key={index}
-            src={image}
-            alt={`Slide ${index + 1}`}
             className={`absolute top-0 left-0 w-full h-full transition-opacity duration-500 ${
               index === currentIndex ? "opacity-100" : "opacity-0"
             }`}
-          />
+          >
+            <img
+              src={image.url}
+              alt={`Slide ${index + 1}`}
+              className="w-full h-full object-cover"
+            />
+        
+            <p className="absolute inset-0 flex items-center justify-center text-white text-6xl font-semibold bg-black bg-opacity-30">
+              {image.title}
+            </p>
+          </div>
         ))}
       </div>
       <button
