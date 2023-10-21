@@ -59,7 +59,6 @@ const ImageSlider = () => {
               alt={`Slide ${index + 1}`}
               className="w-full h-full object-cover"
             />
-        
             <p className="absolute inset-0 flex items-center justify-center text-white text-6xl font-semibold bg-black bg-opacity-30">
               {image.title}
             </p>
