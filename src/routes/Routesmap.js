@@ -17,6 +17,8 @@ import Home from './HOME';
 import Aboutus from './About/Aboutus';
 import Contact from './Contact/Contact';
 import WebDesigning from './Digital Creative Media/WebDesigning';
+
+import Advertising from "./Advertising/Advertising";
 import ATL from './Advertising/ATL';
 import BTL from './Advertising/BTL';
 
@@ -24,6 +26,6 @@ import AllEvents from './AllEvents/AllEvents'
 
 
 export {
-Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,Aboutus,ReturnPolicy,ShippingandDelivery,Contact,WebDesigning,ATL,BTL,AllEvents,
+Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Advertising,Disclaimer,Error404,Home,Aboutus,ReturnPolicy,ShippingandDelivery,Contact,WebDesigning,ATL,BTL,AllEvents,
 
 };

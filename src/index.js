@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-import LogoLoader from './LogoLoader'
+import LogoLoader from './components/LogoLoader'
 import {BrowserRouter } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 
