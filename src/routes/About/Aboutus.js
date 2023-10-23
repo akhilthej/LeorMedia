@@ -147,8 +147,8 @@ const Aboutus = () => {
           height={805}
         />
         <div>
-          <h4 className="text-2xl text-black font-bold">Pavan </h4>
-          <span className="block text-sm text-gray-600">Partner<br/>Chief Operations Officer<br/>( IT Recruiter )</span>
+          <h4 className="text-2xl text-black font-bold">name </h4>
+          <span className="block text-sm text-gray-600">Partner<br/>Chief Operations Officer</span>
         </div>
       </div>
       <div className="space-y-4 text-center">
@@ -162,7 +162,7 @@ const Aboutus = () => {
         <div>
           <h4 className="text-2xl text-black font-bold">Pavan Lohit</h4>
           <span className="block text-sm text-gray-600">
-            Founder<br/>Chief Executive Officer<br/>( Full Stack Developer )<br/></span>
+            Founder<br/>Chief Executive Officer</span>
         </div>
       </div>
       <div className="space-y-4 text-center">
@@ -174,9 +174,9 @@ const Aboutus = () => {
           height={667}
         />
         <div>
-          <h4 className="text-2xl text-black font-bold">Riya Varma</h4>
+          <h4 className="text-2xl text-black font-bold">name</h4>
           <span className="block text-sm text-gray-600">
-          Patner<br/>Chief Technical Officer<br/>( Data Analyst )
+          Patner<br/>Chief Technical Officer
           </span>
         </div>
       </div>
