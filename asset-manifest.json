@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c71b570.css",
-    "main.js": "/static/js/main.42dc15d8.js",
+    "main.css": "/static/css/main.ae1131f3.css",
+    "main.js": "/static/js/main.abd360a6.js",
     "static/media/about-home-image.png": "/static/media/about-home-image.d35e96f5fc94a0da7196.png",
     "static/media/website1.png": "/static/media/website1.e4e868b1d933f0a7fba2.png",
     "static/media/brand-development.jpeg": "/static/media/brand-development.50265a24b58f6a80823c.jpeg",
-    "static/media/seo2.jpeg": "/static/media/seo2.44723bbc4f12a6e551e9.jpeg",
     "static/media/website2.jpeg": "/static/media/website2.44723bbc4f12a6e551e9.jpeg",
     "static/media/LEORMEDIA_navbarlogo.png": "/static/media/LEORMEDIA_navbarlogo.bd8d495ff2f8feb9e931.png",
     "static/media/footer_csd.png": "/static/media/footer_csd.61e2fe53b107cc1bc0ae.png",
@@ -41,11 +40,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.3c71b570.css.map": "/static/css/main.3c71b570.css.map",
-    "main.42dc15d8.js.map": "/static/js/main.42dc15d8.js.map"
+    "main.ae1131f3.css.map": "/static/css/main.ae1131f3.css.map",
+    "main.abd360a6.js.map": "/static/js/main.abd360a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c71b570.css",
-    "static/js/main.42dc15d8.js"
+    "static/css/main.ae1131f3.css",
+    "static/js/main.abd360a6.js"
   ]
 }
