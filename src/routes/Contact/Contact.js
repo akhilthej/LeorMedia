@@ -3,10 +3,22 @@ import { VscLocation,VscCallIncoming,VscMail,} from "react-icons/vsc";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
-const contact = () => {
-  return (
-    <main>
 
+import { Helmet } from 'react-helmet-async';
+
+
+const Home = () => {
+    return (
+        <main>
+
+            <Helmet>
+                <title>Leor Media - Contact</title>
+                <meta name="Description" content='Events Management and Digital Marketing Company'/>
+                <link rel="canonical" href="/" />
+            </Helmet>
+            
+            
+          
          {/*Section -1*/}
          <section>
   <div className="flex items-center">
@@ -107,8 +119,10 @@ const contact = () => {
 
   
 </main>
-
-  )
+            
+        
+        
+    )
 }
 
-export default contact
+export default Home

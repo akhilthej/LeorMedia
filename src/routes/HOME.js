@@ -7,7 +7,6 @@ import leorlogos from '../assets/leorlogos.jpeg'
 import ClientSlider from '../components/ClientSlider';
 import ImageSlider from '../components/ImageSlider'
 
-import './Home.css';
 import {documentationicon,analysisicon,socialicon,financeicon,statergyicon,businessreporticon,FixedPrice,TimeManage,OntimeDelivery,HiringModel} from '../components/data/leordata'
 import { VscFeedback,VscLocation,VscCallIncoming,VscMail,VscHistory,VscLightbulbAutofix,VscArrowSmallRight, } from "react-icons/vsc";
 import {DigitalCreativeMedia,LeorMediaWatermark,EventManagement,Branding,Advertising} from '../components/data/leordata';

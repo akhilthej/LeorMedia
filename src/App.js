@@ -3,14 +3,14 @@ import {  Routes, Route, useLocation  } from 'react-router-dom';
 
 
 import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,
-        Home,Aboutus,Contact,WebDesigning, ATL, BTL,SEO,SMM,ContentMarketing,EmailMarketing,AllEvents,
+        Home,Aboutus,Contact,WebDesigning, ATL, BTL,AllEvents,
         } from './routes/Routesmap';
 
 
 import Notification from "./components/Tools/Notifications";        
 
-import DigitalCreativeMedia from "./components/PAGES/Digital Creative Media/digital-creative-media";
-import BrandingAgencyInVizag from "./components/PAGES/Branding Agency in Vizag/branding-agency-in-vizag";
+import DigitalCreativeMedia from "./routes/Digital Creative Media/DigitalCreativeMedia";
+import Branding from "./routes/Branding/Branding";
 
         
 export function App() {
@@ -39,13 +39,8 @@ export function App() {
 
           <Route path='/digital-creative-media' element={<DigitalCreativeMedia />} />
 
-          <Route path='/branding-agency-in-vizag' element={<BrandingAgencyInVizag />} />
+          <Route path='/branding-agency-in-vizag' element={<Branding />} />
           <Route path='/web-design-and-development-company' element={< WebDesigning/>} />
-          <Route path="/seo-services-company-vizag" element={<SEO/>} />
-          <Route path="/social-media-marketing-company" element={<SMM/>} />
-          <Route path="/content-marketing-services-vizag" element={<ContentMarketing/>} />
-          <Route path="/email-marketing" element={<EmailMarketing/>} />
-
 
           <Route path="/best-event-management-company-vizag" element={<AllEvents/>} />
 

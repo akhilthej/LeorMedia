@@ -1,5 +1,5 @@
 import React from 'react';
-import BTL from '../components/PAGES/Advertising/BTL.jsx';
+import BTL from './BTL.jsx';
 
 const BTLs = () => {
   return (

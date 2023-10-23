@@ -1,22 +1,31 @@
 import React from 'react';
-import coverimage from '../../../assets/About/aboutheader.webp';
+import coverimage from '../../assets/About/aboutheader.webp';
 
-import {LeormediaLogo, LeorMediaWatermark} from '../../data/leordata.jsx';
+import {LeormediaLogo, LeorMediaWatermark} from '../../components/data/leordata';
 
-import pavanlohit from '../../../assets/About/pavanlohit.webp';
-import akilthejreddy from '../../../assets/About/Founder.webp';
-import pavanchappa from '../../../assets/About/pavan.webp';
-import chaitanya from '../../../assets/About/chaitanya.webp';
-import riyavarma from '../../../assets/About/riyavarma.webp'
-import srikar from '../../../assets/About/srikar.webp';
-import saikiran from '../../../assets/About/saikiran.webp';
-import varuntej from '../../../assets/About/varun.webp';
+import pavanlohit from '../../assets/About/pavanlohit.webp';
+import akilthejreddy from '../../assets/About/Founder.webp';
+import pavanchappa from '../../assets/About/pavan.webp';
+import chaitanya from '../../assets/About/chaitanya.webp';
+import riyavarma from '../../assets/About/riyavarma.webp'
+import srikar from '../../assets/About/srikar.webp';
+import saikiran from '../../assets/About/saikiran.webp';
+import varuntej from '../../assets/About/varun.webp';
+
+import { Helmet } from 'react-helmet-async';
 
 
 
-const About = () => {
-    return (
-        <main>
+const Aboutus = () => {
+  return (
+    <main>
+      <Helmet>
+            <title>Leor Media - About</title>
+            <meta name="description" content='Know more about our Company and our team Cyber Space Digital.'/>
+            <link rel="canonical" href="/aboutus" />
+      </Helmet>
+    
+      
           {/*for drive visiblity (https://drive.google.com/uc?export=view&id=) */}
         <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             <div className="flex flex-col lg:flex-row justify-between gap-8">
@@ -70,7 +79,7 @@ const About = () => {
 <section className="boxed-about-home my-40">
   <div className="about-homeimages">
     <div className="column left-column">
-      <img src={require('../../../assets/About/about-event-services.jpeg')} alt='about-services'/>      
+      <img src={require('../../assets/About/about-event-services.jpeg')} alt='about-services'/>      
     </div>
     <div className="column right-column">
       <h3>WHAT WE OFFER</h3>
@@ -180,7 +189,9 @@ const About = () => {
   
 
         </main>
-    );
-};
 
-export default About
+
+  )
+}
+
+export default Aboutus

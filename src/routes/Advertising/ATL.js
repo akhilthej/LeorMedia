@@ -1,5 +1,5 @@
 import React from 'react';
-import ATL from '../components/PAGES/Advertising/ATL.jsx';
+import ATL from './ATL.jsx';
 
 const ATLs = () => {
   return (

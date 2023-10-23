@@ -1,5 +1,5 @@
 import React from 'react';
-import WebDesigning from '../components/PAGES/Web Designing/WebDesigning.jsx';
+import WebDesigning from './Web Designing/WebDesigning.jsx';
 
 const WebDesigningCompany = () => {
   return (

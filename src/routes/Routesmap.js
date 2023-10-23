@@ -2,11 +2,11 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from '../components/Footer/Footer';
 import Sitemap from '../components/Tools/sitemap';
 
-import PrivacyPolicy from '../components/PAGES/Aboutus/PrivacyPolicy';
-import TermsnConditions from '../components/PAGES/Aboutus/TermsnConditions';
-import ReturnPolicy from '../components/PAGES/Aboutus/ReturnsPolicy';
-import ShippingandDelivery from '../components/PAGES/Aboutus/ShippingandDelivery';
-import Disclaimer from '../components/PAGES/Aboutus/Disclaimer';
+import PrivacyPolicy from '../components/Documents/PrivacyPolicy';
+import TermsnConditions from '../components/Documents/TermsnConditions';
+import ReturnPolicy from '../components/Documents/ReturnsPolicy';
+import ShippingandDelivery from '../components/Documents/ShippingandDelivery';
+import Disclaimer from '../components/Documents/Disclaimer';
 
 import Error404 from '../components/Tools/Error404';
 
@@ -14,20 +14,16 @@ import Home from './HOME';
 
 
 
-import Aboutus from './Aboutus';
-import Contact from './Contact';
-import WebDesigning from './WebDesigning';
-import ATL from './ATL';
-import BTL from './BTL';
-import SEO from './seo';
-import SMM from './smm';
-import ContentMarketing from './contentmarketing';
-import EmailMarketing from './emailmarketing';
+import Aboutus from './About/Aboutus';
+import Contact from './Contact/Contact';
+import WebDesigning from './Digital Creative Media/WebDesigning';
+import ATL from './Advertising/ATL';
+import BTL from './Advertising/BTL';
 
-import AllEvents from './allevents'
+import AllEvents from './AllEvents/AllEvents'
 
 
 export {
-Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,Aboutus,ReturnPolicy,ShippingandDelivery,Contact,WebDesigning,ATL,BTL,SEO,SMM,ContentMarketing,EmailMarketing,AllEvents,
+Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,Aboutus,ReturnPolicy,ShippingandDelivery,Contact,WebDesigning,ATL,BTL,AllEvents,
 
 };
