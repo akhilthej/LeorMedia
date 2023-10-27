@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, 
+import { Navbar,NavbarMobile, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, 
          Home,Aboutus, Contact } from './routes/Routesmap';
           
          /* DigitalCreativeMedia */
@@ -86,7 +86,7 @@ export function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar /><NavbarMobile />
       <Routes location={location} key={location.pathname}>
         {routes.map((route, index) => (
           <Route key={index} path={route.path} element={route.element} />

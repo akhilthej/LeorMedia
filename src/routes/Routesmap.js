@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar/Navbar";
+import NavbarMobile from '../components/Navbar/NavbarMobile'
 import Footer from '../components/Footer/Footer';
 
 import Aboutus from './About/Aboutus';
@@ -38,7 +39,7 @@ import { AllEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,Fashi
 
 
 export {
-Navbar,Footer,
+Navbar,NavbarMobile,Footer,
 PrivacyPolicy,TermsnConditions,Disclaimer,ReturnPolicy,ShippingandDelivery,
 Error404,
 
