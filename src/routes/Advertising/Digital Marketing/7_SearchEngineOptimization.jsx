@@ -38,7 +38,7 @@ const seo = () => {
 <section className="boxed-about-home">
   <div className="about-homeimages">
     <div className="column left-column  ">
-      <img className="rounded-2xl shadow-md"src={require('./seo2.jpeg')} alt='websitedesign'/>      
+      <img className="rounded-2xl shadow-md"src="https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg" alt='websitedesign'/>      
     </div>
     <div className="column right-column flex flex-col justify-center">
       <h3>Our custom SEO packages include:</h3>

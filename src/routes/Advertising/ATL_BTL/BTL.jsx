@@ -1,7 +1,6 @@
 import React from 'react';
 import { VscVmRunning, VscRadioTower, VscGlobe, VscDeviceCameraVideo, VscDeviceCamera, VscLiveShare, VscBroadcast, VscMegaphone, } from "react-icons/vsc";
 
-import './advertising.css';
 
 const BTLs = () => {
 

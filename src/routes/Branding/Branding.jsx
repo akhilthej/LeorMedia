@@ -1,21 +1,51 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const branding_agency_in_vizag = () => {
   return (
     <main>
 
-    {/*Section -1*/}
-    <section>
-    <div className="flex items-center">
-        <div className="w-full bg-fill bg-orange-400 bg-no-repeat bg-center py-32" style={{ backgroundImage: `url(${require('./branding-cover.png')})` }}>
-            <div className="container mx-auto text-right text-white">
-                <h1 className="text-3xl mt-20 lg:text-4xl lg:mt-10 font-bold leading-9  pb-4  md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-yellow-400 to-yellow-400 ">WE CREATE BRANDS,</h1>
-                <p className="text-xl mb-12 text-yellow-100">which build a great difference and value</p>
-                <a href="/contact" className="bg-blue-500 text-white py-4 px-12 rounded-full hover:bg-blue-600">Reach us</a>
+       {/* Title Card */}
+       <section
+        className="py-28 sm:py-40"
+        style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="flex flex-col items-center md:flex-row justify-center">
+          <div className="md:w-1/2 md:pr-10"></div>
+          <div className="md:w-1/2 px-5">
+            <div className="text-right md:text-left">
+              {" "}
+              {/* Align titles to the right on mobile, left on larger screens */}
+              <h1 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+              WE CREATE BRANDS,
+              </h1>
+              <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
+              which build a great difference and value
+              </p>
+              <div className="mt-8 flex flex-wrap justify-center gap-4">
+                <Link to="/aboutus">
+                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+                    Learn More
+                  </a>
+                </Link>
+
+                <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
+                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+                    WhatsApp
+                  </a>
+                </a>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</section>
+      </section>
+
+ 
 
 
     <section className="py-10 bg-gray-200">
@@ -36,7 +66,7 @@ const branding_agency_in_vizag = () => {
 <section className="boxed-about-home">
   <div className="about-homeimages">
     <div className="column left-column">
-      <img className="rounded-2xl shadow-xl" src={require('./brand-development.jpeg')} alt='brand-about'/>      
+      <img className="rounded-2xl shadow-xl" src="https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg" alt='brand-about'/>      
     </div>
     <div className="column right-column">
       <h3>BRAND AUDIT</h3>
@@ -52,7 +82,7 @@ const branding_agency_in_vizag = () => {
      <section className="boxed-about-home">
   <div className="about-homeimages">
     <div className="column left-column">
-      <img className="rounded-2xl shadow-xl" src={require('./branding1.jpg')} alt='brand-about'/>      
+      <img className="rounded-2xl shadow-xl" src="https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg" alt='brand-about'/>      
     </div>
     <div className="column right-column">
       <h3>BRAND IDENTITY</h3>

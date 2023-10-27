@@ -7,16 +7,16 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const ClientSlider = () => {
 
-    const settings = {
-        autoplay: true,
-        autoplaySpeed: 1000, // Set the rotation speed (in milliseconds)
-        arrows: false, // Remove arrow navigation
-        dots: false, // Remove dot indicators
-        infinite: true,
-        speed: 500,
-        slidesToShow: 6, // Set the number of logos to show at once
-        slidesToScroll: 1,
-      };
+  const settings = {
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: true,
+    dots: false,
+    infinite: true,
+    speed: 400,
+    slidesToScroll: 1,
+    slidesToShow: window.innerWidth < 768 ? 3 : 6,
+  };
       const brandImages = [
         'https://drive.google.com/uc?export=view&id=1PFV708lGPRVqEblKT6xjKhKG3tK43KNs',
         'https://drive.google.com/uc?export=view&id=13YNsiRGpLOJAHbuaqUkwG8xoOsVsST_E',
@@ -38,27 +38,27 @@ const ClientSlider = () => {
         // Add more image URLs here
       ];
     
-  return (
-    <div>
-    {/*Our Clients*/}
-<div className="py-8 bg-gray-100">
-<h2 className='text-center font-bold text-2xl pb-10'>CLIENTS</h2>
-      <div className="container mx-auto">
-        <Slider {...settings}>
-          {brandImages.map((imageUrl, index) => (
-            <div key={index}>
-              <img
-                src={imageUrl}
-                alt={`Brand Logo ${index + 1}`}
-                className="mx-auto h-16 md:h-20 lg:h-24 xl:h-32"
-              />
-            </div>
-          ))}
-        </Slider>
-      </div>
-    </div>
-    </div>
-  )
-}
+      return (
+        <div className="py-10 bg-gray-100">
+          <p className='text-center font-bold pb-5'>OUR CLIENTS</p>
+          <div className="container mx-auto">
+            <Slider {...settings}>
+              {brandImages.map((imageUrl, index) => (
+                <div key={index}>
+                  <img
+                    src={imageUrl}
+                    alt={`Brand Logo ${index + 1}`}
+                    width={200} // Set the desired width
+                    height={80}  // Set the desired height
+                    className="mx-auto"
+                  />
+                </div>
+              ))}
+            </Slider>
+          </div>
+        </div>
+      );
+    };
+    
 
 export default ClientSlider

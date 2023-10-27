@@ -1,22 +1,48 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const emailmarketing = () => {
   return (
     <main>
-        <section>
-  <div className="website-cover">
-    <div className="webhero-content">
-      <h3>Content Marketing</h3>
-      <h1>Content Marketing</h1>
-      <p>Boost your business with creative content</p>
-      <div>
-        <button className='bg-orange-500  hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded mt-4 mx-2 items-center'>Contact Now</button>
-        <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded mt-4 mx-2 items-center">Know More</button>
-      </div>
-    </div>
-  </div>
-</section>
+ {/* Title Card */}
+ <section
+        className="py-28 sm:py-40"
+        style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="flex flex-col items-center md:flex-row justify-center">
+          <div className="md:w-1/2 md:pr-10"></div>
+          <div className="md:w-1/2 px-5">
+            <div className="text-right md:text-left">
+              {" "}
+              {/* Align titles to the right on mobile, left on larger screens */}
+              <h1 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+              Get in Touch
+              </h1>
+              <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
+              Need more information?
+              </p>
+              <div className="mt-8 flex flex-wrap justify-center gap-4">
+                <Link to="/aboutus">
+                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+                    Learn More
+                  </a>
+                </Link>
 
+                <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
+                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+                    WhatsApp
+                  </a>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 <section>
 <div className=" flex justify-center items-center">
@@ -38,7 +64,7 @@ const emailmarketing = () => {
 <section className="boxed-about-home">
   <div className="about-homeimages">
     <div className="column left-column  ">
-      <img className="rounded-2xl shadow-md"src={require('./seo2.jpeg')} alt='websitedesign'/>      
+      <img className="rounded-2xl shadow-md"src="https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg" alt='websitedesign'/>      
     </div>
     <div className="column right-column flex flex-col justify-center">
       <h3>Our Content Marketing services include:</h3>
