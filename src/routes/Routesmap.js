@@ -24,9 +24,9 @@ BrandStatergy,InfilmBranding,CorporateBranding,
 Labeling,BrandPosition,LogoDesigning } from './Branding/B_routes';
 
 /* Advertising */
-import {GoogleAds,FacebookAds,InstagramAds,InfluncerMarketing,
-    contentmarketing,emailmarketing,SearchEngineOptimization,
-    smm,ATL,BTL,Advertising} from './Advertising/A_routers';
+import {GoogleAds,FacebookAds,InstagramAds,InfluencerMarketing,
+    ContentMarketing,Emailmarketing,SearchEngineOptimization,
+    SMM,ATL,BTL,Advertising} from './Advertising/A_routers';
 
 /* Events */
 import { AllEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
@@ -40,21 +40,25 @@ import { AllEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,Fashi
 export {
 Navbar,Footer,
 PrivacyPolicy,TermsnConditions,Disclaimer,ReturnPolicy,ShippingandDelivery,
-Error404,Home,Aboutus,Contact,
+Error404,
 
+Home,Aboutus,Contact,
 
+/* DigitalCreativeMedia */
 LogoDesigning,GraphicDesigning,WebsiteDesigning,ContentCreation,VideoCreation,
-         WebDesigning,DigitalCreativeMedia,
+WebDesigning,DigitalCreativeMedia,
 
-
-         Branding,BrandAudit,BrandIdentity,
+/* Branding */
+Branding,BrandAudit,BrandIdentity,
 BrandStatergy,InfilmBranding,CorporateBranding,
 Labeling,BrandPosition,
 
-GoogleAds,FacebookAds,InstagramAds,InfluncerMarketing,
-    contentmarketing,emailmarketing,SearchEngineOptimization,
-    smm,ATL,BTL,Advertising,
+/* Advertising */
+GoogleAds,FacebookAds,InstagramAds,InfluencerMarketing,
+    ContentMarketing,Emailmarketing,SearchEngineOptimization,
+    SMM,ATL,BTL,Advertising,
 
+/* Events */
     AllEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
     DestinationWedding,Engagement,Mehandi,Pellikokuku,Pillikuturu,Receptions,Sangeeth,Wedding,
 

@@ -4,11 +4,11 @@ import Advertising from './Advertising'
 import GoogleAds from './Digital Marketing/1_GoogleAds'
 import FacebookAds from './Digital Marketing/2_FacebookAds'
 import InstagramAds from './Digital Marketing/3_InstagramAds'
-import InfluncerMarketing from './Digital Marketing/4_InfluncerMarketing'
-import contentmarketing from './Digital Marketing/5_contentmarketing'
-import emailmarketing from './Digital Marketing/6_emailmarketing'
+import InfluencerMarketing from './Digital Marketing/4_InfluncerMarketing'
+import ContentMarketing from './Digital Marketing/5_contentmarketing'
+import Emailmarketing from './Digital Marketing/6_emailmarketing'
 import SearchEngineOptimization from './Digital Marketing/7_SearchEngineOptimization'
-import smm from './Digital Marketing/8_smm'
+import SMM from './Digital Marketing/8_smm'
 
 /* ATL/BTL */
 import ATL from './ATL_BTL/ATL'
@@ -19,11 +19,11 @@ export {
 GoogleAds,
 FacebookAds,
 InstagramAds,
-InfluncerMarketing,
-contentmarketing,
-emailmarketing,
+InfluencerMarketing,
+ContentMarketing,
+Emailmarketing,
 SearchEngineOptimization,
-smm,
+SMM,
 ATL,BTL,Advertising
 
 };

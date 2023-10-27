@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
-
 
 import leorlogos from '../assets/leorlogos.jpeg'
 import ClientSlider from '../components/ClientSlider';
@@ -15,11 +13,7 @@ const HeroCode = () => {
   
   return (
 <main className='overflow-hidden'>
-<Helmet>
-                <title>Leor Media</title>
-                <meta name="Description" content='Events Management and Digital Marketing Company'/>
-                <link rel="canonical" href="/" />
-            </Helmet>
+
 
 {/*Section -1*/}
 
