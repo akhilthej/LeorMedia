@@ -189,7 +189,7 @@ const Navbar = () => {
                         >
                           <div className="flex items-center">
                             <div>
-                            Logo Designing
+                            Brand Audit
                               <p className="text-xs text-gray-700">
                                 Let's Build Your Business Online.
                               </p>
@@ -211,7 +211,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Graphic Designing
+                          Brand Identity
                           <p className="text-xs text-gray-700">
                             Expand Your Business on a Global Scale.
                           </p>
@@ -228,7 +228,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Website Designing
+                          Brand Statergy
                           <p className="text-xs text-gray-700">
                             Transform Your Vision into a Mobile App Reality.
                           </p>
@@ -245,7 +245,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Content Creation
+                          Infilm Branding
                           <p className="text-xs text-gray-700">
                             Unlock Creativity and Inspire with Stunning Graphic
                             Designs.
@@ -263,7 +263,59 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Video Creation
+                          Corporate Branding
+                          <p className="text-xs text-gray-700">
+                            Crafting Your Brand Identity for Success.
+                          </p>
+                        </a>
+                      </Link>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link to="/best-brand-services-company">
+                        <a
+                          className={classNames(
+                            active ? "bg-yellow-500 text-white" : "text-black",
+                            "block px-4 py-2 text-sm"
+                          )}
+                        >
+                          Labeling
+                          <p className="text-xs text-gray-700">
+                            Crafting Your Brand Identity for Success.
+                          </p>
+                        </a>
+                      </Link>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link to="/best-brand-services-company">
+                        <a
+                          className={classNames(
+                            active ? "bg-yellow-500 text-white" : "text-black",
+                            "block px-4 py-2 text-sm"
+                          )}
+                        >
+                          Brand Position
+                          <p className="text-xs text-gray-700">
+                            Crafting Your Brand Identity for Success.
+                          </p>
+                        </a>
+                      </Link>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link to="/best-brand-services-company">
+                        <a
+                          className={classNames(
+                            active ? "bg-yellow-500 text-white" : "text-black",
+                            "block px-4 py-2 text-sm"
+                          )}
+                        >
+                          Logo Designing
                           <p className="text-xs text-gray-700">
                             Crafting Your Brand Identity for Success.
                           </p>
@@ -316,7 +368,7 @@ const Navbar = () => {
                         >
                           <div className="flex items-center">
                             <div>
-                            Logo Designing
+                            Birthday
                               <p className="text-xs text-gray-700">
                                 Let's Build Your Business Online.
                               </p>
@@ -338,7 +390,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Graphic Designing
+                          Weddings
                           <p className="text-xs text-gray-700">
                             Expand Your Business on a Global Scale.
                           </p>
@@ -355,7 +407,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Website Designing
+                          Other Events
                           <p className="text-xs text-gray-700">
                             Transform Your Vision into a Mobile App Reality.
                           </p>
@@ -363,41 +415,7 @@ const Navbar = () => {
                       </Link>
                     )}
                   </Menu.Item>
-                  <Menu.Item>
-                    {({ active }) => (
-                      <Link to="/best-graphic-designing-company">
-                        <a
-                          className={classNames(
-                            active ? "bg-yellow-500 text-white" : "text-black",
-                            "block px-4 py-2 text-sm"
-                          )}
-                        >
-                          Content Creation
-                          <p className="text-xs text-gray-700">
-                            Unlock Creativity and Inspire with Stunning Graphic
-                            Designs.
-                          </p>
-                        </a>
-                      </Link>
-                    )}
-                  </Menu.Item>
-                  <Menu.Item>
-                    {({ active }) => (
-                      <Link to="/best-brand-services-company">
-                        <a
-                          className={classNames(
-                            active ? "bg-yellow-500 text-white" : "text-black",
-                            "block px-4 py-2 text-sm"
-                          )}
-                        >
-                          Video Creation
-                          <p className="text-xs text-gray-700">
-                            Crafting Your Brand Identity for Success.
-                          </p>
-                        </a>
-                      </Link>
-                    )}
-                  </Menu.Item>
+                
                 </Menu.Items>
               </Transition>
             </Menu>
@@ -443,7 +461,7 @@ const Navbar = () => {
                         >
                           <div className="flex items-center">
                             <div>
-                            Logo Designing
+                            ATL/BTL
                               <p className="text-xs text-gray-700">
                                 Let's Build Your Business Online.
                               </p>
@@ -465,7 +483,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Graphic Designing
+                          Google Ads
                           <p className="text-xs text-gray-700">
                             Expand Your Business on a Global Scale.
                           </p>
@@ -482,7 +500,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Website Designing
+                          Facebook Ads
                           <p className="text-xs text-gray-700">
                             Transform Your Vision into a Mobile App Reality.
                           </p>
@@ -499,7 +517,7 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Content Creation
+                          Instagram Ads
                           <p className="text-xs text-gray-700">
                             Unlock Creativity and Inspire with Stunning Graphic
                             Designs.
@@ -517,7 +535,75 @@ const Navbar = () => {
                             "block px-4 py-2 text-sm"
                           )}
                         >
-                          Video Creation
+                          Influncer Marketing
+                          <p className="text-xs text-gray-700">
+                            Crafting Your Brand Identity for Success.
+                          </p>
+                        </a>
+                      </Link>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link to="/best-brand-services-company">
+                        <a
+                          className={classNames(
+                            active ? "bg-yellow-500 text-white" : "text-black",
+                            "block px-4 py-2 text-sm"
+                          )}
+                        >
+                          Content Marketing
+                          <p className="text-xs text-gray-700">
+                            Crafting Your Brand Identity for Success.
+                          </p>
+                        </a>
+                      </Link>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link to="/best-brand-services-company">
+                        <a
+                          className={classNames(
+                            active ? "bg-yellow-500 text-white" : "text-black",
+                            "block px-4 py-2 text-sm"
+                          )}
+                        >
+                          Email Marketing
+                          <p className="text-xs text-gray-700">
+                            Crafting Your Brand Identity for Success.
+                          </p>
+                        </a>
+                      </Link>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link to="/best-brand-services-company">
+                        <a
+                          className={classNames(
+                            active ? "bg-yellow-500 text-white" : "text-black",
+                            "block px-4 py-2 text-sm"
+                          )}
+                        >
+                          Search Engine Optimization
+                          <p className="text-xs text-gray-700">
+                            Crafting Your Brand Identity for Success.
+                          </p>
+                        </a>
+                      </Link>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link to="/best-brand-services-company">
+                        <a
+                          className={classNames(
+                            active ? "bg-yellow-500 text-white" : "text-black",
+                            "block px-4 py-2 text-sm"
+                          )}
+                        >
+                          Socail Media Management
                           <p className="text-xs text-gray-700">
                             Crafting Your Brand Identity for Success.
                           </p>
@@ -553,7 +639,7 @@ const Navbar = () => {
                   leaveTo="transform opacity-0 scale-95"
                 >
                   <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-gray-300 ring-1 ring-black ring-opacity-5 divide-y divide-gray-400 focus:outline-none z-50">
-                    
+                    <div className="block lg:hidden">
                       <Menu.Item>
                         {({ active }) => (
                           <Link to="/digital-creative-media">
@@ -628,7 +714,7 @@ const Navbar = () => {
                    
                     
 
-                    <div className="py-1">
+                    
 
                     <Menu.Item>
                         {({ active }) => (
@@ -645,8 +731,9 @@ const Navbar = () => {
                             </a>
                           </Link>
                         )}
-                      </Menu.Item>
+                      </Menu.Item></div>
 
+                      
                       <Menu.Item>
                       {({ active }) => (
                         <Link to="/blogs">
@@ -697,7 +784,6 @@ const Navbar = () => {
                           </Link>
                         )}
                       </Menu.Item>
-                    </div>
                   </Menu.Items>
                 </Transition>
               </Menu>

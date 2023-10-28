@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import NavbarLogo from "./csdv2Logonavbar.svg";
 import { Link } from "react-router-dom";
 
+import { FaInstagram, FaFacebook } from 'react-icons/fa';
+
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -51,26 +53,88 @@ const HamburgerMenu = () => {
             src={NavbarLogo}
             alt="csd_logo"/></Link>
           
-          <div className="flex flex-col mt-6">
-          <Link to='/aboutus'><a className="text-2xl my-2" onClick={closeMenu}>
-              About
-            </a></Link>
-            <Link to='/contactus'><a className="text-2xl my-2" onClick={closeMenu}>
-              Contact Us
-            </a></Link>
-            <Link to='/services'><a className="text-2xl my-2" onClick={closeMenu}>
-              Services
-            </a></Link>
-            <Link to='/clients'><a className="text-2xl my-2" onClick={closeMenu}>
-              Clients
-            </a></Link>
-            <Link to='/blogs'><a className="text-2xl my-2" onClick={closeMenu}>
-              Blogs
-            </a></Link>
-            <Link to='/reviews'><a className="text-2xl my-2" onClick={closeMenu}>
-              Reviews
-            </a></Link>
-          </div>
+          <div className="flex flex-col mt-6 text-center space-y-3">
+  <Link to="/aboutus">
+    <a className="text-2xl my-2" onClick={closeMenu}>
+      Events
+    </a>
+  </Link>
+  <hr />
+  <Link to="/aboutus">
+    <a className="text-2xl my-2" onClick={closeMenu}>
+      Digital Creative Media
+    </a>
+  </Link>
+  <hr />
+  <Link to="/aboutus">
+    <a className="text-2xl my-2" onClick={closeMenu}>
+      Branding
+    </a>
+  </Link>
+  <hr />
+  <Link to="/aboutus">
+    <a className="text-2xl my-2" onClick={closeMenu}>
+      Advertising
+    </a>
+  </Link>
+  <hr />
+  <Link to="/aboutus">
+    <a className="text-2xl my-2" onClick={closeMenu}>
+      About
+    </a>
+  </Link>
+  <hr />
+  <Link to="/contactus">
+    <a className="text-2xl my-2" onClick={closeMenu}>
+      Contact Us
+    </a>
+  </Link>
+  <hr />
+  <Link to="/services">
+    <a className="text-2xl my-2" onClick={closeMenu}>
+      Services
+    </a>
+  </Link>
+  <hr />
+  <Link to="/clients">
+    <a className="text-2xl my-2" onClick={closeMenu}>
+      Clients
+    </a>
+  </Link>
+  <hr />
+  <Link to="/blogs">
+    <a className="text-2xl my-2" onClick={closeMenu}>
+      Blogs
+    </a>
+  </Link>
+  <hr />
+  <Link to="/reviews">
+    <a className="text-2xl my-2" onClick={closeMenu}>
+      Reviews
+    </a>
+  </Link>
+</div>
+
+<p className="text-sm mb-2 mt-4">Follow Us On</p>
+<div className="flex justify-center ">
+  
+  <a
+    href="https://www.instagram.com/your_instagram_url"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-2xl mx-2"
+  >
+    <FaInstagram />
+  </a>
+  <a
+    href="https://www.facebook.com/your_facebook_url"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-2xl mx-2"
+  >
+    <FaFacebook />
+  </a>
+</div>
         </div>
       )}
     </div>
