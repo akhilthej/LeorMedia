@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.44084fbc.css",
-    "main.js": "/static/js/main.d4a3cae1.js",
+    "main.css": "/static/css/main.3449c259.css",
+    "main.js": "/static/js/main.31ffb87e.js",
     "static/media/about-home-image.png": "/static/media/about-home-image.d35e96f5fc94a0da7196.png",
     "static/media/footer_csd.png": "/static/media/footer_csd.61e2fe53b107cc1bc0ae.png",
     "static/media/LeorMediaWatermark.png": "/static/media/LeorMediaWatermark.1dd61ef8c0b2c6b7c166.png",
@@ -11,7 +11,7 @@
     "static/media/LeormediaLogo.png": "/static/media/LeormediaLogo.69078ffdcd335d85c54b.png",
     "static/media/about-event-services.jpeg": "/static/media/about-event-services.f86639953fd946549b2a.jpeg",
     "static/media/aboutheader.webp": "/static/media/aboutheader.aaf30919569b9f1ae48e.webp",
-    "static/media/csdv2Logonavbar.svg": "/static/media/csdv2Logonavbar.aacbca1041fb89790ce32de29523fe6a.svg",
+    "static/media/csdv2Logonavbar.svg": "/static/media/csdv2Logonavbar.b064462127bcec6da0e38a92660562e0.svg",
     "static/media/srikar.webp": "/static/media/srikar.5d1c58d938d0637de451.webp",
     "static/media/chaitanya.webp": "/static/media/chaitanya.b9fa93833d9c670fa1b5.webp",
     "static/media/saikiran.webp": "/static/media/saikiran.2552a4977383b6b41b16.webp",
@@ -29,17 +29,17 @@
     "static/media/WhatsApp.webp": "/static/media/WhatsApp.f3b54735f5be9f9103e0.webp",
     "static/media/Advertising.svg": "/static/media/Advertising.42233020f646b0d8b44ca8d7fa92ac57.svg",
     "static/media/OntimeDelivery.svg": "/static/media/OntimeDelivery.2d9b87e51310b6c48d381d9335011a5a.svg",
-    "static/media/leor_logo.svg": "/static/media/leor_logo.4295f26059ee03f6707228fa4638a48e.svg",
     "index.html": "/index.html",
+    "static/media/leor_logo.svg": "/static/media/leor_logo.4295f26059ee03f6707228fa4638a48e.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.44084fbc.css.map": "/static/css/main.44084fbc.css.map",
-    "main.d4a3cae1.js.map": "/static/js/main.d4a3cae1.js.map"
+    "main.3449c259.css.map": "/static/css/main.3449c259.css.map",
+    "main.31ffb87e.js.map": "/static/js/main.31ffb87e.js.map"
   },
   "entrypoints": [
-    "static/css/main.44084fbc.css",
-    "static/js/main.d4a3cae1.js"
+    "static/css/main.3449c259.css",
+    "static/js/main.31ffb87e.js"
   ]
 }
