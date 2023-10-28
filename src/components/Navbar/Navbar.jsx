@@ -10,7 +10,7 @@ function classNames(...classes) {
 
 const Navbar = () => {
   return (
-    <section class="rounded-2xl sticky top-0 z-50 bg-white/90 drop-shadow-lg hidden sm:block ">
+    <section class=" sticky top-0 z-50 bg-white/90 drop-shadow-lg hidden sm:block ">
       <div className=" sm:px-2 w-full h-17 flex justify-between items-center text-black ">
         <Link to="/">
           <img
@@ -533,12 +533,7 @@ const Navbar = () => {
             <li className="p-4 text-sm hidden lg:block font-medium antialiased rounded-md  px-4 py-2   text-black hover:bg-yellow-500  focus:outline-none">
               <Link to="/clients">Clients</Link>
             </li>
-            <li className="p-4 text-sm hidden lg:block font-medium antialiased rounded-md  px-4 py-2   text-black hover:bg-yellow-500  focus:outline-none">
-              <Link to="/aboutus">About us</Link>
-            </li>
-            <li className="p-4 text-sm hidden lg:block font-medium antialiased rounded-md  px-4 py-2   text-black hover:bg-yellow-500  focus:outline-none">
-              <Link to="/contactus">Contact us</Link>
-            </li>
+            
             <li className="p-4">
               <Menu as="div" className="relative inline-block text-left  ">
                 <div>
@@ -558,7 +553,7 @@ const Navbar = () => {
                   leaveTo="transform opacity-0 scale-95"
                 >
                   <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-gray-300 ring-1 ring-black ring-opacity-5 divide-y divide-gray-400 focus:outline-none z-50">
-                    <div className="py-1  lg:hidden ">
+                    
                       <Menu.Item>
                         {({ active }) => (
                           <Link to="/digital-creative-media">
@@ -576,7 +571,66 @@ const Navbar = () => {
                         )}
                       </Menu.Item>
 
+                      
                       <Menu.Item>
+                        {({ active }) => (
+                          <Link to="/clients">
+                            <a
+                              className={classNames(
+                                active
+                                  ? "bg-yellow-500 text-white"
+                                  : "text-black",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              Events
+                            </a>
+                          </Link>
+                        )}
+                      </Menu.Item>
+
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link to="/clients">
+                            <a
+                              className={classNames(
+                                active
+                                  ? "bg-yellow-500 text-white"
+                                  : "text-black",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              Branding
+                            </a>
+                          </Link>
+                        )}
+                      </Menu.Item>
+
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link to="/clients">
+                            <a
+                              className={classNames(
+                                active
+                                  ? "bg-yellow-500 text-white"
+                                  : "text-black",
+                                "block px-4 py-2 text-sm"
+                              )}
+                            >
+                              Advertising
+                            </a>
+                          </Link>
+                        )}
+                      </Menu.Item>
+
+
+
+                   
+                    
+
+                    <div className="py-1">
+
+                    <Menu.Item>
                         {({ active }) => (
                           <Link to="/clients">
                             <a
@@ -592,9 +646,8 @@ const Navbar = () => {
                           </Link>
                         )}
                       </Menu.Item>
-                    </div>
 
-                    <Menu.Item>
+                      <Menu.Item>
                       {({ active }) => (
                         <Link to="/blogs">
                           <a
@@ -610,24 +663,7 @@ const Navbar = () => {
                         </Link>
                       )}
                     </Menu.Item>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link to="/reviews">
-                          <a
-                            className={classNames(
-                              active
-                                ? "bg-yellow-500 text-white"
-                                : "text-black",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Reviews
-                          </a>
-                        </Link>
-                      )}
-                    </Menu.Item>
 
-                    <div className="py-1 lg:hidden ">
                       <Menu.Item>
                         {({ active }) => (
                           <Link to="/aboutus">
