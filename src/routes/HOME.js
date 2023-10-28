@@ -7,7 +7,7 @@ import ImageSlider from '../components/ImageSlider'
 
 import {documentationicon,analysisicon,socialicon,financeicon,statergyicon,businessreporticon,FixedPrice,TimeManage,OntimeDelivery,HiringModel} from '../components/data/leordata'
 import { VscFeedback,VscLocation,VscCallIncoming,VscMail,VscHistory,VscLightbulbAutofix,VscArrowSmallRight, } from "react-icons/vsc";
-import {DigitalCreativeMedia,LeorMediaWatermark,EventManagement,Branding,Advertising} from '../components/data/leordata';
+import {LeorMediaWatermark} from '../components/data/leordata';
 
 const HeroCode = () => {
   
@@ -24,23 +24,50 @@ const HeroCode = () => {
 <ClientSlider/>
 
 
+ {/*about */}
+ <section>
+          <section>
+            <div className="cursor-default container px-6 py-10 mx-auto">
+              <div className="lg:flex lg:items-center">
+                <div className="w-full space-y-12 lg:w-1/2 ">
+                  <div>
+                    <h1 className="text-3xl font-semibold text-black capitalize lg:text-4xl ">
+                    About us
+                    </h1>
+                    <div className="mt-2">
+                      <span className="inline-block w-40 h-1 rounded-full bg-yellow-500" />
+                      <span className="inline-block w-3 h-1 ml-1 rounded-full bg-yellow-500" />
+                      <span className="inline-block w-1 h-1 ml-1 rounded-full bg-yellow-500" />
+                    </div>
+                  </div>
+                  <div className="md:flex md:items-start md:-mx-4">
+                    
+                       
+                    <div className="mt-4 md:mx-4 md:mt-0">
+                      
+                      <p className="mt-3 text-black ">
+                      Leor Media is a successful on-going Event Management Company in Visakhapatnam founded and established in the year 2016. We are a team of professional event managers and experienced Wedding planners with 100+ happy customers. We provide the best event management services and manage all types of events like weddings, birthday parties, corporate events, audio launches, cultural nights, product launches and award nights. We are the top-rated wedding planners in Vizag and deliver all types of event management services if you have an event we are here to plan and create the best memories for you that can be cherished forever. On the whole we the team with smart and experienced members working on Events, Branding, and Advertising.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className=" lg:flex lg:items-center lg:w-1/2 lg:justify-center">
+                  <img
+                    className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] "
+                    src={require('../assets/home/about-home-image.png')}
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
 
-{/* Section -2 */}
-<section className="boxed-about-home">
-  <div className="about-homeimages">
-    <div className="column left-column">
-      <img src={require('../assets/home/about-home-image.png')} alt='about-home'/>      
-    </div>
-    <div className="column right-column">
-      <h3>About us</h3>
-      <p>Leor Media is a successful on-going Event Management Company in Visakhapatnam founded and established in the year 2016. We are a team of professional event managers and experienced Wedding planners with 100+ happy customers. We provide the best event management services and manage all types of events like weddings, birthday parties, corporate events, audio launches, cultural nights, product launches and award nights. We are the top-rated wedding planners in Vizag and deliver all types of event management services if you have an event we are here to plan and create the best memories for you that can be cherished forever. On the whole we the team with smart and experienced members working on Events, Branding, and Advertising.</p>
-       </div>
-  </div>
-</section>
 
 
 
-{/*Services -3*/}
+
+{/*Services*/}
     <section>
     <h2 className='text-center text-3xl font-bold pb-4'>Our Services</h2>
       {/*MainFeatures */}
@@ -58,13 +85,7 @@ const HeroCode = () => {
         
         
         <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-orange-500 group-hover:border group-hover:scale-90">
-          <img
-            src={DigitalCreativeMedia}
-            className="w-10"
-            width={512}
-            height={512}
-            alt="morefeatures"
-          />
+         
           <div className="space-y-2">
             <h5 className="text-xl text-black font-medium transition group-hover:text-white">
               Digital Creative Media
@@ -87,13 +108,7 @@ const HeroCode = () => {
 
       <div className="relative group  transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
         <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-orange-500 group-hover:border group-hover:scale-90">
-          <img
-            src={EventManagement}
-            className="w-10"
-            width={512}
-            height={512}
-            alt="morefeatures"
-          />
+          
           <div className="space-y-2">
             <h5 className="text-xl text-black font-medium transition group-hover:text-white">
               Event Management
@@ -116,13 +131,7 @@ const HeroCode = () => {
 
       <div className="relative group  transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
         <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-orange-500 group-hover:border group-hover:scale-90">
-          <img
-            src={Branding}
-            className="w-10"
-            width={512}
-            height={512}
-            alt="morefeatures"
-          />
+        
           <div className="space-y-2">
             <h5 className="text-xl text-black font-medium transition group-hover:text-white">
               Branding
@@ -145,13 +154,7 @@ const HeroCode = () => {
 
       <div className="relative group  transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
         <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-orange-500 group-hover:border group-hover:scale-90">
-          <img
-            src={Advertising}
-            className="w-10"
-            width={512}
-            height={512}
-            alt="morefeatures"
-          />
+         
           <div className="space-y-2">
             <h5 className="text-xl text-black font-medium transition group-hover:text-white">
               Advertising
@@ -178,7 +181,7 @@ const HeroCode = () => {
       </div>
     </section>
 
-{/*Section -4*/}
+{/*Best Wedding Planners in Vizag*/}
 <section className="flex flex-col items-center justify-center text-center my-10"> 
   <h3 className="text-4xl font-bold mb-4 mx-10 text-orange-600">Best Wedding Planners in Vizag</h3>
   <p className="text-gray-600 mx-6  lg:mx-96 text-xl">
@@ -213,26 +216,51 @@ const HeroCode = () => {
 </section>
 
 
-{/*Section -5*/}
-<section className="boxed-about-home">
-  <div className="about-homeimages">
-    <div className="column left-column">
-      <img src={require('../assets/home/about-home-image2.png')} alt='about-home'/>      
-    </div>
-    <div className="column right-column flex flex-col justify-center items-center">
-      <h3>Our achievement & success</h3>
-      <p>Business is the activity of making one living or making money by producing or buying and selling products. Simply put it is any activity or enterprise entered into for profit.</p>
-      <div className="flex justify-center">
-        <a href="/contact">
+
+ {/*Achivements */}
+ <section>
+          <section>
+            <div className="cursor-default container px-6 py-10 mx-auto">
+              <div className="lg:flex lg:items-center">
+                <div className="w-full space-y-12 lg:w-1/2 ">
+                  <div>
+                    <h1 className="text-3xl font-semibold text-black capitalize lg:text-4xl ">
+                    Our achievement & success
+                    </h1>
+                    <div className="mt-2">
+                      <span className="inline-block w-40 h-1 rounded-full bg-orange-500" />
+                      <span className="inline-block w-3 h-1 ml-1 rounded-full bg-orange-600" />
+                      <span className="inline-block w-1 h-1 ml-1 rounded-full bg-orange-700" />
+                    </div>
+                  </div>
+                  <div className="md:flex md:items-start md:-mx-4">
+                    
+                       
+                    <div className="mt-4 md:mx-4 md:mt-0">
+                      
+                      <p className="mt-3 text-black ">
+                      Business is the activity of making one living or making money by producing or buying and selling products. Simply put it is any activity or enterprise entered into for profit.
+                      </p>
+                      <a href="/contact">
     <button  className="bg-orange-500 flex hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded mt-4 items-center">
         Contact us
         <VscArrowSmallRight size={32} className="ml-1" />
     </button></a>
-</div>
+                    </div>
+                  </div>
+                </div>
+                <div className=" lg:flex lg:items-center lg:w-1/2 lg:justify-center">
+                  <img
+                    className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] "
+                    src={require('../assets/home/about-home-image2.png')}
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
 
-    </div>
-  </div>
-</section>
 
 
 
