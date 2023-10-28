@@ -17,7 +17,7 @@ import Home from './HOME';
 
 /* DigitalCreativeMedia */
 import { DigitalCreativeMedia,GraphicDesigning,WebsiteDesigning,ContentCreation,
-         VideoCreation,WebDesigning} from "./Digital Creative Media/D_Routes";
+         VideoCreation} from "./Digital Creative Media/D_Routes";
 
 /* Branding */
 import {Branding,BrandAudit,BrandIdentity,
@@ -46,8 +46,7 @@ Error404,
 Home,Aboutus,Contact,
 
 /* DigitalCreativeMedia */
-LogoDesigning,GraphicDesigning,WebsiteDesigning,ContentCreation,VideoCreation,
-WebDesigning,DigitalCreativeMedia,
+LogoDesigning,GraphicDesigning,WebsiteDesigning,ContentCreation,VideoCreation,DigitalCreativeMedia,
 
 /* Branding */
 Branding,BrandAudit,BrandIdentity,

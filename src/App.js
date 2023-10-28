@@ -4,8 +4,7 @@ import { Navbar,NavbarMobile, Footer, PrivacyPolicy, TermsnConditions, Disclaime
          Home,Aboutus, Contact } from './routes/Routesmap';
           
          /* DigitalCreativeMedia */
-import { LogoDesigning,GraphicDesigning,WebsiteDesigning,ContentCreation,VideoCreation,
-WebDesigning,DigitalCreativeMedia, 
+import { LogoDesigning,GraphicDesigning,WebsiteDesigning,ContentCreation,VideoCreation,DigitalCreativeMedia, 
 
  /* Branding */
 Branding,BrandAudit,BrandIdentity,
@@ -28,22 +27,21 @@ const routes = [
   { path: '/*', element: <Error404 /> },
   { path: '/aboutus', element: <Aboutus /> },
   { path: '/contact', element: <Contact /> },
-
-
   { path: '/privacypolicy', element: <PrivacyPolicy /> },
   { path: '/terms&conditions', element: <TermsnConditions /> },
   { path: '/returnpolicy', element: <ReturnPolicy /> },
   { path: '/shipping&delivery', element: <ShippingandDelivery /> },
   { path: '/disclaimer', element: <Disclaimer /> },
 
+  /* DigitalCreativeMedia */
 { path: '/logo-designing', element: <LogoDesigning /> },
 { path: '/graphic-designing', element: <GraphicDesigning /> },
 { path: '/website-designing', element: <WebsiteDesigning /> },
 { path: '/content-creation', element: <ContentCreation /> },
 { path: '/video-creation', element: <VideoCreation /> },
-
-{ path: '/web-design-and-development-company', element: <WebDesigning /> },
 { path: '/digital-creative-media', element: <DigitalCreativeMedia /> },
+
+ /* Branding */
 { path: '/branding-agency-in-vizag', element: <Branding /> },
 { path: '/brand-audit', element: <BrandAudit /> },
 { path: '/brand-identity', element: <BrandIdentity /> },
@@ -52,6 +50,8 @@ const routes = [
 { path: '/corporate-branding', element: <CorporateBranding /> },
 { path: '/labeling', element: <Labeling /> },
 { path: '/brand-position', element: <BrandPosition /> },
+
+/* Advertising */
 { path: '/advertising-company-in-vizag', element: <Advertising /> },
 { path: '/google-ads', element: <GoogleAds /> },
 { path: '/facebook-ads', element: <FacebookAds /> },
@@ -63,6 +63,8 @@ const routes = [
 { path: '/social-media-marketing', element: <SMM /> },
 { path: '/atl-advertising', element: <ATL /> },
 { path: '/btl-advertising', element: <BTL /> },
+
+/* Events */
 { path: '/best-event-management-company-vizag', element: <AllEvents /> },
 { path: '/audio-launches', element: <AudioLaunches /> },
 { path: '/award-nights', element: <AwardNights /> },
