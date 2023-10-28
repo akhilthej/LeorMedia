@@ -40,7 +40,7 @@ const HeroCode = () => {
 
 
 
-{/*Section -3*/}
+{/*Services -3*/}
     <section>
     <h2 className='text-center text-3xl font-bold pb-4'>Our Services</h2>
       {/*MainFeatures */}
