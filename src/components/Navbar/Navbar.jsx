@@ -23,7 +23,7 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left ">
               <div>
                 <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md  px-4 py-2  text-sm text-black hover:bg-yellow-500  focus:outline-none  ">
-                  <Link to="/digital-creative-media">Digital Media Creative</Link>
+                  <Link to="/digital-creative-media-in-vizag">Digital Media Creative</Link>
                   <svg
                     xmlns="https://www.w3.org/2000/svg"
                     fill="none"
@@ -151,7 +151,7 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left ">
               <div>
                 <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md  px-4 py-2  text-sm text-black hover:bg-yellow-500  focus:outline-none  ">
-                  <Link to="/digital-creative-media">Branding</Link>
+                  <Link to="/branding-agency-in-vizag">Branding</Link>
                   <svg
                     xmlns="https://www.w3.org/2000/svg"
                     fill="none"
@@ -330,7 +330,7 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left ">
               <div>
                 <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md  px-4 py-2  text-sm text-black hover:bg-yellow-500  focus:outline-none  ">
-                  <Link to="/digital-creative-media">Events</Link>
+                  <Link to="/best-event-management-company-vizag">Events</Link>
                   <svg
                     xmlns="https://www.w3.org/2000/svg"
                     fill="none"
@@ -423,7 +423,7 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left ">
               <div>
                 <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md  px-4 py-2  text-sm text-black hover:bg-yellow-500  focus:outline-none  ">
-                  <Link to="/digital-creative-media">Advertising</Link>
+                  <Link to="/advertising-company-in-vizag">Advertising</Link>
                   <svg
                     xmlns="https://www.w3.org/2000/svg"
                     fill="none"
@@ -642,7 +642,7 @@ const Navbar = () => {
                     <div className="block lg:hidden">
                       <Menu.Item>
                         {({ active }) => (
-                          <Link to="/digital-creative-media">
+                          <Link to="/digital-creative-media-in-vizag">
                             <a
                               className={classNames(
                                 active
@@ -660,7 +660,7 @@ const Navbar = () => {
                       
                       <Menu.Item>
                         {({ active }) => (
-                          <Link to="/clients">
+                          <Link to="/best-event-management-company-vizag">
                             <a
                               className={classNames(
                                 active
@@ -677,7 +677,7 @@ const Navbar = () => {
 
                       <Menu.Item>
                         {({ active }) => (
-                          <Link to="/clients">
+                          <Link to="/branding-agency-in-vizag">
                             <a
                               className={classNames(
                                 active
@@ -694,7 +694,7 @@ const Navbar = () => {
 
                       <Menu.Item>
                         {({ active }) => (
-                          <Link to="/clients">
+                          <Link to="/advertising-company-in-vizag">
                             <a
                               className={classNames(
                                 active
@@ -770,7 +770,7 @@ const Navbar = () => {
 
                       <Menu.Item>
                         {({ active }) => (
-                          <Link to="/contactus">
+                          <Link to="/contact">
                             <a
                               className={classNames(
                                 active
