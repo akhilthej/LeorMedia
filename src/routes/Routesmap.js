@@ -1,5 +1,4 @@
 import Navbar from "../components/Navbar/Navbar";
-import NavbarMobile from '../components/Navbar/NavbarMobile'
 import Footer from '../components/Footer/Footer';
 
 import Aboutus from './About/Aboutus';
@@ -30,7 +29,7 @@ import {GoogleAds,FacebookAds,InstagramAds,InfluencerMarketing,
     SMM,ATL,BTL,Advertising} from './Advertising/A_routers';
 
 /* Events */
-import { AllEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
+import { AllEvents,OtherEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
           DestinationWedding,Engagement,Mehandi,Pellikokuku,Pillikuturu,Receptions,Sangeeth,Wedding,
           Birthdays} from './AllEvents/Events_routes'
 
@@ -40,7 +39,7 @@ import { AllEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,Fashi
 
 
 export {
-Navbar,NavbarMobile,Footer,
+Navbar,Footer,
 PrivacyPolicy,TermsnConditions,Disclaimer,ReturnPolicy,ShippingandDelivery,
 Error404,
 
@@ -60,7 +59,7 @@ GoogleAds,FacebookAds,InstagramAds,InfluencerMarketing,
     SMM,ATL,BTL,Advertising,
 
 /* Events */
-    AllEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
+    AllEvents,OtherEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
     DestinationWedding,Engagement,Mehandi,Pellikokuku,Pillikuturu,Receptions,Sangeeth,Wedding,
     Birthdays,
 

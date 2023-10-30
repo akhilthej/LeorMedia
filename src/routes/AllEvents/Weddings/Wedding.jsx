@@ -33,7 +33,7 @@ const Wedding = () => {
               {" "}
               {/* Align titles to the right on mobile, left on larger screens */}
               <h1 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
-                Get in Touch
+                Weddings
               </h1>
               <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
                 Need more information?

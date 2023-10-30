@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { Navbar,NavbarMobile, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, 
+import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, 
          Home,Aboutus, Contact } from './routes/Routesmap';
           
          /* DigitalCreativeMedia */
@@ -17,7 +17,7 @@ ContentMarketing,Emailmarketing,SearchEngineOptimization,
     SMM,ATL,BTL,Advertising,
 
 /* Events */
-    AllEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
+    AllEvents,OtherEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
     DestinationWedding,Engagement,Mehandi,Pellikokuku,Pillikuturu,Receptions,Sangeeth,Wedding,
     Birthdays, } from './routes/Routesmap';
 
@@ -83,6 +83,7 @@ const routes = [
 { path: '/best-wedding-event-management-company-vizag', element: <AllEvents /> },
 { path: '/best-event-management-services-vizag', element: <AllEvents /> },
 { path: '/event-management-company-vizag', element: <AllEvents /> },
+{ path: '/commercial-events-in-vizag', element: <OtherEvents /> },
 { path: '/audio-launch-event-planners-in-vizag', element: <AudioLaunches /> },
 { path: '/award-nights-event-planners-in-vizag', element: <AwardNights /> },
 { path: '/corporate-events-in-vizag', element: <CorporateEvents /> },
@@ -138,7 +139,7 @@ export function App() {
 
   return (
     <>
-      <Navbar /><NavbarMobile />
+      <Navbar />
       <Routes location={location} key={location.pathname}>
         {routes.map((route, index) => (
           <Route key={index} path={route.path} element={route.element} />

@@ -1,5 +1,6 @@
 import AllEvents from './AllEvents';
 /*Other Events*/
+import OtherEvents from './Other Events/OtherEvents'
 import AudioLaunches from './Other Events/AudioLaunches';
 import AwardNights from './Other Events/AwardNights'
 import CorporateEvents from './Other Events/CorporateEvents'
@@ -22,7 +23,7 @@ import Wedding from './Weddings/Wedding';
 export {
     AllEvents,
 
-    AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
+    OtherEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
 
     DestinationWedding,Engagement,Mehandi,Pellikokuku,Pillikuturu,Receptions,Sangeeth,Wedding,
 

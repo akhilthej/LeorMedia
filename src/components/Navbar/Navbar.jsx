@@ -10,7 +10,7 @@ function classNames(...classes) {
 
 const Navbar = () => {
   return (
-    <section class=" sticky top-0 z-50 bg-white/90 drop-shadow-lg hidden sm:block ">
+    <section class=" sticky top-0 z-50 bg-white/90 drop-shadow-lg  ">
       <div className=" sm:px-2 w-full h-17 flex justify-between items-center text-black ">
         <Link to="/">
           <img
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-gray-300 ring-1 ring-black ring-opacity-5 divide-y divide-gray-400 focus:outline-none z-50">
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-web-developement-company">
+                      <Link to="/logo-designing-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -74,7 +74,7 @@ const Navbar = () => {
 
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-digital-marketing-company">
+                      <Link to="/graphic-designing-in-vizag">
                         <a
                           className={classNames(
                             active
@@ -93,7 +93,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-mobile-app-development-company">
+                      <Link to="/web-design-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -110,7 +110,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-graphic-designing-company">
+                      <Link to="/content-creation-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -128,7 +128,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-brand-services-company">
+                      <Link to="/video-creation-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -180,7 +180,7 @@ const Navbar = () => {
                 <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-gray-300 ring-1 ring-black ring-opacity-5 divide-y divide-gray-400 focus:outline-none z-50">
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-web-developement-company">
+                      <Link to="/brand-audit-services-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -202,7 +202,7 @@ const Navbar = () => {
 
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-digital-marketing-company">
+                      <Link to="/brand-identity-in-vizag">
                         <a
                           className={classNames(
                             active
@@ -221,7 +221,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-mobile-app-development-company">
+                      <Link to="/brand-strategy-services">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -238,7 +238,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-graphic-designing-company">
+                      <Link to="/infilm-branding-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -256,7 +256,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-brand-services-company">
+                      <Link to="/corporate-branding-company-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -274,7 +274,7 @@ const Navbar = () => {
 
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-brand-services-company">
+                      <Link to="/labeling-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -291,7 +291,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-brand-services-company">
+                      <Link to="/brand-position-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -308,7 +308,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-brand-services-company">
+                      <Link to="/logo-designing-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -359,7 +359,7 @@ const Navbar = () => {
                 <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-gray-300 ring-1 ring-black ring-opacity-5 divide-y divide-gray-400 focus:outline-none z-50">
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-web-developement-company">
+                      <Link to="/birthday-event-organisers-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -381,7 +381,7 @@ const Navbar = () => {
 
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-digital-marketing-company">
+                      <Link to="/wedding-planners-in-vizag">
                         <a
                           className={classNames(
                             active
@@ -400,7 +400,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-mobile-app-development-company">
+                      <Link to="/commercial-events-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -452,7 +452,7 @@ const Navbar = () => {
                 <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-gray-300 ring-1 ring-black ring-opacity-5 divide-y divide-gray-400 focus:outline-none z-50">
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-web-developement-company">
+                      <Link to="/atl-advertising-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -474,7 +474,7 @@ const Navbar = () => {
 
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-digital-marketing-company">
+                      <Link to="/google-ads-services-in-vizag">
                         <a
                           className={classNames(
                             active
@@ -493,7 +493,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-mobile-app-development-company">
+                      <Link to="/facebook-ads-services-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -510,7 +510,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-graphic-designing-company">
+                      <Link to="/instagram-ads-services-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -528,7 +528,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-brand-services-company">
+                      <Link to="/influencer-marketing-services-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -545,7 +545,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-brand-services-company">
+                      <Link to="/content-marketing-company-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -562,7 +562,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-brand-services-company">
+                      <Link to="/email-marketing-services-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -579,7 +579,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-brand-services-company">
+                      <Link to="/search-engine-optimization">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
@@ -596,7 +596,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to="/best-brand-services-company">
+                      <Link to="/social-media-marketing-services-in-vizag">
                         <a
                           className={classNames(
                             active ? "bg-yellow-500 text-white" : "text-black",
