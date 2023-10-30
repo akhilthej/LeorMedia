@@ -18,7 +18,8 @@ ContentMarketing,Emailmarketing,SearchEngineOptimization,
 
 /* Events */
     AllEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
-    DestinationWedding,Engagement,Mehandi,Pellikokuku,Pillikuturu,Receptions,Sangeeth,Wedding, } from './routes/Routesmap';
+    DestinationWedding,Engagement,Mehandi,Pellikokuku,Pillikuturu,Receptions,Sangeeth,Wedding,
+    Birthdays, } from './routes/Routesmap';
 
 
 
@@ -105,9 +106,9 @@ const routes = [
 { path: '/pellikokuku-event-planners-in-vizag', element: <Pellikokuku /> },
 { path: '/groom-event-planners-in-vizag', element: <Pellikokuku /> },
 { path: '/best-pellikoduku-event-decors-in-vizag', element: <Pellikokuku /> },
-{ path: '/pellikuthuru-event-planners-in-vizag', element: <Pellikuturu /> },
-{ path: '/bride-event-planners-in-vizag', element: <Pellikuturu /> },
-{ path: '/best-pellikuthuru-event-decors-in-vizag', element: <Pellikuturu /> },
+{ path: '/pellikuthuru-event-planners-in-vizag', element: <Pillikuturu /> },
+{ path: '/bride-event-planners-in-vizag', element: <Pillikuturu /> },
+{ path: '/best-pellikuthuru-event-decors-in-vizag', element: <Pillikuturu /> },
 { path: '/best-reception-event-planners-in-vizag', element: <Receptions /> },
 { path: '/best-reception-event-decors-in-vizag', element: <Receptions /> },
 { path: '/reception-event-management-company-in-vizag', element: <Receptions /> },

@@ -8,7 +8,7 @@ import FashionShow from './Other Events/FashionShow'
 import ProductLaunches from './Other Events/ProductLaunches'
 
 /*Birthday Events*/
-
+import Birthdays from './Birthdays/Birthdays'
 /*Weddings Events*/
 import DestinationWedding from './Weddings/DestinationWedding';
 import Engagement from './Weddings/Engagement';
@@ -24,5 +24,7 @@ export {
 
     AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
 
-    DestinationWedding,Engagement,Mehandi,Pellikokuku,Pillikuturu,Receptions,Sangeeth,Wedding
+    DestinationWedding,Engagement,Mehandi,Pellikokuku,Pillikuturu,Receptions,Sangeeth,Wedding,
+
+    Birthdays,
 };

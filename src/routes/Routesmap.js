@@ -31,7 +31,8 @@ import {GoogleAds,FacebookAds,InstagramAds,InfluencerMarketing,
 
 /* Events */
 import { AllEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
-          DestinationWedding,Engagement,Mehandi,Pellikokuku,Pillikuturu,Receptions,Sangeeth,Wedding} from './AllEvents/Events_routes'
+          DestinationWedding,Engagement,Mehandi,Pellikokuku,Pillikuturu,Receptions,Sangeeth,Wedding,
+          Birthdays} from './AllEvents/Events_routes'
 
 
 
@@ -61,6 +62,7 @@ GoogleAds,FacebookAds,InstagramAds,InfluencerMarketing,
 /* Events */
     AllEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
     DestinationWedding,Engagement,Mehandi,Pellikokuku,Pillikuturu,Receptions,Sangeeth,Wedding,
+    Birthdays,
 
 
 };

@@ -54,25 +54,25 @@ const HamburgerMenu = () => {
             alt="csd_logo"/></Link>
           
           <div className="flex flex-col mt-6 text-center space-y-3">
-  <Link to="/aboutus">
+  <Link to="/best-event-management-company-vizag">
     <a className="text-2xl my-2" onClick={closeMenu}>
       Events
     </a>
   </Link>
   <hr />
-  <Link to="/aboutus">
+  <Link to="/digital-creative-media-in-vizag">
     <a className="text-2xl my-2" onClick={closeMenu}>
       Digital Creative Media
     </a>
   </Link>
   <hr />
-  <Link to="/aboutus">
+  <Link to="/branding-agency-in-vizag">
     <a className="text-2xl my-2" onClick={closeMenu}>
       Branding
     </a>
   </Link>
   <hr />
-  <Link to="/aboutus">
+  <Link to="/advertising-company-in-vizag">
     <a className="text-2xl my-2" onClick={closeMenu}>
       Advertising
     </a>
@@ -84,15 +84,9 @@ const HamburgerMenu = () => {
     </a>
   </Link>
   <hr />
-  <Link to="/contactus">
+  <Link to="/contact">
     <a className="text-2xl my-2" onClick={closeMenu}>
       Contact Us
-    </a>
-  </Link>
-  <hr />
-  <Link to="/services">
-    <a className="text-2xl my-2" onClick={closeMenu}>
-      Services
     </a>
   </Link>
   <hr />
