@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { TeluguMoviesData } from '../EventsData';
 
 const Birthdays = () => {
   return (
@@ -46,11 +47,28 @@ const Birthdays = () => {
      </section>
      
 
-     <div>
-      <a data-pin-do="embedPin" data-pin-width="large" href="https://www.pinterest.com/pin/..."></a>
-      <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+     <div className="my-5">
+      <h1 className="text-center pb-2 cursor-default text-2xl md:text-4xl fade-in-down font-bold  tracking-tight">
+        Event
+      </h1>
+      <div className="grid grid-cols-3 lg:grid-cols-6 gap-4 pl-5 pr-5">
+        {TeluguMoviesData.map((movie) => (
+          <div key={movie.id} className="relative">
+              <div className="thumbnail-container">
+                <img src={movie.thumbnail} alt={movie.name} />
+                <div className="overlay"></div> {/* Black color overlay */}
+              </div>
+
+<div className='text-black'> 
+            <h1 className=" text-center">{movie.name}</h1>
+            <h3 className=" text-center text-sm">{movie.director}</h3>
+            <h2 className=" text-center text-xs">{movie.gener}</h2>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
-    
+
      </div>
   )
 }
