@@ -33,27 +33,123 @@ import {
   const digitalmarketingservices = [
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'Business Websites',
-      slug: '/best-website-for-business',
+      title: 'Logo Design',
+      slug: '/logo-design',
       buttonText: 'Get Quotation',
     },
     
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'E-commerce',
-      slug: '/ecommerce-website-india',
+      title: 'Brand Identity Design',
+      slug: '/brand-identity-design',
       buttonText: 'Get Quotation',
     },
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'Web Revamp',
-      slug: '/website-rebuild',
+      title: 'Print Design',
+      slug: '/print-design',
       buttonText: 'Get Quotation',
     },
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'CRM/ERP Panels',
-      slug: '/control-center-for-business',
+      title: 'Web Design',
+      slug: '/web-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'User Interface Design',
+      slug: '/user-interface-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'User Experience Design',
+      slug: '/user-experience-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Packaging Design',
+      slug: '/packaging-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Poster and Flyer Design',
+      slug: '/poster-and-flyer-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Brochure Design',
+      slug: '/brochure-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Banner Design',
+      slug: '/banner-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Illustation Services',
+      slug: '/illustration-services',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Infographic Design',
+      slug: '/infographic-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Social Media Graphics',
+      slug: '/social-media-graphics',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'eBook and Print Book Cover Design',
+      slug: '/ebook-and-print-book-cover-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'TShirt and Merchandise Design',
+      slug: '/tshirt-and-merchandise-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Signage and Billboard Design',
+      slug: '/signage-and-billboard-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Business Card and Stationery Design',
+      slug: '/business-card-and-stationery-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Rendering and Visualization',
+      slug: '/rendering-and-visualization',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Motion Graphics and Animation',
+      slug: '/motion-graphics-and-animation',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Photo Editing and Retouching',
+      slug: '/phot-editing-and-retouching',
       buttonText: 'Get Quotation',
     },
   ];

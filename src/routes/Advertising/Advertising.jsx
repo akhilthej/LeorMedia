@@ -33,27 +33,63 @@ import {
   const digitalmarketingservices = [
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'Business Websites',
-      slug: '/best-website-for-business',
+      title: 'Display Advertising',
+      slug: '/display-advertising',
       buttonText: 'Get Quotation',
     },
     
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'E-commerce',
-      slug: '/ecommerce-website-india',
+      title: 'Video Advertising',
+      slug: '/video-advertising',
       buttonText: 'Get Quotation',
     },
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'Web Revamp',
-      slug: '/website-rebuild',
+      title: 'Native Advertising',
+      slug: '/native-advertising',
       buttonText: 'Get Quotation',
     },
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'CRM/ERP Panels',
-      slug: '/control-center-for-business',
+      title: 'Programmatic Advertising',
+      slug: '/programmatic-advertising',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Outdoor Advertising',
+      slug: '/outdoor-advertising',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Print Advertising',
+      slug: '/print-advertising',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Radio Advertising',
+      slug: '/Radio-advertising',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'TV Advertising',
+      slug: '/tv-advertising',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'In-Game Advertising',
+      slug: '/in-game-advertising',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Theatre Advertising',
+      slug: '/theatre-advertising',
       buttonText: 'Get Quotation',
     },
   ];

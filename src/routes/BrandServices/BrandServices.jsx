@@ -33,27 +33,81 @@ import {
   const digitalmarketingservices = [
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'Business Websites',
-      slug: '/best-website-for-business',
+      title: 'Brand Identity Design Exclusive',
+      slug: '/brand-identity-design-exclusive',
       buttonText: 'Get Quotation',
     },
     
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'E-commerce',
-      slug: '/ecommerce-website-india',
+      title: 'Brand Logo Design',
+      slug: '/brand-logo-design',
       buttonText: 'Get Quotation',
     },
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'Web Revamp',
-      slug: '/website-rebuild',
+      title: 'Brand Guidelines',
+      slug: '/brand-guidelines',
       buttonText: 'Get Quotation',
     },
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'CRM/ERP Panels',
-      slug: '/control-center-for-business',
+      title: 'Brand Positioning',
+      slug: '/brand-positioning',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Brand Storytelling',
+      slug: '/brand-storytelling',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Brand Naming',
+      slug: '/brand-naming',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Visual Identity Design',
+      slug: '/visual-identity-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Brand Messaging',
+      slug: '/brand-messaging',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Brand Experience Design',
+      slug: '/brand-experience-design',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Brand Awareness Campaigns',
+      slug: '/brand-awareness-campaigns',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Rebranding Services',
+      slug: '/rebranding-services',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Brand Research and Analysis',
+      slug: '/brand-research-and-analysis',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Brand Tracking and perfomance Evaluation',
+      slug: '/brand-tracking-and-perfomance-evaluation',
       buttonText: 'Get Quotation',
     },
   ];
