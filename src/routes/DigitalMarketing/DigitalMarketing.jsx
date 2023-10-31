@@ -33,27 +33,93 @@ import {
   const digitalmarketingservices = [
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'Business Websites',
-      slug: '/best-website-for-business',
+      title: 'Search Engine Optimization',
+      slug: '/search-engine-optimization',
       buttonText: 'Get Quotation',
     },
     
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'E-commerce',
-      slug: '/ecommerce-website-india',
+      title: 'Content Marketing',
+      slug: '/best-content-marketing-service',
       buttonText: 'Get Quotation',
     },
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'Web Revamp',
-      slug: '/website-rebuild',
+      title: 'Social Media Marketing',
+      slug: '/social-media-marketing-services',
       buttonText: 'Get Quotation',
     },
     {
       image: FixedPrice, // Replace with the actual image source
-      title: 'CRM/ERP Panels',
-      slug: '/control-center-for-business',
+      title: 'Email Marketing',
+      slug: '/email-marketing-services',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Pay-Per Click Advertising',
+      slug: '/pay-per-click-advertising-services',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Affiliate Marketing',
+      slug: '/affiliate-marketing-services',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Analytics and Data Analysis',
+      slug: '/best-analytics-and-data-analysis-services',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Conversion Rate Optimization',
+      slug: '/best-conversion-rate-optimization',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Mobile Marketing',
+      slug: '/best-mobile-marketing-services',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Video Marketing',
+      slug: '/best-video-marketing-services',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Local SEO and Marketing',
+      slug: '/best-local-seo-and-marketing-services',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Ecommerce Marketing',
+      slug: '/best-ecommerce-marketing-services',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Marketing Automation',
+      slug: '/best-marketing-automation-services',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Remarketing and Retargeting',
+      slug: '/best-remarketing-and-retargeting-services',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Influencer Marketing',
+      slug: '/best-influencer-marketing-services',
       buttonText: 'Get Quotation',
     },
   ];
