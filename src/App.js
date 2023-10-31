@@ -40,7 +40,7 @@ const routes = [
   { path: '/', element: <Home /> },
   { path: '/*', element: <Error404 /> },
   { path: '/aboutus', element: <Aboutus /> },
-  { path: '/contact', element: <Contact /> },
+  { path: '/contactus', element: <Contact /> },
   { path: '/privacypolicy', element: <PrivacyPolicy /> },
   { path: '/terms&conditions', element: <TermsnConditions /> },
   { path: '/returnpolicy', element: <ReturnPolicy /> },

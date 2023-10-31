@@ -2,13 +2,63 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from "react-helmet-async";
 
-
 import {
     FixedPrice,
     OntimeDelivery,
     TimeManage,
     HiringModel,
   } from "../../components/data/leordata";
+
+
+  {/*Change here*/}
+  const Generalinfo= {
+    companyname: 'Leor Media',
+    companyphone: '+91-81434-07758',
+    companyemail: 'admin@leormedia.com',
+    companyaddress: 'Haritha Arcade, 301, beside Omni RK Hospital, Ram Nagar, Visakhapatnam, Andhra Pradesh 530002',
+    };
+
+  const Digitalmarketingdata = {
+ 
+    section1: {
+      title: 'Logo Design',
+      subtitle: 'Create a Unique Identity for Your Brand',
+    },
+
+    section2: {
+      title: 'Logo Design',
+      subtitle: 'Create a Unique Identity for Your Brand',
+    },
+  }
+  const digitalmarketingservices = [
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Business Websites',
+      slug: '/best-website-for-business',
+      buttonText: 'Get Quotation',
+    },
+    
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'E-commerce',
+      slug: '/ecommerce-website-india',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'Web Revamp',
+      slug: '/website-rebuild',
+      buttonText: 'Get Quotation',
+    },
+    {
+      image: FixedPrice, // Replace with the actual image source
+      title: 'CRM/ERP Panels',
+      slug: '/control-center-for-business',
+      buttonText: 'Get Quotation',
+    },
+  ];
+  
+
 
 const Webdevelopment = () => {
   return (
@@ -32,10 +82,10 @@ const Webdevelopment = () => {
     <div className="md:w-1/2 px-5">
       <div className="text-right md:text-left"> {/* Align titles to the right on mobile, left on larger screens */}
         <h1 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
-        Web Development & Designing Company
+        {Digitalmarketingdata.section1.title}
         </h1>
         <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
-          "Cyber Space Digital stands as a distinguished leader in the realm"
+        {Digitalmarketingdata.section1.subtitle}
         </p>
 
         <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -45,7 +95,7 @@ const Webdevelopment = () => {
             </a>
           </Link>
 
-          <a href="https://api.whatsapp.com/send?phone=918143407758&text=Need%20Details%20about%20business%20website.">
+          <a href='https://api.whatsapp.com/send?phone=9666643456&text=Need%20Details%20about.'>
             <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
               WhatsApp
             </a>
@@ -62,158 +112,74 @@ const Webdevelopment = () => {
 
 
 
-     {/*Line of Engagement */}
- <section id="services" className="cursor-default section relative pt-10 pb-8 md:pt-16 md:pb-10">
-  <div className="xl:max-w-8xl mx-auto px-4">
-    {/* Heading for "Line of Engagement" section */}
+<div className='py-10 ' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+  <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+    Business Websites
+  </h3>
+  <p className="text-gray-500 text-sm">
+    Catalyzing Business Success: Our business website solutions are designed to drive growth, enhance visibility, and boost profitability in the digital landscape.
+  </p>
+  <Link to='/best-website-for-business'>
+    <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+      Get Quotation
+    </button>
+  </Link>
+</div>
 
-    <section className="text-center mx-auto mb-12 lg:px-20">
-
-    <p className="text-xl font-medium text-black">
-        Websites as your Business Need
-      </p>
-      <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 ">
-        Build Your Web Office Online.
-      </h2>
-      <p className="text-sm font-medium text-black">
-      "Every business requires a unique website to effectively reach its customers or clients. At Cyber Space Digital, we're here to help you discover the best choices tailored to your needs."
-      </p>
-    </section>
-
-
-    {/* "Business Websites" section */}
-    
-    <div className="flex flex-wrap flex-row -mx-4 text-center">
-      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
-        data-wow-duration="1s"
-        style={{
-          visibility: "visible",
-          animationDuration: "1s",
-          animationName: "fadeInUp"
-        }}>
-        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 mb-4">
-            <img
-              src={FixedPrice}
-              className="w-40 ml-auto"
-              alt="illustration"
-              loading="lazy"
-              width={900}
-              height={600} />
-          </div>
-          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-            Business Websites
-          </h3>
-          <p className="text-gray-500 text-sm">
-          Catalyzing Business Success: Our business website solutions are designed to drive growth, enhance visibility, and boost profitability in the digital landscape.
-          </p>
-          <Link to='/best-website-for-business'><button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button></Link>
+{/*Services */}
+<div className="flex flex-wrap flex-row -mx-4 text-center justify-center">
+  {digitalmarketingservices.map((item, index) => (
+    <div
+      className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/6 lg:px-6 "
+      data-wow-delay={`.${index}s`}
+      key={index}
+    >
+      <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+        <div className="inline-block text-gray-900 mb-4">
+          <img
+            src={item.image}
+            className="w-40 ml-auto"
+            alt="illustration"
+            loading="lazy"
+            width={900}
+            height={600}
+          />
         </div>
-      </div>
-
-      {/* "E-commerce Website" section */}
-      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
-        data-wow-duration="1s"
-        data-wow-delay=".1s"
-        style={{
-          visibility: "visible",
-          animationDuration: "1s",
-          animationDelay: "0.1s",
-          animationName: "fadeInUp"
-        }}>
-        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 mb-4">
-            <img
-              src={FixedPrice}
-              className="w-40 ml-auto"
-              alt="illustration"
-              loading="lazy"
-              width={900}
-              height={600} />
-          </div>
-          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-            E-commerce
-          </h3>
-          <p className="text-gray-500 text-sm">
-          Crafting E-Commerce Excellence: Elevate your online retail with our bespoke e-commerce solutions. Boost sales, engage customers, and thrive online.
-          </p>
-          <Link to='/ecommerce-website-india'><button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
-          </Link></div>
-      </div>
-
-      {/* "Web Revamp" section */}
-      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
-        data-wow-duration="1s"
-        data-wow-delay=".3s"
-        style={{
-          visibility: "visible",
-          animationDuration: "1s",
-          animationDelay: "0.3s",
-          animationName: "fadeInUp"
-        }}>
-        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 mb-4">
-            <img
-              src={FixedPrice}
-              className="w-40 ml-auto"
-              alt="illustration"
-              loading="lazy"
-              width={900}
-              height={600} />
-          </div>
-          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-          Web Revamp
-          </h3>
-          <p className="text-gray-500 text-sm">
-          Revamp Your Online Presence: Transform and modernize your existing website with our web revamp services. Stay ahead and impress your audience.
-          </p>
-          <Link to='/website-rebuild'><button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
-          </Link></div>
-      </div>
-
-
-      {/* "CRM/ERM Panels" section */}
-      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
-        data-wow-duration="1s"
-        data-wow-delay=".3s"
-        style={{
-          visibility: "visible",
-          animationDuration: "1s",
-          animationDelay: "0.3s",
-          animationName: "fadeInUp"
-        }}>
-        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 mb-4">
-            <img
-              src={FixedPrice}
-              className="w-40 ml-auto"
-              alt="illustration"
-              loading="lazy"
-              width={900}
-              height={600} />
-          </div>
-          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-          CRM/ERP Panels
-          </h3>
-          <p className="text-gray-500 text-sm">
-          Efficient CRM/ERM Solutions: Enhance business operations with our CRM/ERM panels. Streamline processes, manage data, and boost productivity effectively.
-          </p>
-          <Link to='/control-center-for-business'><button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
-          </Link></div>
+        <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          {item.title}
+        </h3>
+        <Link to={item.slug}>
+          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+            {item.buttonText}
+          </button>
+        </Link>
       </div>
     </div>
-  </div>
-</section>
+  ))}
+</div>
 
 
 
 
 
 
-     {/*Line of Engagement */}
+<section className="bg-gray-100 py-12">
+      <div className="container mx-auto p-4">
+        <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r text-center from-yellow-400 to-orange-600 mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight ">{Generalinfo.companyname}</h2>
+        <div className="text-center text-gray-600">
+          <p className="text-lg mb-4">
+            <span className="text-xl font-semibold">Phone:</span> {Generalinfo.companyphone}<br />
+            <span className="text-xl font-semibold">Email:</span> {Generalinfo.companyemail}<br />
+            <span className="text-xl font-semibold">Address:</span> {Generalinfo.companyaddress}
+          </p>
+        </div>
+      </div>
+    </section>
+
+{/*Features */}
      <section id="services" className="cursor-default section relative ">
   <div className="xl:max-w-8xl mx-auto px-4">
-    {/* Heading for "Line of Engagement" section */}
+ {/* Heading for "Features" section */}
 
     <section className="text-center mx-auto mb-12 lg:px-20">
       <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 ">
@@ -360,7 +326,7 @@ const Webdevelopment = () => {
     
 <div className="flex items-center justify-center gap-4 flex-wrap">
 
-  <a href='https://api.whatsapp.com/send?phone=918143407758&text=Need%20Details%20about%20business%20website.' className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
+  <a href='https://api.whatsapp.com/send?phone=9666643456&text=Need%20Details%20about.' className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
     Whatsapp
   </a>
   <Link to='/contactus'>
