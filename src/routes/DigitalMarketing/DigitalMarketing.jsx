@@ -60,7 +60,7 @@ import {
   
 
 
-const Webdevelopment = () => {
+const DigitalMarketing = () => {
   return (
     <main>
      <Helmet>
@@ -341,4 +341,4 @@ const Webdevelopment = () => {
   )
 }
 
-export default Webdevelopment
+export default DigitalMarketing

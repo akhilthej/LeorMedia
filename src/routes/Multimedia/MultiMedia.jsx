@@ -60,7 +60,7 @@ import {
   
 
 
-const Webdevelopment = () => {
+const MultiMedia = () => {
   return (
     <main>
      <Helmet>
@@ -163,7 +163,18 @@ const Webdevelopment = () => {
 
 
 
-
+<section className="bg-gray-100 py-12">
+      <div className="container mx-auto p-4">
+        <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r text-center from-yellow-400 to-orange-600 mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight ">{Generalinfo.companyname}</h2>
+        <div className="text-center text-gray-600">
+          <p className="text-lg mb-4">
+            <span className="text-xl font-semibold">Phone:</span> {Generalinfo.companyphone}<br />
+            <span className="text-xl font-semibold">Email:</span> {Generalinfo.companyemail}<br />
+            <span className="text-xl font-semibold">Address:</span> {Generalinfo.companyaddress}
+          </p>
+        </div>
+      </div>
+    </section>
 
 {/*Features */}
      <section id="services" className="cursor-default section relative ">
@@ -330,4 +341,4 @@ const Webdevelopment = () => {
   )
 }
 
-export default Webdevelopment
+export default MultiMedia
