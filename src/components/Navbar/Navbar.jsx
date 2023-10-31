@@ -7,18 +7,13 @@ import {
   faBuilding,faSearch,faPencil,faNetworkWired,faEnvelope,faAd,faHandHoldingUsd,faChartLine,faBullhorn,faMobile,faVideo,faMapMarkerAlt,faShoppingCart,faCog,faRetweet,faUserCheck,
   faCartShopping,
   faGlobe,
-  faColumns
-,faChartBar,faPalette,faPrint,faLaptop,faUser,faBox,faFileAlt,faFlag,faImage,faBook,faTshirt,faMapSigns,faIdCard,faShapes,faFilm,faCamera,
+  faColumns,
+faChartBar,faPalette,faPrint,faLaptop,faUser,faBox,faFileAlt,faFlag,faImage,faBook,faTshirt,faMapSigns,faIdCard,faShapes,faFilm,faCamera,
 faFileSignature,faMapMarker,faBookOpen,faSignature,faCommentAlt,faHandHoldingHeart,faSyncAlt,faChartPie,
-faDesktop,faCogs,faTree,faMicrophone,faTv,faGamepad,
+faDesktop,faCogs,faTree,faMicrophone,faTv,faGamepad,faArrowRight,
+ faCalendarAlt, faStar, faMusic, faHeart, faGem, faRing, faLeaf, faUsers, faGlassCheers } 
+from '@fortawesome/free-solid-svg-icons'; // Import the necessary icons
 
-faDraftingCompass,
-faCheckCircle,
-faWrench,
-faShieldAlt,
-faDollarSign,
-faShoppingBag,
-} from "@fortawesome/free-solid-svg-icons";
 
 import NavbarLogo from "./csdv2Logonavbar.svg";
 
@@ -29,11 +24,24 @@ function classNames(...classes) {
 const Navbar = () => {
 
   const eventLinks = [
-    { path: '/build-business-website', title: 'Business Websites', description: 'Our business website solutions are designed to drive growth, enhance visibility, and boost profitability in the digital landscape.', icon: faBuilding },
-    { path: '/build-ecommerce-website', title: 'E-commerce', description: 'Elevate your online retail with our bespoke e-commerce solutions. Boost sales, engage customers, and thrive online.', icon: faCartShopping },
-    { path: '/customize-your-website', title: 'Web Revamp', description: 'Transform and modernize your existing website with our web revamp services. Stay ahead and impress your audience.', icon: faGlobe },
-    { path: '/control-center-for-business', title: 'CRM/ERP Panels', description: 'Enhance business operations with our CRM/ERM panels. Streamline processes, manage data, and boost productivity effectively.', icon: faColumns },
-    // Add more links here with their respective paths, titles, descriptions, and icons
+{ path: '/commercial-events-in-vizag', title: 'Commercial Events', description: 'Explore commercial events in Vizag.', icon: faHeart },
+{ path: '/audio-launch-event-planners-in-vizag', title: 'Audio Launch Event Planners', description: 'Find audio launch event planners in Vizag.', icon: faHeart },
+{ path: '/award-nights-event-planners-in-vizag', title: 'Award Nights Event Planners', description: 'Discover award nights event planners in Vizag.', icon: faHeart },
+{ path: '/corporate-events-in-vizag', title: 'Corporate Events', description: 'Explore corporate events in Vizag.', icon: faHeart },
+{ path: '/cultural-night-event-planners-in-vizag', title: 'Cultural Night Event Planners', description: 'Find cultural night event planners in Vizag.', icon: faHeart },
+{ path: '/fashion-show-event-planners-vizag', title: 'Fashion Show Event Planners', description: 'Discover fashion show event planners in Vizag.', icon: faHeart },
+{ path: '/product-launch-event-management-company-in-vizag', title: 'Product Launch Event Management Company', description: 'Explore product launch event management companies in Vizag.', icon: faBullhorn },
+
+{ path: '#', title: 'Weddings', description: 'Explore product launch event management companies in Vizag.', icon: faArrowRight},
+{ path: '/destination-wedding-planners-in-vizag', title: 'Destination Wedding Planners', description: 'Find destination wedding planners in Vizag.', icon: faHeart },
+{ path: '/engagement-planners-in-vizag', title: 'Engagement Planners', description: 'Discover engagement planners in Vizag.', icon: faHeart },
+{ path: '/mehandi-decor-event-in-vizag', title: 'Mehandi Decor Event', description: 'Explore mehandi decor events in Vizag.', icon: faHeart },
+{ path: '/pellikokuku-event-planners-in-vizag', title: 'Pellikokuku Event Planners', description: 'Find pellikokuku event planners in Vizag.', icon: faHeart },
+{ path: '/pellikuthuru-event-planners-in-vizag', title: 'Pellikuthuru Event Planners', description: 'Discover pellikuthuru event planners in Vizag.', icon: faHeart },
+{ path: '/best-reception-event-planners-in-vizag', title: 'Reception Event Planners', description: 'Find the best reception event planners in Vizag.', icon: faHeart },
+{ path: '/best-sangeeth-event-planners-in-vizag', title: 'Sangeeth Event Planners', description: 'Discover the best sangeeth event planners in Vizag.', icon: faHeart },
+{ path: '/wedding-planners-in-vizag', title: 'Wedding Planners', description: 'Find wedding planners in Vizag.', icon: faHeart },
+
   ];
   
 
@@ -133,7 +141,7 @@ const advertisingLinks = [
 <Menu as="div" className="relative inline-block text-left">
   <div>
     <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-      <Link to="/best-digital-marketing-company">
+      <Link to="/digital-creative-media-company-in-vizag">
         Digital Marketing
       </Link>
       <svg
@@ -270,7 +278,7 @@ const advertisingLinks = [
 <Menu as="div" className="relative inline-block text-left">
   <div>
     <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-      <Link to="/best-digital-marketing-company">
+      <Link to="/best-event-management-company-vizag">
         Events
       </Link>
       <svg
@@ -554,7 +562,7 @@ const advertisingLinks = [
 <Menu as="div" className="relative inline-block text-left">
   <div>
     <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-      <Link to="/best-brand-services-company">
+      <Link to="/branding-agency-in-vizag">
       Branding
       </Link>
       <svg
@@ -692,7 +700,7 @@ const advertisingLinks = [
 <Menu as="div" className="relative inline-block text-left">
   <div>
     <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-      <Link to="/best-advertising-company">
+      <Link to="/advertising-company-in-vizag">
       Advertising
       </Link>
       <svg
