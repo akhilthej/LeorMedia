@@ -3,18 +3,31 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, 
          Home,Aboutus, Contact } from './routes/Routesmap';
           
-         /* DigitalCreativeMedia */
-import { LogoDesigning,GraphicDesigning,WebsiteDesigning,ContentCreation,VideoCreation,DigitalCreativeMedia, 
+         
+import { 
 
- /* Branding */
-Branding,BrandAudit,BrandIdentity,
-BrandStatergy,InfilmBranding,CorporateBranding,
-Labeling,BrandPosition,
+/*Digital marketing */
+DigitalMarketing,SearchEngineOptimization,ContentMarketing,SocialMediaMarketing,EmailMarketing,
+PayPerClickAdvertising,AffiliateMarketing,AnalyticsandDataAnalysis,ConversionRateOptimization,
+MobileMarketing,VideoMarketing,LocalSEOandMarketing,EcommerceMarketing,MarketingAutomation,RemarketingRetargeting,InfluencerMarketing,
 
-/* Advertising */
-GoogleAds,FacebookAds,InstagramAds,InfluencerMarketing,
-ContentMarketing,Emailmarketing,SearchEngineOptimization,
-    SMM,ATL,BTL,Advertising,
+/*Graphic Designing */
+MultiMedia,LogoDesign,BrandIdentityDesign,PrintDesign,WebDesign,UserInterfaceDesign,UserExperienceDesign,PackagingDesign,
+PosterandFlyerDesign,BrochureDesign,BannerDesign,IllustrationServices,InfographicDesign,SocialMediaGraphics,eBookandPrintBookCoverDesign,
+TshirtandMerchandiseDesign,SignageandBillboardDesign,BusinessCardandStationeryDesign,RenderingandVisualization,
+MotionGraphicsandAnimation,PhotoEditingandRetouching,
+
+/*Advertising*/
+Advertising,DisplayAdvertising,VideoAdvertising,NativeAdvertising,ProgrammaticAdvertising,
+OutdoorAdvertising,PrintAdvertising,RadioAdvertising,TVAdvertising,IngameAdvertising,
+TheaterAdvertising,
+
+/*Branding*/
+BrandServices,
+BrandIdentityDesignExclusive,BrandLogoDesign,BrandGuidelines,BrandPositioning,BrandStorytelling,
+BrandNaming,VisualIdentityDesign,BrandMessaging,BrandExperienceDesign,BrandAwarenessCampaigns,
+RebrandingServices,BrandResearchandAnalysis,BrandTrackingandPerformanceEvaluation,
+
 
 /* Events */
     AllEvents,OtherEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
@@ -34,49 +47,93 @@ const routes = [
   { path: '/shipping&delivery', element: <ShippingandDelivery /> },
   { path: '/disclaimer', element: <Disclaimer /> },
 
-  /* DigitalCreativeMedia */
-{ path: '/logo-designing-in-vizag', element: <LogoDesigning /> },
-{ path: '/logo-designing-company-in-vizag', element: <LogoDesigning /> },
-{ path: '/logo-makers-in-vizag', element: <LogoDesigning /> },
-{ path: '/graphic-designing-in-vizag', element: <GraphicDesigning /> },
-{ path: '/web-design-in-vizag', element: <WebsiteDesigning /> },
-{ path: '/web-design-company-in-vizag', element: <WebsiteDesigning /> },
-{ path: '/content-creation-in-vizag', element: <ContentCreation /> },
-{ path: '/video-creation-in-vizag', element: <VideoCreation /> },
-{ path: '/digital-creative-media-in-vizag', element: <DigitalCreativeMedia /> },
-{ path: '/digital-creative-media-company-in-vizag', element: <DigitalCreativeMedia /> },
-
- /* Branding */
-{ path: '/branding-agency-in-vizag', element: <Branding /> },
-{ path: '/branding-company-in-vizag', element: <Branding /> },
-{ path: '/brand-audit-services-in-vizag', element: <BrandAudit /> },
-{ path: '/brand-identity-in-vizag', element: <BrandIdentity /> },
-{ path: '/brand-strategy-services', element: <BrandStatergy /> },
-{ path: '/infilm-branding-in-vizag', element: <InfilmBranding /> },
-{ path: '/corporate-branding-company-in-vizag', element: <CorporateBranding /> },
-{ path: '/labeling-in-vizag', element: <Labeling /> },
-{ path: '/labeling-companies-in-vizag', element: <Labeling /> },
-{ path: '/brand-position-in-vizag', element: <BrandPosition /> },
-
-/* Advertising */
-{ path: '/advertising-company-in-vizag', element: <Advertising /> },
-{ path: '/online-advertising-company-in-vizag', element: <Advertising /> },
-{ path: '/digital-advertising-company-in-vizag', element: <Advertising /> },
-{ path: '/best-digital-marketing-services-in-vizag', element: <Advertising /> },
-{ path: '/best-digital-marketing-company-in-vizag', element: <Advertising /> },
-{ path: '/google-ads-services-in-vizag', element: <GoogleAds /> },
-{ path: '/facebook-ads-services-in-vizag', element: <FacebookAds /> },
-{ path: '/instagram-ads-services-in-vizag', element: <InstagramAds /> },
-{ path: '/influencer-marketing-services-in-vizag', element: <InfluencerMarketing /> },
-{ path: '/content-marketing-company-in-vizag', element: <ContentMarketing /> },
-{ path: '/email-marketing-services-in-vizag', element: <Emailmarketing /> },
-{ path: '/search-engine-optimization', element: <SearchEngineOptimization /> },
-{ path: '/best-search-engine-optimization-services-in-vizag', element: <SearchEngineOptimization /> },
-{ path: '/best-seo-services-in-vizag', element: <SearchEngineOptimization /> },
-{ path: '/social-media-marketing-services-in-vizag', element: <SMM /> },
-{ path: '/smm-services-in-vizag', element: <SMM /> },
-{ path: '/atl-advertising-in-vizag', element: <ATL /> },
-{ path: '/btl-advertising-in-vizag', element: <BTL /> },
+        /*---------Multimedia---------*/
+        { path: '/digital-creative-media-company-in-vizag', element: <MultiMedia /> },
+        { path: '/graphic-designing-company-in-vizag', element: <MultiMedia /> },
+        { path: '/best-graphic-designing-in-vizag', element: <MultiMedia /> },
+        { path: '/best-poster-designing-company', element: <MultiMedia /> },
+      
+        { path: '/logo-design', element: <LogoDesign /> },
+        { path: '/logo-design-company-in-vizag', element: <LogoDesign /> },
+        { path: '/brand-identity-design', element: <BrandIdentityDesign /> },
+        { path: '/print-design', element: <PrintDesign /> },
+        { path: '/web-design', element: <WebDesign /> },
+        { path: '/user-interface-design', element: <UserInterfaceDesign /> },
+        { path: '/user-experience-design', element: <UserExperienceDesign /> },
+        { path: '/packaging-design', element: <PackagingDesign /> },
+        { path: '/poster-and-flyer-design', element: <PosterandFlyerDesign /> },
+        { path: '/brochure-design', element: <BrochureDesign /> },
+        { path: '/banner-design', element: <BannerDesign /> },
+        { path: '/illustration-services', element: <IllustrationServices /> },
+        { path: '/infographic-design', element: <InfographicDesign /> },
+        { path: '/social-media-graphics', element: <SocialMediaGraphics /> },
+        { path: '/ebook-and-print-book-cover-design', element: <eBookandPrintBookCoverDesign /> },
+        { path: '/t-shirt-and-merchandise-design', element: <TshirtandMerchandiseDesign /> },
+        { path: '/signage-and-billboard-design', element: <SignageandBillboardDesign /> },
+        { path: '/business-card-and-stationery-design', element: <BusinessCardandStationeryDesign /> },
+        { path: '/rendering-and-visualization', element: <RenderingandVisualization /> },
+        { path: '/motion-graphics-and-animation', element: <MotionGraphicsandAnimation /> },
+        { path: '/photo-editing-and-retouching', element: <PhotoEditingandRetouching /> },
+              /*---------GraphicDesigning End---------*/
+      
+              /*---------DigitalMarketing---------*/
+        { path: '/digital-marketing-company-in-vizag', element: <DigitalMarketing /> },
+        { path: '/best-digital-marketing-company-in-vizag', element: <DigitalMarketing /> },
+        { path: '/social-media-marketing-company', element: <DigitalMarketing /> },
+      
+        { path: '/search-engine-optimization', element: <SearchEngineOptimization /> },
+        { path: '/content-marketing', element: <ContentMarketing /> },
+        { path: '/social-media-marketing', element: <SocialMediaMarketing /> },
+        { path: '/email-marketing', element: <EmailMarketing /> },
+        { path: '/pay-per-click-advertising', element: <PayPerClickAdvertising /> },
+        { path: '/affiliate-marketing', element: <AffiliateMarketing /> },
+        { path: '/analytics-and-data-analysis', element: <AnalyticsandDataAnalysis /> },
+        { path: '/conversion-rate-optimization', element: <ConversionRateOptimization /> },
+        { path: '/mobile-marketing', element: <MobileMarketing /> },
+        { path: '/video-marketing', element: <VideoMarketing /> },
+        { path: '/local-seo-and-marketing', element: <LocalSEOandMarketing /> },
+        { path: '/ecommerce-marketing', element: <EcommerceMarketing /> },
+        { path: '/marketing-automation', element: <MarketingAutomation /> },
+        { path: '/remarketing-retargeting', element: <RemarketingRetargeting /> },
+        { path: '/influencer-marketing', element: <InfluencerMarketing /> },
+              /*---------DigitalMarketing End---------*/
+      
+              /*---------BrandServices---------*/
+        { path: '/branding-agency-in-vizag', element: <BrandServices /> },
+        { path: '/brand-services-company-in-vizag', element: <BrandServices /> },
+        { path: '/best-brand-services-company-in-vizag', element: <BrandServices /> },
+      
+        { path: '/brand-identity-design-exclusive', element: <BrandIdentityDesignExclusive /> },
+        { path: '/brand-logo-design', element: <BrandLogoDesign /> },
+        { path: '/brand-guidelines', element: <BrandGuidelines /> },
+        { path: '/brand-positioning', element: <BrandPositioning /> },
+        { path: '/brand-storytelling', element: <BrandStorytelling /> },
+        { path: '/brand-naming', element: <BrandNaming /> },
+        { path: '/visual-identity-design', element: <VisualIdentityDesign /> },
+        { path: '/brand-messaging', element: <BrandMessaging /> },
+        { path: '/brand-experience-design', element: <BrandExperienceDesign /> },
+        { path: '/brand-awareness-campaigns', element: <BrandAwarenessCampaigns /> },
+        { path: '/rebranding-services', element: <RebrandingServices /> },
+        { path: '/brand-research-and-analysis', element: <BrandResearchandAnalysis /> },
+        { path: '/brand-tracking-and-performance-evaluation', element: <BrandTrackingandPerformanceEvaluation /> },
+              /*---------BrandServices End---------*/
+      
+              /*---------Advertising---------*/
+        { path: '/best-advertising-company', element: <Advertising /> },
+        { path: '/advertising-company-in-vizag', element: <Advertising /> },
+        { path: '/best-advertising-company-in-vizag', element: <Advertising /> },
+      
+        { path: '/display-advertising', element: <DisplayAdvertising /> },
+        { path: '/video-advertising', element: <VideoAdvertising /> },
+        { path: '/native-advertising', element: <NativeAdvertising /> },
+        { path: '/programmatic-advertising', element: <ProgrammaticAdvertising /> },
+        { path: '/outdoor-advertising', element: <OutdoorAdvertising /> },
+        { path: '/print-advertising', element: <PrintAdvertising /> },
+        { path: '/radio-advertising', element: <RadioAdvertising /> },
+        { path: '/tv-advertising', element: <TVAdvertising /> },
+        { path: '/ingame-advertising', element: <IngameAdvertising /> },
+        { path: '/theater-advertising', element: <TheaterAdvertising /> },
+              /*---------Advertising End---------*/
 
 /* Events */
 { path: '/best-event-management-company-vizag', element: <AllEvents /> },

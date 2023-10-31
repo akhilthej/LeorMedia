@@ -14,19 +14,28 @@ import Error404 from '../components/Tools/Error404';
 import Home from './HOME';
 
 
-/* DigitalCreativeMedia */
-import { DigitalCreativeMedia,GraphicDesigning,WebsiteDesigning,ContentCreation,
-         VideoCreation} from "./Digital Creative Media/D_Routes";
+/*Digital marketing */
+import {DigitalMarketing,SearchEngineOptimization,ContentMarketing,SocialMediaMarketing,EmailMarketing,
+    PayPerClickAdvertising,AffiliateMarketing,AnalyticsandDataAnalysis,ConversionRateOptimization,
+    MobileMarketing,VideoMarketing,LocalSEOandMarketing,EcommerceMarketing,MarketingAutomation,RemarketingRetargeting,InfluencerMarketing,} from './DigitalMarketing/routes_digitalmarketing';
 
-/* Branding */
-import {Branding,BrandAudit,BrandIdentity,
-BrandStatergy,InfilmBranding,CorporateBranding,
-Labeling,BrandPosition,LogoDesigning } from './Branding/B_routes';
 
-/* Advertising */
-import {GoogleAds,FacebookAds,InstagramAds,InfluencerMarketing,
-    ContentMarketing,Emailmarketing,SearchEngineOptimization,
-    SMM,ATL,BTL,Advertising} from './Advertising/A_routers';
+/*Multimedia */
+import {MultiMedia,LogoDesign,BrandIdentityDesign,PrintDesign,WebDesign,UserInterfaceDesign,UserExperienceDesign,PackagingDesign,
+    PosterandFlyerDesign,BrochureDesign,BannerDesign,IllustrationServices,InfographicDesign,SocialMediaGraphics,eBookandPrintBookCoverDesign,
+    TshirtandMerchandiseDesign,SignageandBillboardDesign,BusinessCardandStationeryDesign,RenderingandVisualization,
+    MotionGraphicsandAnimation,PhotoEditingandRetouching,} from './Multimedia/routes_graphic';
+
+/*Brand Services*/
+import {BrandServices,
+    BrandIdentityDesignExclusive,BrandLogoDesign,BrandGuidelines,BrandPositioning,BrandStorytelling,
+    BrandNaming,VisualIdentityDesign,BrandMessaging,BrandExperienceDesign,BrandAwarenessCampaigns,
+    RebrandingServices,BrandResearchandAnalysis,BrandTrackingandPerformanceEvaluation} from './BrandServices/routes_brand';
+
+/*Advertising */
+import {Advertising,DisplayAdvertising,VideoAdvertising,NativeAdvertising,ProgrammaticAdvertising,
+    OutdoorAdvertising,PrintAdvertising,RadioAdvertising,TVAdvertising,IngameAdvertising,
+    TheaterAdvertising} from './Advertising/routes_ads';
 
 /* Events */
 import { AllEvents,OtherEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
@@ -45,18 +54,28 @@ Error404,
 
 Home,Aboutus,Contact,
 
-/* DigitalCreativeMedia */
-LogoDesigning,GraphicDesigning,WebsiteDesigning,ContentCreation,VideoCreation,DigitalCreativeMedia,
 
-/* Branding */
-Branding,BrandAudit,BrandIdentity,
-BrandStatergy,InfilmBranding,CorporateBranding,
-Labeling,BrandPosition,
+/*Digital marketing */
+DigitalMarketing,SearchEngineOptimization,ContentMarketing,SocialMediaMarketing,EmailMarketing,
+    PayPerClickAdvertising,AffiliateMarketing,AnalyticsandDataAnalysis,ConversionRateOptimization,
+    MobileMarketing,VideoMarketing,LocalSEOandMarketing,EcommerceMarketing,MarketingAutomation,RemarketingRetargeting,InfluencerMarketing,
 
-/* Advertising */
-GoogleAds,FacebookAds,InstagramAds,InfluencerMarketing,
-    ContentMarketing,Emailmarketing,SearchEngineOptimization,
-    SMM,ATL,BTL,Advertising,
+    /*MultiMedia  */
+    MultiMedia,LogoDesign,BrandIdentityDesign,PrintDesign,WebDesign,UserInterfaceDesign,UserExperienceDesign,PackagingDesign,
+    PosterandFlyerDesign,BrochureDesign,BannerDesign,IllustrationServices,InfographicDesign,SocialMediaGraphics,eBookandPrintBookCoverDesign,
+    TshirtandMerchandiseDesign,SignageandBillboardDesign,BusinessCardandStationeryDesign,RenderingandVisualization,
+    MotionGraphicsandAnimation,PhotoEditingandRetouching,
+    
+/*Advertising*/
+    Advertising,DisplayAdvertising,VideoAdvertising,NativeAdvertising,ProgrammaticAdvertising,
+    OutdoorAdvertising,PrintAdvertising,RadioAdvertising,TVAdvertising,IngameAdvertising,
+    TheaterAdvertising,
+
+    /*Branding*/
+    BrandServices,
+    BrandIdentityDesignExclusive,BrandLogoDesign,BrandGuidelines,BrandPositioning,BrandStorytelling,
+    BrandNaming,VisualIdentityDesign,BrandMessaging,BrandExperienceDesign,BrandAwarenessCampaigns,
+    RebrandingServices,BrandResearchandAnalysis,BrandTrackingandPerformanceEvaluation,
 
 /* Events */
     AllEvents,OtherEvents,AudioLaunches,AwardNights,CorporateEvents,CulturalNight,FashionShow,ProductLaunches,
