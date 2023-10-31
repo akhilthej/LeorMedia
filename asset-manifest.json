@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.08bc29ef.css",
-    "main.js": "/static/js/main.b760f963.js",
+    "main.css": "/static/css/main.b6ed7bfe.css",
+    "main.js": "/static/js/main.43980bba.js",
     "static/media/about-home-image.png": "/static/media/about-home-image.d35e96f5fc94a0da7196.png",
     "static/media/footer_csd.png": "/static/media/footer_csd.61e2fe53b107cc1bc0ae.png",
     "static/media/LeorMediaWatermark.png": "/static/media/LeorMediaWatermark.1dd61ef8c0b2c6b7c166.png",
@@ -11,7 +11,7 @@
     "static/media/LeormediaLogo.png": "/static/media/LeormediaLogo.69078ffdcd335d85c54b.png",
     "static/media/about-event-services.jpeg": "/static/media/about-event-services.f86639953fd946549b2a.jpeg",
     "static/media/aboutheader.webp": "/static/media/aboutheader.aaf30919569b9f1ae48e.webp",
-    "static/media/csdv2Logonavbar.svg": "/static/media/csdv2Logonavbar.aacbca1041fb89790ce32de29523fe6a.svg",
+    "static/media/csdv2Logonavbar.svg": "/static/media/csdv2Logonavbar.b064462127bcec6da0e38a92660562e0.svg",
     "static/media/srikar.webp": "/static/media/srikar.5d1c58d938d0637de451.webp",
     "static/media/chaitanya.webp": "/static/media/chaitanya.b9fa93833d9c670fa1b5.webp",
     "static/media/saikiran.webp": "/static/media/saikiran.2552a4977383b6b41b16.webp",
@@ -35,11 +35,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.08bc29ef.css.map": "/static/css/main.08bc29ef.css.map",
-    "main.b760f963.js.map": "/static/js/main.b760f963.js.map"
+    "main.b6ed7bfe.css.map": "/static/css/main.b6ed7bfe.css.map",
+    "main.43980bba.js.map": "/static/js/main.43980bba.js.map"
   },
   "entrypoints": [
-    "static/css/main.08bc29ef.css",
-    "static/js/main.b760f963.js"
+    "static/css/main.b6ed7bfe.css",
+    "static/js/main.43980bba.js"
   ]
 }
