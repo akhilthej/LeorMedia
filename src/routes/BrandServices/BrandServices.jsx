@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from "react-helmet-async";
+import { GlobalData} from '../../assets/GlodalData';
 
 import {
     FixedPrice,
@@ -10,154 +11,62 @@ import {
   } from "../../components/data/leordata";
 
 
-  {/*Change here*/}
-  const Generalinfo= {
-    companyname: 'Leor Media',
-    companyphone: '+91-81434-07758',
-    companyemail: 'admin@leormedia.com',
-    companyaddress: 'Haritha Arcade, 301, beside Omni RK Hospital, Ram Nagar, Visakhapatnam, Andhra Pradesh 530002',
-    };
+ {/*Change here*/}
 
-  const Digitalmarketingdata = {
- 
-    section1: {
-      title: 'Logo Design',
-      subtitle: 'Create a Unique Identity for Your Brand',
-    },
-
-    section2: {
-      title: 'Logo Design',
-      subtitle: 'Create a Unique Identity for Your Brand',
-    },
-  }
-  const digitalmarketingservices = [
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Brand Identity Design Exclusive',
-      slug: '/brand-identity-design-exclusive',
-      buttonText: 'Get Quotation',
-    },
-    
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Brand Logo Design',
-      slug: '/brand-logo-design',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Brand Guidelines',
-      slug: '/brand-guidelines',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Brand Positioning',
-      slug: '/brand-positioning',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Brand Storytelling',
-      slug: '/brand-storytelling',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Brand Naming',
-      slug: '/brand-naming',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Visual Identity Design',
-      slug: '/visual-identity-design',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Brand Messaging',
-      slug: '/brand-messaging',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Brand Experience Design',
-      slug: '/brand-experience-design',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Brand Awareness Campaigns',
-      slug: '/brand-awareness-campaigns',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Rebranding Services',
-      slug: '/rebranding-services',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Brand Research and Analysis',
-      slug: '/brand-research-and-analysis',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Brand Tracking and perfomance Evaluation',
-      slug: '/brand-tracking-and-perfomance-evaluation',
-      buttonText: 'Get Quotation',
-    },
-  ];
-  
+ const BrandingServices = {
+  section1: {
+    title: 'Branding Services',
+    subtitle: '"Cyber Space Digital stands as a distinguished leader in the realm"',
+  },
+}
 
 
-const BrandServices = () => {
-  return (
-    <main>
-     <Helmet>
-        <title>Best Web Development Company in India | Web Developers near me | Web Developers Around Me</title>
-        <meta
-          name="Description"
-          content="Best website development company around you, at best prices."
-        />
-        <link rel="canonical" href="https://cyberspacedigital.in/best-web-developement-company" />
-      </Helmet>
 
 
- {/* Title Card */}
- <section className="py-10 sm:py-40" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-  <div className="flex flex-col items-center md:flex-row justify-center">
-    <div className="md:w-1/2 md:pr-10">
-     
-    </div>
-    <div className="md:w-1/2 px-5">
-      <div className="text-right md:text-left"> {/* Align titles to the right on mobile, left on larger screens */}
-        <h1 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
-        {Digitalmarketingdata.section1.title}
-        </h1>
-        <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
-        {Digitalmarketingdata.section1.subtitle}
-        </p>
+const Branding = () => {
+return (
+  <main>
+   <Helmet>
+      <title>Branding Services Company in India | Branding Services near me | Branding Services Around Me</title>
+      <meta
+        name="Description"
+        content="Best website development company around you, at best prices."
+      />
+      <link rel="canonical" href="" />
+    </Helmet>
 
-        <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Link to="/contactus">
-            <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
-              Get in Touch
-            </a>
-          </Link>
 
-          <a href='https://api.whatsapp.com/send?phone=9666643456&text=Need%20Details%20about.'>
-            <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
-              WhatsApp
-            </a>
+{/* Title Card */}
+<section className="py-10 sm:py-40" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1QK8qr84IZRLXiFvrWz7kVrqHpjq_7Ms9")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+<div className="flex flex-col items-center md:flex-row justify-center">
+  <div className="md:w-1/2 md:pr-10">
+   
+  </div>
+  <div className="md:w-1/2 px-5">
+    <div className="text-right md:text-left"> {/* Align titles to the right on mobile, left on larger screens */}
+      <h1 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+      {BrandingServices.section1.title}
+      </h1>
+      <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
+      {BrandingServices.section1.subtitle}
+      </p>
+
+      <div className="mt-8 flex flex-wrap justify-center gap-4">
+        <Link to="/contactus">
+          <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+            Get in Touch
           </a>
-        </div>
+        </Link>
+
+        <a href='https://api.whatsapp.com/send?phone=9666643456&text=Need%20Details%20about.'>
+          <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+            WhatsApp
+          </a>
+        </a>
       </div>
     </div>
   </div>
+</div>
 </section>
 
 
@@ -165,51 +74,58 @@ const BrandServices = () => {
 
 
 
+{/*Line of Engagement */}
+<section className="cursor-default section relative pt-10 pb-8 md:pt-16 md:pb-10">
+<div className="xl:max-w-8xl mx-auto px-4">
+  {/* Heading for "Line of Engagement" section */}
 
-<div className='py-10 ' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-  <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-    Business Websites
-  </h3>
-  <p className="text-gray-500 text-sm">
-    Catalyzing Business Success: Our business website solutions are designed to drive growth, enhance visibility, and boost profitability in the digital landscape.
-  </p>
-  <Link to='/best-website-for-business'>
-    <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
-      Get Quotation
-    </button>
-  </Link>
-</div>
+  <div className="text-center mx-auto mb-12 lg:px-20">
+
+  <p className="text-xl font-medium text-black">
+      Get global presents.
+    </p>
+    <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 ">
+      Reach Every Customer
+    </h2>
+    <p className="text-sm font-medium text-black">
+    "In today's digital-driven world, businesses rely on digital marketing to expand their reach, engage with customers, and achieve success. It offers cost-effective strategies, real-time insights, and the ability to adapt to the ever-changing online landscape, making it an indispensable tool for modern businesses."
+    </p></div></div>
+  </section>
+
 
 {/*Services */}
 <div className="flex flex-wrap flex-row -mx-4 text-center justify-center">
-  {digitalmarketingservices.map((item, index) => (
-    <div
-      className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/6 lg:px-6 "
-      data-wow-delay={`.${index}s`}
-      key={index}
-    >
-      <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-        <div className="inline-block text-gray-900 mb-4">
-          <img
-            src={item.image}
-            className="w-40 ml-auto"
-            alt="illustration"
-            loading="lazy"
-            width={900}
-            height={600}
-          />
-        </div>
-        <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-          {item.title}
-        </h3>
-        <Link to={item.slug}>
-          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
-            {item.buttonText}
-          </button>
-        </Link>
+{GlobalData.BrandingServices.map((item, index) => (
+  <div
+    className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/6 lg:px-1 "
+    data-wow-delay={`.${index}s`}
+    key={index}
+  >
+    <div className="py-8 px-5 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+      <div className="inline-block text-gray-900 mb-4">
+        <img
+          src={item.image}
+          className="w-20 ml-auto"
+          alt="illustration"
+          loading="lazy"
+          width={50}
+          height={50}
+        />
       </div>
+      <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+        {item.title}
+      </h3>
+      <p className="text-gray-500 text-sm">
+      {item.subtitle}
+       </p>
+      <Link to={item.slug}>
+      <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          {item.buttonText}
+        </button>
+      </Link>
     </div>
-  ))}
+  </div>
+))}
 </div>
 
 
@@ -217,182 +133,205 @@ const BrandServices = () => {
 
 
 
-<section className="bg-gray-100 py-12">
-      <div className="container mx-auto p-4">
-        <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r text-center from-yellow-400 to-orange-600 mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight ">{Generalinfo.companyname}</h2>
-        <div className="text-center text-gray-600">
-          <p className="text-lg mb-4">
-            <span className="text-xl font-semibold">Phone:</span> {Generalinfo.companyphone}<br />
-            <span className="text-xl font-semibold">Email:</span> {Generalinfo.companyemail}<br />
-            <span className="text-xl font-semibold">Address:</span> {Generalinfo.companyaddress}
-          </p>
-        </div>
-      </div>
-    </section>
-
-{/*Features */}
-     <section id="services" className="cursor-default section relative ">
-  <div className="xl:max-w-8xl mx-auto px-4">
- {/* Heading for "Features" section */}
-
-    <section className="text-center mx-auto mb-12 lg:px-20">
-      <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 ">
-      Additional Features With Each Plan
-      </h2>
-      <p className="text-sm font-medium text-black">
-      "We also add additional features while creating websites."
-      </p>
-    </section>
-
-    {/* "Fixed Price Model" section */}
-    <div className="flex flex-wrap flex-row -mx-4 text-center">
-      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
-        data-wow-duration="1s"
-        style={{
-          visibility: "visible",
-          animationDuration: "1s",
-          animationName: "fadeInUp"
-        }}>
-        <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 ">
-            <img
-              src={FixedPrice}
-              className="w-40 ml-auto"
-              alt="illustration"
-              loading="lazy"
-              width={900}
-              height={600} />
-          </div>
-          <h3 className="text-lg leading-normal  font-semibold text-black">
-          Beautiful Website
-          </h3>
-          <p className="text-gray-500 text-sm">
-            Under this model, the web development company and the client agree on a fixed price for the entire project scope.
-          </p>
-          
-        </div>
-      </div>
-
-      {/* "Time and Materials Model" section */}
-      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
-        data-wow-duration="1s"
-        data-wow-delay=".1s"
-        style={{
-          visibility: "visible",
-          animationDuration: "1s",
-          animationDelay: "0.1s",
-          animationName: "fadeInUp"
-        }}>
-        <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900">
-            <img
-              src={TimeManage}
-              className="w-40 ml-auto"
-              alt="illustration"
-              loading="lazy"
-              width={900}
-              height={600} />
-          </div>
-          <h3 className="text-lg leading-normal font-semibold text-black">
-          Website Safety
-          </h3>
-          <p className="text-gray-500 text-sm">
-            The client pays based on the time and resources spent on the project.
-          </p>
-          
-        </div>
-      </div>
-
-      {/* "On-Time Delivery" section */}
-      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
-        data-wow-duration="1s"
-        data-wow-delay=".3s"
-        style={{
-          visibility: "visible",
-          animationDuration: "1s",
-          animationDelay: "0.3s",
-          animationName: "fadeInUp"
-        }}>
-        <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 ">
-            <img
-              src={OntimeDelivery}
-              className="w-40 ml-auto"
-              alt="illustration"
-              loading="lazy"
-              width={900}
-              height={600} />
-          </div>
-          <h3 className="text-lg leading-normal  font-semibold text-black">
-          Fully Mobile Responsive and Quick
-          </h3>
-          <p className="text-gray-500 text-sm">
-            The web development company commits to delivering projects on or before agreed-upon deadlines.
-          </p>
-          
-        </div>
-      </div>
-
-
-      {/* "Hiring Model" section */}
-      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
-        data-wow-duration="1s"
-        data-wow-delay=".3s"
-        style={{
-          visibility: "visible",
-          animationDuration: "1s",
-          animationDelay: "0.3s",
-          animationName: "fadeInUp"
-        }}>
-        <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 ">
-            <img
-              src={HiringModel}
-              className="w-40 ml-auto"
-              alt="illustration"
-              loading="lazy"
-              width={900}
-              height={600} />
-          </div>
-          <h3 className="text-lg leading-normal font-semibold text-black">
-          Intelligent Designer
-          </h3>
-          <p className="text-gray-500 text-sm">
-          if your project requires additional manpower and extra resources, we're ready to scale up and bring in the necessary talent to meet your needs.
-          </p>
-          
-        </div>
+<section className="bg-yellow-500 py-12 shadow-inner ">
+    <div className="container mx-auto p-4">
+      <h2 className="font-extrabold text-white text-4xl  py-2 md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r text-center  mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight ">{GlobalData.company.companyName}</h2>
+      <div className="text-center text-black">
+      <span className='font-medium text-sm' >Get is touch</span>
+        <p className="text-lg pt-2 space-x-2 ">
+        <a href="tel:+918143407758" class=" bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Call Now</a>
+        <a href="mailto:admin@cyberspacedigital.in" className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                  Email
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital" className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                  WhatsApp
+                </a>
+        </p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+
+{/*Line of Engagement */}
+<section
+        id="services"
+        className="cursor-default section relative pt-10 pb-8 md:pt-16 md:pb-10"
+      >
+        <div className="xl:max-w-8xl mx-auto px-4">
+          {/* Heading for "Line of Engagement" section */}
+
+          <section className="text-center mx-auto mb-12 lg:px-20">
+            <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3 ">
+              Line of Engagement
+            </h2>
+            <p className="text-sm font-medium text-black">
+              Streamline the management of advertising and content for your
+              business, saving you valuable time.
+            </p>
+          </section>
+
+          {/* "Fixed Price Model" section */}
+          <div className="flex flex-wrap flex-row -mx-4 text-center">
+            <div
+              className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
+              data-wow-duration="1s"
+              style={{
+                visibility: "visible",
+                animationDuration: "1s",
+                animationName: "fadeInUp",
+              }}
+            >
+              <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                <div className="inline-block text-gray-900 mb-4">
+                  <img
+                    src={FixedPrice}
+                    className="w-40 ml-auto"
+                    alt="illustration"
+                    loading="lazy"
+                    width={900}
+                    height={600}
+                  />
+                </div>
+                <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+                  Fixed Price Model
+                </h3>
+                <p className="text-gray-500 text-sm">
+                  Under this model, the web development company and the client
+                  agree on a fixed price for the entire project scope.
+                </p>
+              </div>
+            </div>
+
+            {/* "Time and Materials Model" section */}
+            <div
+              className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".1s"
+              style={{
+                visibility: "visible",
+                animationDuration: "1s",
+                animationDelay: "0.1s",
+                animationName: "fadeInUp",
+              }}
+            >
+              <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                <div className="inline-block text-gray-900 mb-4">
+                  <img
+                    src={TimeManage}
+                    className="w-40 ml-auto"
+                    alt="illustration"
+                    loading="lazy"
+                    width={900}
+                    height={600}
+                  />
+                </div>
+                <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+                  Time and Materials Model
+                </h3>
+                <p className="text-gray-500 text-sm">
+                  The client pays based on the time and resources spent on the
+                  project.
+                </p>
+              </div>
+            </div>
+
+            {/* "On-Time Delivery" section */}
+            <div
+              className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".3s"
+              style={{
+                visibility: "visible",
+                animationDuration: "1s",
+                animationDelay: "0.3s",
+                animationName: "fadeInUp",
+              }}
+            >
+              <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                <div className="inline-block text-gray-900 mb-4">
+                  <img
+                    src={OntimeDelivery}
+                    className="w-40 ml-auto"
+                    alt="illustration"
+                    loading="lazy"
+                    width={900}
+                    height={600}
+                  />
+                </div>
+                <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+                  On-Time Delivery
+                </h3>
+                <p className="text-gray-500 text-sm">
+                  The web development company commits to delivering projects
+                  on or before agreed-upon deadlines.
+                </p>
+              </div>
+            </div>
+
+            {/* "Hiring Model" section */}
+            <div
+              className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".3s"
+              style={{
+                visibility: "visible",
+                animationDuration: "1s",
+                animationDelay: "0.3s",
+                animationName: "fadeInUp",
+              }}
+            >
+              <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                <div className="inline-block text-gray-900 mb-4">
+                  <img
+                    src={HiringModel}
+                    className="w-40 ml-auto"
+                    alt="illustration"
+                    loading="lazy"
+                    width={900}
+                    height={600}
+                  />
+                </div>
+                <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+                  Hiring Model
+                </h3>
+                <p className="text-gray-500 text-sm">
+                  if your project requires additional manpower and extra
+                  resources, we're ready to scale up and bring in the
+                  necessary talent to meet your needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+   </section>
 
 
 
- {/* Help section */}
- <section className="text-center mx-auto my-8">
-      <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
-        Need Help ?
-      </h2>
-      <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
-        Explore our comprehensive documentation for more information on our services.
-      </p>
-    
+
+{/* Help section */}
+<section className="text-center mx-auto my-8">
+    <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
+      Need Help ?
+    </h2>
+    <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
+      Explore our comprehensive documentation for more information on our services.
+    </p>
+  
 <div className="flex items-center justify-center gap-4 flex-wrap">
 
-  <a href='https://api.whatsapp.com/send?phone=9666643456&text=Need%20Details%20about.' className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
-    Whatsapp
-  </a>
-  <Link to='/contactus'>
-  <button className="text-xs sm:text-sm transform rounded border border-slate-200 px-14 py-2 font-medium text-black transition-colors hover:bg-slate-50 hover:text-black">
-    Contact us
-  </button></Link>
- </div>
- </section>
+<a href='https://api.whatsapp.com/send?phone=9666643456&text=Need%20Details%20about.' className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
+  Whatsapp
+</a>
+<Link to='/contactus'>
+<button className="text-xs sm:text-sm transform rounded border border-slate-200 px-14 py-2 font-medium text-black transition-colors hover:bg-slate-50 hover:text-black">
+  Contact us
+</button></Link>
+</div>
+</section>
 
 </main>
 
-  )
+)
 }
 
-export default BrandServices
+export default Branding
