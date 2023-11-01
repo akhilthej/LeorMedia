@@ -164,17 +164,17 @@ const DigitalMarketing = () => {
 
 
 
-{/*Features */}
-     <section className="cursor-default mt-10 section relative ">
+  {/*Line of Engagement */}
+  <section id="services" className="cursor-default section relative pt-10 pb-8 md:pt-16 md:pb-10">
   <div className="xl:max-w-8xl mx-auto px-4">
- {/* Heading for "Features" section */}
+    {/* Heading for "Line of Engagement" section */}
 
     <section className="text-center mx-auto mb-12 lg:px-20">
-      <h2 className="font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 ">
-      Additional Features With Each Plan
+      <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3 ">
+        Line of Engagement
       </h2>
       <p className="text-sm font-medium text-black">
-      "We also add additional features while creating websites."
+        Streamline the management of advertising and content for your business, saving you valuable time.
       </p>
     </section>
 
@@ -187,8 +187,8 @@ const DigitalMarketing = () => {
           animationDuration: "1s",
           animationName: "fadeInUp"
         }}>
-        <div className="px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 ">
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
             <img
               src={FixedPrice}
               className="w-40 ml-auto"
@@ -197,13 +197,12 @@ const DigitalMarketing = () => {
               width={900}
               height={600} />
           </div>
-          <h3 className="text-lg leading-normal  font-semibold text-black">
-          Beautiful Website
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+            Fixed Price Model
           </h3>
           <p className="text-gray-500 text-sm">
             Under this model, the web development company and the client agree on a fixed price for the entire project scope.
           </p>
-          
         </div>
       </div>
 
@@ -217,8 +216,8 @@ const DigitalMarketing = () => {
           animationDelay: "0.1s",
           animationName: "fadeInUp"
         }}>
-        <div className="px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900">
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
             <img
               src={TimeManage}
               className="w-40 ml-auto"
@@ -227,13 +226,12 @@ const DigitalMarketing = () => {
               width={900}
               height={600} />
           </div>
-          <h3 className="text-lg leading-normal font-semibold text-black">
-          Website Safety
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+            Time and Materials Model
           </h3>
           <p className="text-gray-500 text-sm">
             The client pays based on the time and resources spent on the project.
           </p>
-          
         </div>
       </div>
 
@@ -247,8 +245,8 @@ const DigitalMarketing = () => {
           animationDelay: "0.3s",
           animationName: "fadeInUp"
         }}>
-        <div className="px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 ">
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
             <img
               src={OntimeDelivery}
               className="w-40 ml-auto"
@@ -257,13 +255,12 @@ const DigitalMarketing = () => {
               width={900}
               height={600} />
           </div>
-          <h3 className="text-lg leading-normal  font-semibold text-black">
-          Fully Mobile Responsive and Quick
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+            On-Time Delivery
           </h3>
           <p className="text-gray-500 text-sm">
             The web development company commits to delivering projects on or before agreed-upon deadlines.
           </p>
-          
         </div>
       </div>
 
@@ -278,8 +275,8 @@ const DigitalMarketing = () => {
           animationDelay: "0.3s",
           animationName: "fadeInUp"
         }}>
-        <div className="px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 ">
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
             <img
               src={HiringModel}
               className="w-40 ml-auto"
@@ -288,13 +285,12 @@ const DigitalMarketing = () => {
               width={900}
               height={600} />
           </div>
-          <h3 className="text-lg leading-normal font-semibold text-black">
-          Intelligent Designer
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          Hiring Model
           </h3>
           <p className="text-gray-500 text-sm">
           if your project requires additional manpower and extra resources, we're ready to scale up and bring in the necessary talent to meet your needs.
           </p>
-          
         </div>
       </div>
     </div>
@@ -303,7 +299,8 @@ const DigitalMarketing = () => {
 
 
 
- {/* Help section */}
+
+ {/* "Documentation" section */}
  <section className="text-center mx-auto my-8">
       <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
         Need Help ?
@@ -313,11 +310,11 @@ const DigitalMarketing = () => {
       </p>
     
 <div className="flex items-center justify-center gap-4 flex-wrap">
-
-  <a href='https://api.whatsapp.com/send?phone=9666643456&text=Need%20Details%20about.' className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
-    Whatsapp
-  </a>
-  <Link to='/contactus'>
+<Link to='/contact'>
+  <button className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
+    FAQ
+  </button></Link>
+  <Link to='/contact'>
   <button className="text-xs sm:text-sm transform rounded border border-slate-200 px-14 py-2 font-medium text-black transition-colors hover:bg-slate-50 hover:text-black">
     Contact us
   </button></Link>

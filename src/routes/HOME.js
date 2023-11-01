@@ -84,6 +84,7 @@ const HeroCode = () => {
         <div className="relative group  transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
         
         
+        
         <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-orange-500 group-hover:border group-hover:scale-90">
          
           <div className="space-y-2">
