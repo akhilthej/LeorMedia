@@ -86,6 +86,7 @@ const GlobalData = {
     companyPhone: '+91-96666-43456',
     companyEmail: 'admin@leormedia.com',
     companyAddress: 'Visakhapatnam, Andhra Pradesh 530017',
+    companyWhatsapp: 'https://wa.me/+919666643456',
   },
 
  

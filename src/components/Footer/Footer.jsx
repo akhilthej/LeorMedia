@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { GlobalData } from '../../assets/GlodalData.jsx';
+
 import {googlereview,WhatsApp} from '../data/leordata.jsx';
 import footer_csd from '../../assets/Common/footer_csd.png';
 const Footer = () => {
@@ -226,7 +228,7 @@ const Footer = () => {
               {" "}
               FAQs{" "}
             </a>
-            <a className="hover:opacity-75" href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
+            <a className="hover:opacity-75" href={`url(${GlobalData.company.companyWhatsapp})`}>
               {" "}
               Live Chat{" "}
             </a>
@@ -287,7 +289,7 @@ const Footer = () => {
     <div>
      
      <a title="Whatsapp"
-        href="https://wa.me/+918143407758"
+     href={`${GlobalData.company.companyWhatsapp}`}
         target="_blank"
         className="mb-1 block w-12 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"> 
         <img className=" object-cover object-center w-8 sm:w-12"
