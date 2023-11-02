@@ -151,7 +151,7 @@ const advertisingLinks = [
 {/* Digital Marketing */}
 <Menu as="div" className="relative inline-block text-left">
   <div>
-    <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
+    <Menu.Button className="sm:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
       <Link to="/digital-marketing-company-in-vizag">
         Digital Marketing
       </Link>
@@ -288,7 +288,7 @@ const advertisingLinks = [
 {/* Events */}
 <Menu as="div" className="relative inline-block text-left">
   <div>
-    <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
+    <Menu.Button className="sm:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
       <Link to="/best-event-management-company-vizag">
         Events
       </Link>
@@ -422,11 +422,10 @@ const advertisingLinks = [
   </Transition>
 </Menu>
 
-
 {/*Multimedia */}
 <Menu as="div" className="relative inline-block text-left">
   <div>
-    <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
+    <Menu.Button className="sm:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
       <Link to="/digital-creative-media-company-in-vizag">
         Multimedia
       </Link>
@@ -572,7 +571,7 @@ const advertisingLinks = [
 {/* Branding*/}
 <Menu as="div" className="relative inline-block text-left">
   <div>
-    <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
+    <Menu.Button className="sm:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
       <Link to="/branding-agency-in-vizag">
       Branding
       </Link>
@@ -705,12 +704,11 @@ const advertisingLinks = [
     </Menu.Items>
   </Transition>
 </Menu>
-
             
 {/*Advertising */}
 <Menu as="div" className="relative inline-block text-left">
   <div>
-    <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
+    <Menu.Button className="sm:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
       <Link to="/advertising-company-in-vizag">
       Advertising
       </Link>
@@ -841,8 +839,8 @@ const advertisingLinks = [
   </Transition>
 </Menu>
 
-
-            <li className="p-4 hidden lg:block">
+{/*handburger menu */}
+            <li className="p-4 hidden sm:block">
               <Menu as="div" className="relative inline-block text-left ">
                 <div>
                   <Menu.Button className=" text-3xl">☰</Menu.Button>
@@ -948,8 +946,8 @@ const advertisingLinks = [
               </Menu>
             </li>
 
-{/*mobile  menu */}
-<li className="p-4 lg:hidden">
+{/*mobile menu */}
+<li className="p-4 sm:hidden">
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="text-3xl" onClick={() => setIsMenuOpen(!isMenuOpen)} >
