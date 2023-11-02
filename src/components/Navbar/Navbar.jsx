@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, Transition } from "@headlessui/react";
 
@@ -11,8 +11,14 @@ import {
 faChartBar,faPalette,faPrint,faLaptop,faUser,faBox,faFileAlt,faFlag,faImage,faBook,faTshirt,faMapSigns,faIdCard,faShapes,faFilm,faCamera,
 faFileSignature,faMapMarker,faBookOpen,faSignature,faCommentAlt,faHandHoldingHeart,faSyncAlt,faChartPie,
 faDesktop,faCogs,faTree,faMicrophone,faTv,faGamepad,faArrowRight,
- faCalendarAlt, faStar, faMusic, faHeart, faGem, faRing, faLeaf, faUsers, faGlassCheers } 
-from '@fortawesome/free-solid-svg-icons'; // Import the necessary icons
+ faCalendarAlt, faStar, faMusic, faHeart, faGem, faRing, faLeaf, faUsers, faGlassCheer
+ } 
+from '@fortawesome/free-solid-svg-icons'; 
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 
 import NavbarLogo from "./csdv2Logonavbar.svg";
@@ -22,6 +28,8 @@ function classNames(...classes) {
 }
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const eventLinks = [
 { path: '/commercial-events-in-vizag', title: 'Commercial Events', description: 'Explore commercial events in Vizag.', icon: faHeart },
@@ -937,131 +945,465 @@ const advertisingLinks = [
               </Menu>
             </li>
 
-            {/*mobile  menu */}
-            <li className="p-4 lg:hidden">
-              <Menu as="div" className="relative inline-block text-left ">
-                <div>
-                  <Menu.Button className=" text-3xl">☰</Menu.Button>
-                </div>
+{/*mobile  menu */}
+<li className="p-4 lg:hidden">
+      <Menu as="div" className="relative inline-block text-left">
+        <div>
+          <Menu.Button className="text-3xl" onClick={() => setIsMenuOpen(!isMenuOpen)} >
+            {isMenuOpen ? 'x' : '☰'}
+          </Menu.Button>
+        </div>
 
-                <Transition
-                  as={Fragment}
-                  enter="transition ease-out duration-100"
-                  enterFrom="transform opacity-0 scale-95"
-                  enterTo="transform opacity-100 scale-100"
-                  leave="transition ease-in duration-75"
-                  leaveFrom="transform opacity-100 scale-100"
-                  leaveTo="transform opacity-0 scale-95"
-                >
-                  <Menu.Items className="text-center origin-top-right fixed sm:absolute right-0 mt-4 w-screen sm:w-56 h-screen sm:h-auto  sm:rounded-md  shadow-lg bg-gray-300  ring-black ring-opacity-5 divide-y divide-gray-400 z-50">
-                    <div className="py-1  ">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/services">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )}
-                            >
-                              Services
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
+    <Transition
+      as={Fragment}
+          show={isMenuOpen}
+          enter="transition ease-out duration-100"
+          enterFrom="transform opacity-0 scale-95"
+          enterTo="transform opacity-100 scale-100"
+          leave="transition ease-in duration-75"
+          leaveFrom="transform opacity-100 scale-100"
+          leaveTo="transform opacity-0 scale-95"
+        >
+      <Menu.Items className="text-center origin-top-right fixed sm:absolute right-0 mt-4 w-screen sm:w-56 h-screen sm:h-auto sm:rounded-md shadow-lg bg-gray-300 ring-black ring-opacity-5 divide-y divide-gray-400 z-50">
+        <div>
+        <Menu as="div" className="relative inline-block text-left">
+            <div>
+              <Menu.Button className="text-black text-center hover:bg-yellow-500 px-20 py-2 text-sm w-screen ">
+                Events
+              </Menu.Button>
+            </div>
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-100"
+              enterFrom="transform opacity-0 scale-95"
+              enterTo="transform opacity-100 scale-100"
+              leave="transition ease-in duration-75"
+              leaveFrom="transform opacity-100 scale-100"
+              leaveTo="transform opacity-0 scale-95"
+            >
+              
+            
+            <Menu.Items className="origin-top-right text-center fixed right-0 w-screen sm:w-56 sm:h-auto sm:rounded-md shadow-lg bg-gray-400 ring-black ring-opacity-5 divide-y divide-gray-400 focus:outline-none z-50">
+            <Menu.Button>
+        {({ active }) => (
+          <Link to="#">
+          <a
+              className={classNames(
+                active ? "  text-blue-700  " : "text-blue-700 ",
+                "block py-2 text-xs  " 
+              )}  >
+              Wedding Planner
+            </a>
+          </Link>
+        )}
+      </Menu.Button>
+       <div className="flex flex-wrap">
+        
+     {/* Left Column */}
+    <div className="w-1/2">
+            <Menu.Item>
+              {({ active }) => (
+                <Link to="/destination-wedding-planners-in-vizag">
+                  <a
+                    className={classNames(
+                      active ? "text-white" : "text-white font-bold",
+                      "block py-10 text-sm"
+                    )}
+                    style={{
+                      backgroundImage:
+                        'url("https://drive.google.com/uc?id=1vRXHoXxHqEypSaLDUpxZKjNalU_nAhK5")',
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                    }}
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Destination Wedding
+                  </a>
+                </Link>
+              )}
+            </Menu.Item>
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/engagement-planners-in-vizag">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1HyAHtfCR_T4FE6-TJ2cw0kjiIHSzzZ1c")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}  onClick={() => setIsMenuOpen(false)}>
+              Engagement Planners
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/mehandi-decor-event-in-vizag">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1Y6RzIkDZtvugiq8VKn57RVIReOIt0C3D")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}  onClick={() => setIsMenuOpen(false)}>
+              Mehandi Decor
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/pellikokuku-event-planners-in-vizag">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=14WFtyQOI5yg6hRp8ZZjkG4g9AOSodonX")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}  onClick={() => setIsMenuOpen(false)}>
+              Pellikokuku Event
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      
+      
+    </div>
+    
+    {/* Right Column */}
+    <div className="w-1/2">
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/pellikuthuru-event-planners-in-vizag">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1XvPRoQ27cbtpUyESXeQNBl-L7LJQEIHD")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}  onClick={() => setIsMenuOpen(false)}>
+              Pellikuthuru Event
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/best-reception-event-planners-in-vizag">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1Ng7K79aHFKuXcnzi4VnM5Z9QzM12eX-m")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}  onClick={() => setIsMenuOpen(false)}>
+              Reception Planner
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/best-sangeeth-event-planners-in-vizag">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1h8ifZZb8sGpRp-CNNUnEVFYwTqRVKMiV")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}  onClick={() => setIsMenuOpen(false)}>
+             Sangeeth Planners
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+    </div>
+  </div>
+  
+  <Menu.Button>
+        {({ active }) => (
+          <Link to="#">
+          <a
+              className={classNames(
+                active ? "  text-blue-700  " : "text-blue-700 ",
+                "block py-2 text-xs  " 
+              )}  >
+              Organized Events
+            </a>
+          </Link>
+        )}
+      </Menu.Button>
+       <div className="flex flex-wrap">
+        
+     {/* Left Column */}
+    <div className="w-1/2">
+            <Menu.Item>
+              {({ active }) => (
+                <Link to="/commercial-events-in-vizag">
+                  <a
+                    className={classNames(
+                      active ? "text-white" : "text-white font-bold",
+                      "block py-10 text-sm"
+                    )}
+                    style={{
+                      backgroundImage:
+                        'url("https://drive.google.com/uc?id=1rwFsa4DIUEC04TDMp_8iQMxgSTGyEn9m")',
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                    }}
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Commercial Events
+                  </a>
+                </Link>
+              )}
+            </Menu.Item>
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/audio-launch-event-planners-in-vizag">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}  onClick={() => setIsMenuOpen(false)}>
+              Audio Launch
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/award-nights-event-planners-in-vizag">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=14rC7T12fy5Kr7LKS0_f1PNGazeqGdu8Y")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}  onClick={() => setIsMenuOpen(false)}>
+              Award Nights
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/fashion-show-event-planners-vizag">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=14rC7T12fy5Kr7LKS0_f1PNGazeqGdu8Y")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}  onClick={() => setIsMenuOpen(false)}>
+              Fashion Show
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      
+      
+    </div>
+    
+    {/* Right Column */}
+    <div className="w-1/2">
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/corporate-events-in-vizag">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1QK8qr84IZRLXiFvrWz7kVrqHpjq_7Ms9")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}  onClick={() => setIsMenuOpen(false)}>
+              Corporate Events
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/cultural-night-event-planners-in-vizag">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1mboisCG0oJ4En5-iOFqt3ma0WLTb7Y6d")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}  onClick={() => setIsMenuOpen(false)}>
+              Cultural Night
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/product-launch-event-management-company-in-vizag">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1E3eQlScwaZ2DGrZPqN5Ve7qaixUaCKRc")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}  onClick={() => setIsMenuOpen(false)}>
+              Product Launch
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+    </div>
+  </div>
+  <Menu.Item>
+        {({ active }) => (
+          <Link to="/services">
+          <a
+              className={classNames(
+                active ? "  text-blue-700 bg-gray-500 " : "text-blue-700 bg-gray-300",
+                "block py-2 text-xs " 
+              )}  onClick={() => setIsMenuOpen(false)}>
+              VIEW ALL SERVICES ➤
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+</Menu.Items>
 
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/clients">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )}
-                            >
-                              Clients
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
-                    </div>
-
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link to="/blogs">
-                          <a
-                            className={classNames(
-                              active
-                                ? "bg-yellow-500 text-white"
-                                : "text-black",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Blogs
-                          </a>
-                        </Link>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link to="/reviews">
-                          <a
-                            className={classNames(
-                              active
-                                ? "bg-yellow-500 text-white"
-                                : "text-black",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Reviews
-                          </a>
-                        </Link>
-                      )}
-                    </Menu.Item>
-
-                    <div className="py-1  ">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/aboutus">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )}
-                            >
-                              About us
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
-
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/contactus">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )}
-                            >
-                              Contact us
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
-                    </div>
-                  </Menu.Items>
-                </Transition>
-              </Menu>
-            </li>
+            </Transition>
+          </Menu>
+          
+          <Menu.Item>
+            {({ active }) => (
+              <Link to="/blogs">
+                <a
+                  className={classNames(
+                    active ? "bg-yellow-500 text-white" : "text-black",
+                    "block px-4 py-2 text-sm"
+                  )}  onClick={() => setIsMenuOpen(false)}>
+                  Blogs
+                </a>
+              </Link>
+            )}
+          </Menu.Item>
+          <Menu.Item>
+            {({ active }) => (
+              <Link to="/reviews">
+                <a
+                  className={classNames(
+                    active ? "bg-yellow-500 text-white" : "text-black",
+                    "block px-4 py-2 text-sm"
+                  )} onClick={() => setIsMenuOpen(false)}>
+                  Reviews
+                </a>
+              </Link>
+            )}
+          </Menu.Item>
+          <Menu.Item>
+            {({ active }) => (
+              <Link to="/contactus">
+                <a
+                  className={classNames(
+                    active ? "bg-yellow-500 text-white" : "text-black",
+                    "block px-4 py-2 text-sm"
+                  )} onClick={() => setIsMenuOpen(false)}>
+                  Our Clients
+                </a>
+              </Link>
+            )}
+          </Menu.Item>
+          <Menu.Item>
+            {({ active }) => (
+              <Link to="/aboutus">
+                <a
+                  className={classNames(
+                    active ? "bg-yellow-500 text-white" : "text-black",
+                    "block px-4 py-2 text-sm"
+                  )} onClick={() => setIsMenuOpen(false)}>
+                  About us
+                </a>
+              </Link>
+            )}
+          </Menu.Item>
+          <Menu.Item>
+            {({ active }) => (
+              <Link to="/contactus">
+                <a
+                  className={classNames(
+                    active ? "bg-yellow-500 text-white" : "text-black",
+                    "block px-4 py-2 text-sm"
+                  )} onClick={() => setIsMenuOpen(false)}>
+                  Contact us
+                </a>
+              </Link>
+            )}
+          </Menu.Item>
+    
+    <div className="social-media-icons space-x-2  text-center object-center">
+    <div>
+    <span className="text-xs text-center ">SOCIAL</span>
+    </div>
+    <a href="https://www.facebook.com/your-facebook-page">
+    <FontAwesomeIcon icon={faFacebook} />
+    </a>
+    <a href="https://www.instagram.com/your-instagram-profile">
+    <FontAwesomeIcon icon={faInstagram} />
+    </a>
+    <a href="https://wwwlinkedin.com/in/your-linkedin-profile">
+    <FontAwesomeIcon icon={faLinkedin} />
+     </a>
+     <div className=" bottom-0 text-center w-full p-4 text-xs text-gray-500">
+      Copyright &copy; 2023 LeorMedia
+    </div>
+    </div>
+        
+        </div>
+      </Menu.Items>
+      
+    </Transition>
+  </Menu>
+</li>
+ 
           </ul>
         </div>
       </div>

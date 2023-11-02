@@ -589,50 +589,50 @@ const GlobalData = {
   {
     id: 1,
     name: 'Destination Wedding',
-    thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
-    Subtitle: 'Director Name',
+    thumbnail: 'https://drive.google.com/uc?id=1vRXHoXxHqEypSaLDUpxZKjNalU_nAhK5',
+
   
   },
   {
     id: 1,
     name: 'Engagement Planner',
-    thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
-    Subtitle: 'Director Name',
+    thumbnail: 'https://drive.google.com/uc?id=1HyAHtfCR_T4FE6-TJ2cw0kjiIHSzzZ1c',
+  
   
   },
   {
     id: 1,
     name: 'Mehandi Decor',
-    thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
-    Subtitle: 'Director Name',
+    thumbnail: 'https://drive.google.com/uc?id=1Y6RzIkDZtvugiq8VKn57RVIReOIt0C3D',
+    
   
   },
   {
     id: 1,
     name: 'Pellikoduku Event',
-    thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
-    Subtitle: 'Director Name',
+    thumbnail: 'https://drive.google.com/uc?id=14WFtyQOI5yg6hRp8ZZjkG4g9AOSodonX',
+   
   
   },
   {
     id: 1,
     name: 'Pellikuthuru Event',
-    thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
-    Subtitle: 'Director Name',
+    thumbnail: 'https://drive.google.com/uc?id=1XvPRoQ27cbtpUyESXeQNBl-L7LJQEIHD',
+   
   
   },
   {
     id: 1,
     name: 'Reception',
-    thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
-    Subtitle: 'Director Name',
+    thumbnail: 'https://drive.google.com/uc?id=1Ng7K79aHFKuXcnzi4VnM5Z9QzM12eX-m',
+
   
   },
   {
     id: 1,
     name: 'Sangeeth',
-    thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
-    Subtitle: 'Director Name',
+    thumbnail: 'https://drive.google.com/uc?id=1h8ifZZb8sGpRp-CNNUnEVFYwTqRVKMiV',
+  
   
   },
   

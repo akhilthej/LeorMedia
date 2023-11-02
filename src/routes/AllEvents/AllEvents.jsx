@@ -93,9 +93,9 @@ const DigitalMarketing = () => {
       </p></div></div>
     </section>
       {/*Gallery */}
-      <div className="grid grid-cols-3 lg:grid-cols-7 gap-4 pl-5 pr-5">
+      <div className="grid grid-cols-3 lg:grid-cols-7 gap-4 pl-5 pr-5 ">
         {GlobalData.WeddingEventsImageData.map((movie) => (
-          <div key={movie.id} className="relative">
+          <div key={movie.id} className=" relative">
             <div className="thumbnail-container">
               <img className="p-3" src={movie.thumbnail} alt={movie.name} />
               <div className="overlay"></div> {/* Black color overlay */}
@@ -132,7 +132,6 @@ const DigitalMarketing = () => {
               <div className="overlay"></div> {/* Black color overlay */}
             </div>
             <h1 className="text-black text-center">{movie.name}</h1>
-            <h3 className="text-black text-center text-sm">{movie.Subtitle}</h3>
           </div>
         ))}
     </div>
