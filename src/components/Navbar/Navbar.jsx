@@ -148,10 +148,6 @@ const advertisingLinks = [
         <div class=" justify-end ">
           <ul className="flex items-center">
 
-
-
-
-
 {/* Digital Marketing */}
 <Menu as="div" className="relative inline-block text-left">
   <div>
