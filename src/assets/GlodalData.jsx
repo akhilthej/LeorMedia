@@ -536,49 +536,49 @@ const GlobalData = {
     {
       id: 1,
       name: 'Commercial',
-      thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
+      thumbnail: 'https://drive.google.com/uc?id=1zJY8kyvz9eBlSOU3NjjF6d5DKOAa-dnA',
       Subtitle: 'Director Name',
   
     },
     {
       id: 1,
       name: 'Audio Launch',
-      thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
+      thumbnail: 'https://drive.google.com/uc?id=1XgueJmnnBeAVIycWk-uPEhwZfFslmv1w',
       Subtitle: 'Director Name',
   
     },
     {
       id: 1,
       name: 'Award Nights',
-      thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
+      thumbnail: 'https://drive.google.com/uc?id=1w7ib-0FJwZbGRpV25JGGZMh9qQcJeVJ_',
       Subtitle: 'Director Name',
   
     },
     {
       id: 1,
       name: 'Corporate',
-      thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
+      thumbnail: 'https://drive.google.com/uc?id=1AlVaLYlz5_0qEp3W1LYezf63YybPn_0x',
       Subtitle: 'Director Name',
   
     },
     {
       id: 1,
       name: 'Cultural Night',
-      thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
+      thumbnail: 'https://drive.google.com/uc?id=1AnOaXHe8PMyLx5-RmIBRxG2mBwBODNJ6',
       Subtitle: 'Director Name',
   
     },
     {
       id: 1,
       name: 'Fashion Show',
-      thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
+      thumbnail: 'https://drive.google.com/uc?id=1QRINFglqJmUYy-3WLKlHw_cakHl5gvyo',
       Subtitle: 'Director Name',
   
     },
     {
       id: 1,
       name: 'Product Launch',
-      thumbnail: 'https://drive.google.com/uc?id=1jEqN6j6uqaTY6Ta4SxSLLGQfXoNr1LWS',
+      thumbnail: 'https://drive.google.com/uc?id=1nLGrOgaFeJbBrK7z9hrY6oVWrDluvJWk',
       Subtitle: 'Director Name',
   
     },

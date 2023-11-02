@@ -143,7 +143,7 @@ const DigitalMarketing = () => {
 
 
 
-<section className="bg-yellow-500 py-12 shadow-inner ">
+<section className="bg-yellow-500 py-12 shadow-inner mt-10">
       <div className="container mx-auto p-4">
         <h2 className="font-extrabold text-white text-4xl  py-2 md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r text-center  mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight ">{GlobalData.company.companyName}</h2>
         <div className="text-center text-black">

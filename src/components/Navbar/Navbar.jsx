@@ -1174,7 +1174,7 @@ const advertisingLinks = [
                     )}
                     style={{
                       backgroundImage:
-                        'url("https://drive.google.com/uc?id=1rwFsa4DIUEC04TDMp_8iQMxgSTGyEn9m")',
+                        'url("https://drive.google.com/uc?id=1zJY8kyvz9eBlSOU3NjjF6d5DKOAa-dnA")',
                       backgroundSize: "cover",
                       backgroundPosition: "center",
                     }}
@@ -1194,7 +1194,7 @@ const advertisingLinks = [
                 "block py-10 text-sm " 
               )} style={{
           backgroundImage:
-            'url("https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg")',
+            'url("https://drive.google.com/uc?id=1XgueJmnnBeAVIycWk-uPEhwZfFslmv1w")',
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}  onClick={() => setIsMenuOpen(false)}>
@@ -1212,7 +1212,7 @@ const advertisingLinks = [
                 "block py-10 text-sm " 
               )} style={{
           backgroundImage:
-            'url("https://drive.google.com/uc?id=14rC7T12fy5Kr7LKS0_f1PNGazeqGdu8Y")',
+            'url("https://drive.google.com/uc?id=1w7ib-0FJwZbGRpV25JGGZMh9qQcJeVJ_")',
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}  onClick={() => setIsMenuOpen(false)}>
@@ -1230,7 +1230,7 @@ const advertisingLinks = [
                 "block py-10 text-sm " 
               )} style={{
           backgroundImage:
-            'url("https://drive.google.com/uc?id=14rC7T12fy5Kr7LKS0_f1PNGazeqGdu8Y")',
+            'url("https://drive.google.com/uc?id=1QRINFglqJmUYy-3WLKlHw_cakHl5gvyo")',
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}  onClick={() => setIsMenuOpen(false)}>
@@ -1254,7 +1254,7 @@ const advertisingLinks = [
                 "block py-10 text-sm " 
               )} style={{
           backgroundImage:
-            'url("https://drive.google.com/uc?id=1QK8qr84IZRLXiFvrWz7kVrqHpjq_7Ms9")',
+            'url("https://drive.google.com/uc?id=1AlVaLYlz5_0qEp3W1LYezf63YybPn_0x")',
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}  onClick={() => setIsMenuOpen(false)}>
@@ -1272,7 +1272,7 @@ const advertisingLinks = [
                 "block py-10 text-sm " 
               )} style={{
           backgroundImage:
-            'url("https://drive.google.com/uc?id=1mboisCG0oJ4En5-iOFqt3ma0WLTb7Y6d")',
+            'url("https://drive.google.com/uc?id=1AnOaXHe8PMyLx5-RmIBRxG2mBwBODNJ6")',
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}  onClick={() => setIsMenuOpen(false)}>
@@ -1291,7 +1291,7 @@ const advertisingLinks = [
                 "block py-10 text-sm " 
               )} style={{
           backgroundImage:
-            'url("https://drive.google.com/uc?id=1E3eQlScwaZ2DGrZPqN5Ve7qaixUaCKRc")',
+            'url("https://drive.google.com/uc?id=1nLGrOgaFeJbBrK7z9hrY6oVWrDluvJWk")',
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}  onClick={() => setIsMenuOpen(false)}>
