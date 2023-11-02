@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { Fragment, useState,useEffect  } from "react";
 import { Link } from "react-router-dom";
 import { Menu, Transition } from "@headlessui/react";
 
@@ -23,14 +23,22 @@ import {
 
 import NavbarLogo from "./csdv2Logonavbar.svg";
 
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'visible';
+    }
+  }, [isMenuOpen]);
 
+  
   const eventLinks = [
 { path: '/commercial-events-in-vizag', title: 'Commercial Events', description: 'Explore commercial events in Vizag.', icon: faHeart },
 { path: '/audio-launch-event-planners-in-vizag', title: 'Audio Launch Event Planners', description: 'Find audio launch event planners in Vizag.', icon: faHeart },
@@ -51,7 +59,6 @@ const Navbar = () => {
 { path: '/wedding-planners-in-vizag', title: 'Wedding Planners', description: 'Find wedding planners in Vizag.', icon: faHeart },
 
   ];
-  
 
   const digitalMarketingLinks = [
     { path: '/search-engine-optimization', title: 'Search Engine Optimization', description: 'Optimize your website for search engines.', icon: faSearch },
@@ -108,7 +115,7 @@ const Navbar = () => {
   { path: '/rebranding-services', title: 'Rebranding Services', description: 'Rebrand your business effectively.', icon: faSyncAlt },
   { path: '/brand-research-and-analysis', title: 'Brand Research and Analysis', description: 'Conduct brand research and analysis.', icon: faChartPie },
   { path: '/brand-tracking-and-performance-evaluation', title: 'Brand Tracking and Performance Evaluation', description: 'Track and evaluate brand performance.', icon: faChartLine },
-];
+  ];
 
 const advertisingLinks = [
   { path: '/display-advertising', title: 'Display Advertising', description: 'Effective display advertising solutions.', icon: faDesktop },
@@ -121,7 +128,7 @@ const advertisingLinks = [
   { path: '/tv-advertising', title: 'TV Advertising', description: 'Impactful TV advertising campaigns.', icon: faTv },
   { path: '/ingame-advertising', title: 'In-Game Advertising', description: 'Advertise within video games.', icon: faGamepad },
   { path: '/theater-advertising', title: 'Theater Advertising', description: 'Promote in theaters and cinemas.', icon: faFilm },
-];
+   ];
 
 
 
@@ -983,7 +990,7 @@ const advertisingLinks = [
             >
               
             
-            <Menu.Items className="origin-top-right text-center fixed right-0 w-screen sm:w-56 sm:h-auto sm:rounded-md shadow-lg bg-gray-400 ring-black ring-opacity-5 divide-y divide-gray-400 focus:outline-none z-50">
+            <Menu.Items className="origin-top-right text-center fixed right-0 w-screen sm:w-56 sm:rounded-md shadow-lg bg-gray-400 ring-black ring-opacity-5 divide-y divide-gray-400 focus:outline-none z-50" style={{ maxHeight: '80vh', overflowY: 'auto' }}>
             <Menu.Button>
         {({ active }) => (
           <Link to="#">
