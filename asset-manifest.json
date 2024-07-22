@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bdc6c54.css",
-    "main.js": "/static/js/main.6067cf53.js",
+    "main.css": "/static/css/main.21692d6e.css",
+    "main.js": "/static/js/main.4a214dc1.js",
     "static/media/about-home-image.png": "/static/media/about-home-image.d35e96f5fc94a0da7196.png",
     "static/media/footer_csd.png": "/static/media/footer_csd.61e2fe53b107cc1bc0ae.png",
     "static/media/LeorMediaWatermark.png": "/static/media/LeorMediaWatermark.1dd61ef8c0b2c6b7c166.png",
@@ -11,7 +11,7 @@
     "static/media/LeormediaLogo.png": "/static/media/LeormediaLogo.69078ffdcd335d85c54b.png",
     "static/media/about-event-services.jpeg": "/static/media/about-event-services.f86639953fd946549b2a.jpeg",
     "static/media/aboutheader.webp": "/static/media/aboutheader.aaf30919569b9f1ae48e.webp",
-    "static/media/csdv2Logonavbar.svg": "/static/media/csdv2Logonavbar.b064462127bcec6da0e38a92660562e0.svg",
+    "static/media/csdv2Logonavbar.svg": "/static/media/csdv2Logonavbar.aacbca1041fb89790ce32de29523fe6a.svg",
     "static/media/RemarketingandRetargeting.webp": "/static/media/RemarketingandRetargeting.bc6a7e1c6c04f4d484dd.webp",
     "static/media/Business Card.webp": "/static/media/Business Card.2137db28b63c2943bc6d.webp",
     "static/media/Mobile App.webp": "/static/media/Mobile App.eea674ec351ec4f5695a.webp",
@@ -108,11 +108,11 @@
     "static/media/User Experience Design.webp": "/static/media/User Experience Design.fda7b364511c5ead9577.webp",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.3bdc6c54.css.map": "/static/css/main.3bdc6c54.css.map",
-    "main.6067cf53.js.map": "/static/js/main.6067cf53.js.map"
+    "main.21692d6e.css.map": "/static/css/main.21692d6e.css.map",
+    "main.4a214dc1.js.map": "/static/js/main.4a214dc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bdc6c54.css",
-    "static/js/main.6067cf53.js"
+    "static/css/main.21692d6e.css",
+    "static/js/main.4a214dc1.js"
   ]
 }
