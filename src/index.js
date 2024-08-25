@@ -11,14 +11,12 @@ import UnderConstruction from "./components/UnderConstruction";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <UnderConstruction>
         <HelmetProvider>
           {" "}
           {/*For indexing seo <forceRefresh={true}>*/}
           <LogoLoader />
           <App />
         </HelmetProvider>
-      </UnderConstruction>
     </BrowserRouter>
   </React.StrictMode>,
 

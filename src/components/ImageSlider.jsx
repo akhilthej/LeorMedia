@@ -1,35 +1,35 @@
 import React, { useState, useEffect } from "react";
+import slider1 from '../assets/Common/slider/slider1.png'
+import slider2 from '../assets/Common/slider/slider2.png'
+import slider3 from '../assets/Common/slider/slider3.png'
+import slider4 from '../assets/Common/slider/slider4.png'
 
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
     {
-      url:
-        'https://drive.google.com/uc?export=view&id=12bHt6P6Qm5csTlzr8S12lldRg-4-m2lg',
+      url: slider1,
       title: 'Events',
       description: 'Discover exciting events in your area.',
       button1: { text: 'Learn More', link: '/events' },
       button2: { text: 'Get Tickets', link: '/tickets' },
     },
     {
-      url:
-        'https://drive.google.com/uc?export=view&id=1B8bVQ2F9Cny7-p_7aEuP4ZESGrsy7uTj',
+      url: slider2,
       title: 'Advertising',
       description: 'Effective advertising solutions for your business.',
       button1: { text: 'See Services', link: '/services' },
       button2: { text: 'Contact Us', link: '/contact' },
     },
     {
-      url:
-        'https://drive.google.com/uc?export=view&id=1qbSwRu5YArcxbCsiWQYX6nnPm6K6LKrU',
+      url: slider3,
       title: 'Branding',
       description: 'Strategic marketing services to boost your brand.',
       button1: { text: 'Explore Plans', link: '/plans' },
       button2: { text: 'Contact Us', link: '/contact' },
     },
     {
-      url:
-        'https://drive.google.com/uc?export=view&id=1Bw291U5er6fgvxAmJwMf_y3T1juJ6KEY',
+      url:  slider4,
       title: 'Digital Creative Media',
       description: 'Explore our shop for unique products and gifts.',
       button1: { text: 'Shop Now', link: '/shop' },
